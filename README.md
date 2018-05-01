@@ -27,7 +27,7 @@ In round 2 my goal was to build a working program from my own idea every month (
 
 ### Commitment
 
-For the next 100 days, I will code at least 1.5 hours each day.
+**_For the next 100 days, I will code at least 1.5 hours each day._**
 
 #### Additional rules:
 1. I will log my progress daily on GitHub.
