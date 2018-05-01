@@ -8,8 +8,17 @@
 * I've used a lot of callback functions in this project. I need to get a better understanding of how that works in relation to the call stack, event loop etc.  
 * I managed to solve all the challenges the instructor gave. 
 
-*Evening:*
+*Afternoon (17.00 - 18.00):*
 * Updated the theme on my WP-blog.
 * Updated my GitHub Log and README for round 3.
 * Learnt the GitHub markdown and GitHub emoji markup.
 * Installed a plugin for VS Code that let me preview GitHub markdown. Super useful. 
+
+*Evening (21.00 - 22.00):*
+* Chained callbacks together in the Node.js weather app, creating a dynamic app that fetches weather based on the address the user types in.
+
+**Total:** 3.50 h
+
+**Thoughts:** Node.js is very cool. And chaining different callbacks together is powerful. But it gets complicated fast. I stopped several times, needing to get an overview and understand how it was all connected. The "I am a fraud" feeling is creeping in, but I manage to push it back. 
+
+I can't wait to be able to implement Node in future projects. 
