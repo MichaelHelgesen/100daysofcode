@@ -39,7 +39,7 @@ In round 2 my goal was to build a working program from my own idea every month (
 More focus on programming and my continued quest for blogging means I need to cut back on other things. So for now, these will be my changes:
 * Update the blog and write whatever I feel like, without beeing afraid or nervous. It's first and foremost going to be a blog *by* and *for* myself :relieved:. 
 I will not post links to it, monetize on it, work with SEO or adwords and the like. It will not be a brand and I will not pick a niche. The reason beeing that I don't want to forget where the line is that separates my fictions from reality. It will only be me. For now.  
-* Keep up with the workout, reading and family time. 
+* Keep up with the workout, stretching, reading and family time. 
 * Less time on Twitter and writing tweets.
 * Less bullet journaling.
 * Less piano practise.
