@@ -21,4 +21,9 @@
 
 **Thoughts:** Node.js is very cool. And chaining different callbacks together is powerful. But it gets complicated fast. I stopped several times, needing to get an overview and understand how it was all connected. The "I am a fraud" feeling is creeping in, but I manage to push it back. 
 
-I can't wait to be able to implement Node in future projects. 
+I can't wait to be able to implement Node in future projects.
+
+### D2 #100DaysOfCode - 2.5.18
+*Morning (05.30 - 06.45):*
+
+* Learned about ES6 Promises. A function that works as an alternative to callback functions. It's a function that takes one argument, and it is either resolved or rejected and it can't be called more than once, as opposed to regular callbacks. It's advanced when not having enough experience.
