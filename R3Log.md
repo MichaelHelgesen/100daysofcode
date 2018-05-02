@@ -1,5 +1,17 @@
 # R3 Log
 
+### D2 #100DaysOfCode - 2.5.18
+*Morning (05.30 - 06.45):*
+
+* Learned about ES6 Promises. A function that works as an alternative to callback functions. It's a function that takes one argument, and it is either resolved or rejected and it can't be called more than once, as opposed to regular callbacks. It's advanced when not having enough experience.
+
+*Midday (2 h):*
+* Continued with advanced ES6 Promises, and Promise chaining and "catch". Catch is an alternative to the error handler which is preferable to use when chaining to avoid errors.
+* Managed to solve a challenge related to chaining Promises. Even though it was a success, it's important for me to realize that it was mostly studying what I went through earlier in the tutorial. But I did not just copy/paste, so I feel that I grasped the Promise method a _little_ better after this challenge.
+* Did a quiz related to Promises. Got 5 out of 6 correct.
+* Installed Axios, a library simplifying Promises so that we don't need to wrap "resolve" and "reject" in "new Promise" functions.
+* Chaining Promises with Axios makes the code easier to handle, since we don't get as much indentations. But it is pretty complex. I fell off pretty quick in this tutorial, but managed to get a better understanding afterwards by reading through the code and commenting and not just keeping up with the instructor.
+
 ### D1 #100DaysOfCode - 1.5.18
 *Morning (04.45 - 06.36):*
 
@@ -22,15 +34,3 @@
 **Thoughts:** Node.js is very cool. And chaining different callbacks together is powerful. But it gets complicated fast. I stopped several times, needing to get an overview and understand how it was all connected. The "I am a fraud" feeling is creeping in, but I manage to push it back. 
 
 I can't wait to be able to implement Node in future projects.
-
-### D2 #100DaysOfCode - 2.5.18
-*Morning (05.30 - 06.45):*
-
-* Learned about ES6 Promises. A function that works as an alternative to callback functions. It's a function that takes one argument, and it is either resolved or rejected and it can't be called more than once, as opposed to regular callbacks. It's advanced when not having enough experience.
-
-*Midday (2 h):*
-* Continued with advanced ES6 Promises, and Promise chaining and "catch". Catch is an alternative to the error handler which is preferable to use when chaining to avoid errors.
-* Managed to solve a challenge related to chaining Promises. Even though it was a success, it's important for me to realize that it was mostly studying what I went through earlier in the tutorial. But I did not just copy/paste, so I feel that I grasped the Promise method a _little_ better after this challenge.
-* Did a quiz related to Promises. Got 5 out of 6 correct.
-* Installed Axios, a library simplifying Promises so that we don't need to wrap "resolve" and "reject" in "new Promise" functions.
-* Chaining Promises with Axios makes the code easier to handle, since we don't get as much indentations. But it is pretty complex. I fell off pretty quick in this tutorial, but managed to get a better understanding afterwards by reading through the code and commenting and not just keeping up with the instructor.
