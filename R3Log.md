@@ -27,3 +27,7 @@ I can't wait to be able to implement Node in future projects.
 *Morning (05.30 - 06.45):*
 
 * Learned about ES6 Promises. A function that works as an alternative to callback functions. It's a function that takes one argument, and it is either resolved or rejected and it can't be called more than once, as opposed to regular callbacks. It's advanced when not having enough experience.
+
+*Midday :*
+* Continued with advanced ES6 Promises, and Promise chaining and "catch". Catch is an alternative to the error handler which is preferable to use when chaining to avoid errors.
+* Managed to solve a challenge related to chaining Promises. Even though it was a success, it's important for me to realize that it was mostly studying what I went through earlier in the tutorial. But I did not just copy/paste, so I feel that I grasped the Promise method a _little_ better after this challenge.
