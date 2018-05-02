@@ -1,7 +1,7 @@
 # R3 Log
 
 ### D2 #100DaysOfCode - 2.5.18
-*Morning (05.30 - 06.45):*
+*Morning (05.30 - 06.15):*
 
 * Learned about ES6 Promises. A function that works as an alternative to callback functions. It's a function that takes one argument, and it is either resolved or rejected and it can't be called more than once, as opposed to regular callbacks. It's advanced when not having enough experience.
 
@@ -11,6 +11,13 @@
 * Did a quiz related to Promises. Got 5 out of 6 correct.
 * Installed Axios, a library simplifying Promises so that we don't need to wrap "resolve" and "reject" in "new Promise" functions.
 * Chaining Promises with Axios makes the code easier to handle, since we don't get as much indentations. But it is pretty complex. I fell off pretty quick in this tutorial, but managed to get a better understanding afterwards by reading through the code and commenting and not just keeping up with the instructor.
+
+_Evening (21.00 - 22.00)_
+* Trying to solve one of the instructors last challenges for the curent section. It's super though. Will continue tomorrow.
+
+**Total:** 3.45 h
+
+**Thoughts:** The last tutorials were complicated, but I managed to get through. But trying to solve the last big challenge from the instructor tells me that tutorials is a bit dangerous. They make you feel like you learn a lot, in a sneaky kind of way. It's not that I don't learn anything, but when trying to do stuff on my own, I realize how little I know. So I will try to add these new features, and only then continue with the course. That will teach me the most. 
 
 ### D1 #100DaysOfCode - 1.5.18
 *Morning (04.45 - 06.36):*
