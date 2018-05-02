@@ -40,8 +40,8 @@ More focus on programming and my continued quest for blogging means I need to cu
 * Update the blog and write whatever I feel like, without beeing afraid or nervous. It's first and foremost going to be a blog *by* and *for* myself :relieved:. 
 I will not post links to it, monetize on it, work with SEO or adwords and the like. It will not be a brand and I will not pick a niche. The reason beeing that I don't want to forget where the line is that separates my fictions from reality. It will only be me. For now. 
     
-> There's no one to perform for. There is just work to be done and lessons to be learned, in all that is around us.
-##### **_- Ryan Holiday (Ego is the Enemy)_**
+> There's no one to perform for. There is just work to be done and lessons to be learned, in all that is around us. **_- Ryan Holiday (Ego is the Enemy)_**
+
 
 * Keep up with the workout, stretching, reading and family time. 
 * Less time on Twitter and writing tweets.
