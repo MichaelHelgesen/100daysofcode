@@ -4,6 +4,17 @@
 
 * Trying to solve a bigger challenge given by the instructor. It involves setting a default address in the weather app by writing to file. I had to review earlier tutorials to get going. It's tough, but as I wrote yesterday; this is what I learn the most from, not just following along. I managed to set up writing to file, now I need some code to be able to overwrite it, and call it if no new address is set.
 
+*Evening (20.30 - 22.00):*
+* I managed to solve the challenge. It's not pretty, but it works. There is now a default address set if the user don't input one, and there is a possibility to overwrite the standard if one wishes.
+* Moved onto section 5 about web servers and application deployment. 
+* Made my first local server!
+
+**Total:** 3 h
+
+**Thoughts:** I did not get much joy out of solving the challenge. I know that the code was bad, and I got a bit frustrated. As I commented yesterday; many of the things I go through in the tutorials are soon forgotten. I consentrate more on following the instructor. I need to change that. 
+
+It's exciting to move on to the server stuff, but I realize that need a better JS fundamen before moving forward with Node. I need to think! 
+
 ### D2 #100DaysOfCode - 2.5.18
 *Morning (05.30 - 06.15):*
 
