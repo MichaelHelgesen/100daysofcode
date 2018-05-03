@@ -1,4 +1,8 @@
 # R3 Log
+### D3 #100DaysOfCode - 3.5.18
+*Morning (05.30 - 06.00):*
+
+* Trying to solve a bigger challenge given by the instructor. It involves setting a default address in the weather app by writing to file. I had to review earlier tutorials to get going. It's tough, but as I wrote yesterday; this is what I learn the most from, not just following along. I managed to set up writing to file, now I need some code to be able to overwrite it, and call it if no new address is set.
 
 ### D2 #100DaysOfCode - 2.5.18
 *Morning (05.30 - 06.15):*
