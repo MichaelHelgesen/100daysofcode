@@ -14,7 +14,7 @@
 
 **Total:** 3 h
 
-**Thoughts:** I did not get much joy out of solving the challenge. I know that the code was bad, and I got a bit frustrated. As I commented yesterday; many of the things I go through in the tutorials are soon forgotten. I consentrate more on following the instructor. I need to change that. 
+**Thoughts:** I did not get much joy out of solving the challenge. I know that the code was bad, and I got a bit frustrated. As I commented yesterday; many of the things I go through in the tutorials are soon forgotten. I concentrate more on following the instructor. I need to change that. 
 
 It's exciting to move on to the server stuff, but I realize that need a better JS fundamen before moving forward with Node. I need to think! 
 
