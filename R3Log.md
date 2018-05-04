@@ -2,6 +2,16 @@
 ### D4 #100DaysOfCode - 4.5.18
 *Morning (05.45 - 06.15):*
 
+* Slept bad tonight, so I had to get up a little later than usual. When I sat down to code, Visual Code had updated, and the Git link was broken. I couldn't get it working again. So not much productive work this morning. 
+
+_Evening (21.00 - )_
+* Managed to get Git working again. 
+
+**Total:** -
+
+**Thoughts:**
+ I've been thinking all day. I've decided to drop the Node.js course for now to focus on pure JavaScript. I'm going to restart fCC, watch my JS videos on Udemy again to refresh my knowledge. 
+
 ### D3 #100DaysOfCode - 3.5.18
 *Morning (05.30 - 06.00):*
 
