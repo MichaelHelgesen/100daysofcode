@@ -1,11 +1,14 @@
 # R3 Log
+### D4 #100DaysOfCode - 4.5.18
+*Morning (05.45 - 06.15):*
+
 ### D3 #100DaysOfCode - 3.5.18
 *Morning (05.30 - 06.00):*
 
 * Trying to solve a bigger challenge given by the instructor. It involves setting a default address in the weather app by writing to file. I had to review earlier tutorials to get going. It's tough, but as I wrote yesterday; this is what I learn the most from, not just following along. I managed to set up writing to file, now I need some code to be able to overwrite it, and call it if no new address is set.
 
 *Evening (20.30 - 22.00):*
-* I managed to solve the challenge. It's not pretty, but it works. There is now a default address set if the user don't input one, and there is a possibility to overwrite the standard if one wishes.
+* I managed to solve the challenge. It's not pretty, but it works. There is now a default address set if the user don 't input one, and there is a possibility to overwrite the standard if one wishes.
 * Moved onto section 5 about web servers and application deployment. 
 * Made my first local server!
 
