@@ -7,6 +7,10 @@
 _Evening (21.00 - )_
 * Managed to get Git working again. 
 
+_Resources:_
+* Udemy.
+* Podcast: "Learn to Code With Me" S4E17.
+
 **Total:** -
 
 **Thoughts:**
