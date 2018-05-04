@@ -4,17 +4,20 @@
 
 * Slept bad tonight, so I had to get up a little later than usual. When I sat down to code, Visual Code had updated, and the Git link was broken. I couldn't get it working again. So not much productive work this morning. 
 
-_Evening (21.00 - )_
-* Managed to get Git working again. 
+_Evening (21.00 - 23.00)_
+* Managed to get Git working again.
+* Updated my GitHub with more repositories.
+* Added explanations to my dictionary. 
 
 _Resources:_
 * Udemy.
 * Podcast: "Learn to Code With Me" S4E17.
 
-**Total:** -
+**Total:** 2.30 h
 
 **Thoughts:**
- I've been thinking all day. I've decided to drop the Node.js course for now to focus on pure JavaScript. I'm going to restart fCC, watch my JS videos on Udemy again to refresh my knowledge. 
+ I've been thinking all day. I've decided to drop the Node.js course for now to focus on pure JavaScript. I'm going to restart fCC, watch my JS videos on Udemy again to refresh my knowledge. I also need to review my goals. 
+
 
 ### D3 #100DaysOfCode - 3.5.18
 *Morning (05.30 - 06.00):*
@@ -31,6 +34,7 @@ _Resources:_
 **Thoughts:** I did not get much joy out of solving the challenge. I know that the code was bad, and I got a bit frustrated. As I commented yesterday; many of the things I go through in the tutorials are soon forgotten. I concentrate more on following the instructor. I need to change that. 
 
 It's exciting to move on to the server stuff, but I realize that need a better JS fundamen before moving forward with Node. I need to think! 
+
 
 ### D2 #100DaysOfCode - 2.5.18
 *Morning (05.30 - 06.15):*
