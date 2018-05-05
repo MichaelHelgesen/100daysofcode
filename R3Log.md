@@ -8,6 +8,18 @@ _Morning (06.00 - 08.30):_
 * Created a dictionary in which I explain to myself the different coding terminology. Hopefully it will help me remember better. It's also fun to do.
 * Went through my fCC account to prepare a restart of the algorithm scripting.
 
+Evening (21.30 - 23.00):_
+* Continued watching videos, doing challenges and adding to my code dictionary. 
+
+**Total:** 3 h
+
+**Thoughts:**
+As I go through some of the basics again, I realise how much I have forgotten, but at the same time how much I know and have learned since I started last September. That gave me a boost. And while flipping through Haverbekes book, I noticed that I now understand a lot more than I did last time, which then led me to quit reading it. 
+
+I've also (totally subconsciously), began to solve a couple of the advanced challenges on fCC. I seem to have a couple of ideas on how to solve them. At least in my head :D
+
+All in all a good day.
+
 ### D4 #100DaysOfCode - 4.5.18
 
 *Morning (05.45 - 06.15):*
