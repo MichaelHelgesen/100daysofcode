@@ -8,7 +8,8 @@ _Morning (06.00 - 08.30):_
 * Created a dictionary in which I explain to myself the different coding terminology. Hopefully it will help me remember better. It's also fun to do.
 * Went through my fCC account to prepare a restart of the algorithm scripting.
 
-Evening (21.30 - 23.00):_
+_Evening (21.30 - 23.00):_
+
 * Continued watching videos, doing challenges and adding to my code dictionary. 
 
 **Total:** 3 h
