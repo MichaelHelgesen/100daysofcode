@@ -6,6 +6,16 @@ _Morning (07.00 - 09.00):_
 * Continued to review the basics of JS.
 * Updated my dictionary with a lot of entries.
 
+_Evening (21.00 - 22.30):_
+
+* Continued the course.
+* Added yet more to the dictionary.
+
+**Total:** 3.5 h
+
+**Thoughts:**
+Even though I know every concept I am currently going through in the Udemy course, I learn so much more by doing it again, and using it as a base for my dictionary. I learn new ways of explaining things, and new definitions and new words. This is actually just what I felt was missing. So I'm kinda happy about the choice after all. Even though, again, going through this tutorial makes me feel like I am learning a lot. The truth is that using it in my own projects are what works best. But I'll blast through it, then start building again.
+
 ### D5 #100DaysOfCode - 5.5.18
 
 _Morning (06.00 - 08.30):_
