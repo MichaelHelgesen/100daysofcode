@@ -1,4 +1,10 @@
 # R3 Log
+### D6 #100DaysOfCode - 6.5.18
+
+_Morning (07.00 - 09.00):_
+
+* Continued to review the basics of JS.
+* Updated my dictionary with a lot of entries.
 
 ### D5 #100DaysOfCode - 5.5.18
 
