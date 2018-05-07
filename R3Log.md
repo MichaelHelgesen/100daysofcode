@@ -6,10 +6,20 @@ _Morning (05.15 - 06.15):_
 * Continued to review the basics of JS.
 * Updated my dictionary with a lot of entries.
 
-**Total:** 1 h
+_Evening (21.00 - 22.00):_
+
+* Did a couple of challenges.
+* Added to the dictionary.
+
+**Total:** 2 h
 
 **Thoughts:**
 I learned something new today, and that was setting default parameter values when defining a function. I can't remember learning that earlier. Very useful.
+
+Really loving programming and JavaScript, even though I'm back at basics. My plan is to finish the course, then start a new project. 
+
+Also read some really interesting pages of "Ego is the enemy" today, which I really related to and is important to remember going forward. 
+
 
 ### D6 #100DaysOfCode - 6.5.18
 
