@@ -1,4 +1,16 @@
 # R3 Log
+### D7 #100DaysOfCode - 7.5.18
+
+_Morning (05.15 - 06.15):_
+
+* Continued to review the basics of JS.
+* Updated my dictionary with a lot of entries.
+
+**Total:** 1 h
+
+**Thoughts:**
+I learned something new today, and that was setting default parameter values when defining a function. I can't remember learning that earlier. Very useful.
+
 ### D6 #100DaysOfCode - 6.5.18
 
 _Morning (07.00 - 09.00):_
