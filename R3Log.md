@@ -16,7 +16,7 @@ _Evening (21.30 - 22.45):_
 **Total:** 4.15 h
 
 **Thoughts:**
-My colleagues at work have figured out that I'm learning to code. I've tried to be quiet and modest about it, but they have figured it out. So today one of my colleagues asked me if I could look at a simple calculator for a client. The purpose was (simply put) to calculate a trucks total loading weight based on the weight of the truck, the trailer and more. 
+My colleagues at work have figured out that I'm learning to code. I've tried to be quiet and modest about it, but now the requests is starting to come... Today one of my colleagues asked me if I could look at a simple calculator for a client. The purpose was (simply put) to calculate a trucks total loading weight based on the weight of the truck, the trailer and more. 
 
 I noticed that when the question came, I immediately went into some sort of defensive stanse. I became tense, sceptical and got a snappy tone in my voice. Luckily I realized it pretty fast, and tried to get out of it. It was just so scary to get that question. But at the same time it was very exciting. This is after all what I am working towards, and I started right away. I managed to finish it by this evening. It needs some cleaning up and refactoring, but it works and can be testet while I pretty it up. 
 
