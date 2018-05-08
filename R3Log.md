@@ -1,4 +1,27 @@
 # R3 Log
+### D8 #100DaysOfCode - 8.5.18
+
+_Morning (05.30 - 06.30):_
+
+* Continued to review the basics of JS.
+* Updated my dictionary with a lot of entries.
+
+_Miday (2 h):_
+* Startet coding a calculator to be used on a clients website!
+
+_Evening (21.30 - 22.45):_
+
+* Finished the calculator and sent it to my colleague whos in charge of the customer. I only finished the functions. It's without styling for now.
+
+**Total:** 4.15 h
+
+**Thoughts:**
+My colleagues at work have figured out that I'm learning to code. I've tried to be quiet and modest about it, but they have figured it out. So today one of my colleagues asked me if I could look at a simple calculator for a client. The purpose was (simply put) to calculate a trucks total loading weight based on the weight of the truck, the trailer and more. 
+
+I noticed that when the question came, I immediately went into some sort of defensive stanse. I became tense, sceptical and got a snappy tone in my voice. Luckily I realized it pretty fast, and tried to get out of it. It was just so scary to get that question. But at the same time it was very exciting. This is after all what I am working towards, and I started right away. I managed to finish it by this evening. It needs some cleaning up and refactoring, but it works and can be testet while I pretty it up. 
+
+So now I actually appreciate the request. It was / is a nice challenge and good practice for me.    
+
 ### D7 #100DaysOfCode - 7.5.18
 
 _Morning (05.15 - 06.15):_
@@ -19,7 +42,6 @@ I learned something new today, and that was setting default parameter values whe
 Really loving programming and JavaScript, even though I'm back at basics. My plan is to finish the course, then start a new project. 
 
 Also read some really interesting pages of "Ego is the enemy" today, which I really related to and is important to remember going forward. 
-
 
 ### D6 #100DaysOfCode - 6.5.18
 
