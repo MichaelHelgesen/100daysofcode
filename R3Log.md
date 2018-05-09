@@ -1,4 +1,18 @@
 # R3 Log
+
+### D9 #100DaysOfCode - 9.5.18
+
+_Morning (05.30 - 06.30):_
+
+* Continued the course and did a couple of challenges.
+* Added entries to my dictionary
+
+
+**Total:** 
+
+**Thoughts:**
+
+
 ### D8 #100DaysOfCode - 8.5.18
 
 _Morning (05.30 - 06.30):_
