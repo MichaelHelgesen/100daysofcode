@@ -3,15 +3,21 @@
 ### D9 #100DaysOfCode - 9.5.18
 
 _Morning (05.30 - 06.30):_
-
+ 
 * Continued the course and did a couple of challenges.
 * Added entries to my dictionary
 
+_Afternoon (18.00 - 19.00):_
+* Got in an hour of coding when the others were in town. Did a challenge related to objects and methods. 
 
-**Total:** 
+_Evening (21.30 - 22.45)_
+* Finished a couple of videos with a bunch of challenges. The course is good, and I really learn much more the second time around. 
 
-**Thoughts:**
+**Total:** 3.15 h
 
+**Thoughts:** Got up a little late today due to bad sleep. And it's really warm. 
+
+I am enjoying the tutorial. The instructor is a good one, and he explains things in a different and simpler way. Besides, since I've been through this one time already, I have a much bigger understanding of what he is talking about. But I pick up on things that I either had forgotten, misunderstood, or not learnt properly. So thats fun. But again, it's also a bit easy, so the feeling of "doing great" and progressing is a false one. 
 
 ### D8 #100DaysOfCode - 8.5.18
 
