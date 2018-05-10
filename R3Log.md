@@ -1,11 +1,22 @@
 # R3 Log
 
+### D10 #100DaysOfCode - 10.5.18
+
+_Morning (05.30 - 08.00):_
+ 
+* Continued the course and completed new challenges.
+* Added entries to my dictionary.
+
+**Total:** 2.5 h
+
+**Thoughts:** 
+
 ### D9 #100DaysOfCode - 9.5.18
 
 _Morning (05.30 - 06.30):_
  
 * Continued the course and did a couple of challenges.
-* Added entries to my dictionary
+* Added entries to my dictionary.
 
 _Afternoon (18.00 - 19.00):_
 * Got in an hour of coding when the others were in town. Did a challenge related to objects and methods. 
