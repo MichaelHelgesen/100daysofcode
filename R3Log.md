@@ -7,9 +7,13 @@ _Morning (05.30 - 08.00):_
 * Continued the course and completed new challenges.
 * Added entries to my dictionary.
 
-**Total:** 2.5 h
+_Evening (19.30 - 22.00):_
+* Venturing into arrays. Learned a couple of new things I didn't know. 
+* Did a lot of challenges. Pretty easy.
 
-**Thoughts:** 
+**Total:** 5 h
+
+**Thoughts:** Got in 5 hours today. I'm happy with that. I am really hooked to this programming now. I think it has become a natural part of my life. I wake up, make coffee and code. When the kids are in bed, I sit down to code. And I look forward to doing it every time. That is super fun. 
 
 ### D9 #100DaysOfCode - 9.5.18
 
