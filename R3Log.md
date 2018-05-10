@@ -17,7 +17,7 @@ _Evening (21.30 - 22.45)_
 
 **Thoughts:** Got up a little late today due to bad sleep. And it's really warm. 
 
-I am enjoying the tutorial. The instructor is a good one, and he explains things in a different and simpler way. Besides, since I've been through this one time already, I have a much bigger understanding of what he is talking about. But I pick up on things that I either had forgotten, misunderstood, or not learnt properly. So thats fun. But again, it's also a bit easy, so the feeling of "doing great" and progressing is a false one. 
+I am enjoying the tutorial. The instructor is good, and he explains things in a different and simpler way. Besides, since I've been through this one time already, I have a much bigger understanding of what he is talking about. And I pick up on things that I either had forgotten, misunderstood, or not learnt properly. So thats fun. But again, it's also a bit easy, so the feeling of "doing great" and progressing is a false one. 
 
 ### D8 #100DaysOfCode - 8.5.18
 
