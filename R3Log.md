@@ -1,5 +1,20 @@
 # R3 Log
 
+### D11 #100DaysOfCode - 11.5.18
+
+_Morning (06.00 - 07.00):_
+ 
+* Continued the course and completed new challenges.
+* Added entries to my dictionary.
+* Got stuck in the last array challenge.
+
+_Evening (21.30 - 22.30):_
+* Solved the challenge I was stuck on. I came up with a different solution than the instructor though.
+
+**Total:** 2 h
+
+**Thoughts:** Got stuck with a challenge today. That was kind of nice. Thought about it all day at work. I solved it when I came home, albeit using another solution than the instructor. But that's OK. Now I learned two ways to do it! I haven't worked much with arrays, so this is very usefull. 
+
 ### D10 #100DaysOfCode - 10.5.18
 
 _Morning (05.30 - 08.00):_
