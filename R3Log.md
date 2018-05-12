@@ -1,5 +1,20 @@
 # R3 Log
 
+### D12 #100DaysOfCode - 12.5.18
+
+_Morning (05.30 - 09.00):_
+ 
+* Continued the course and completed new challenges.
+* Added entries to the dictionary.
+Solved advanced challenges using my own dictionary! Cool!
+
+_Evening (-):_
+
+
+**Total:** 3.5 h
+
+**Thoughts:** I am so glad I decided to take this basic course again. There is just so many things I understand better now. At this point in the course, the challenges are getting more advanced. Today I got stuck on a array problem. But I managed to solve it by reading my own dictionary. How cool is that! That means that I probably understood it when I wrote the entry, and that I managed to explain it good enough so that I understood it when reading it.  
+
 ### D11 #100DaysOfCode - 11.5.18
 
 _Morning (06.00 - 07.00):_
