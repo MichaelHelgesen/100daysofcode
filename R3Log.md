@@ -1,5 +1,26 @@
 # R3 Log
 
+### D13 #100DaysOfCode - 13.5.18
+
+_Morning (06.30 - 09.00):_
+ 
+* learned about .reduce() by reading the comments for the current tutorial section. I haven't used that earlier. Nice method.
+* Learned how to set up a local web server. Super useful!
+* Added entries to dictionary
+
+_Evening (20.30 - 22):_
+* Learned the methods .createElement() and .appendChild(). I haven't used those yet.
+* Created DOM elements based on filtering and looping through arrays in the javascript file.
+* Decided to buy a new laptop and create a new setup at home, with home server and a docking station for the laptop. 
+
+**Total:** 4 h
+
+**Thoughts:** Today I learned about and used a couple of new methods. That was great fun and super useful. I think I would be able to simplify my book list projects with some of these methods. I will look into it later. Right now I am set to finish this course before doing anything else. 
+
+I can't believe that is almost a year since I decided to start this project. Last summer, while cutting the grass, I listened to an episode of Code Newbie. They interviewed Kallaway about his 100 Days of Code. I was spellbound. I listened to that episode several times, taking notes of everything they said.
+
+While cutting the grass again yesterday, I thought about how far I have come. It's only a smal step, but it's a step none the less, and in the right direction. There is no other way than to keep working, every day. And maybe in another year from now, I will have taken a _couple_ of steps. Who knows.   
+
 ### D12 #100DaysOfCode - 12.5.18
 
 _Morning (05.30 - 09.00):_
@@ -64,7 +85,7 @@ _Evening (21.30 - 22.45)_
 
 **Thoughts:** Got up a little late today due to bad sleep. And it's really warm. 
 
-I am enjoying the tutorial. The instructor is good, and he explains things in a different and simpler way. Besides, since I've been through this one time already, I have a much bigger understanding of what he is talking about. And I pick up on things that I either had forgotten, misunderstood, or not learnt properly. So thats fun. But again, it's also a bit easy, so the feeling of "doing great" and progressing is a false one. 
+I am enjoying the tutorial. The instructor is good, and he explains things in a different and simpler way. Besides, since I've been through this one time already, I have a much bigger understanding of what he is talking about. And I pick up on things that I either had forgotten, misunderstood, or not learned properly. So thats fun. But again, it's also a bit easy, so the feeling of "doing great" and progressing is a false one. 
 
 ### D8 #100DaysOfCode - 8.5.18
 
@@ -223,7 +244,7 @@ _Evening (21.00 - 22.00)_
 
 * Updated the theme on my WP-blog.
 * Updated my GitHub Log and README for round 3.
-* Learnt the GitHub markdown and GitHub emoji markup.
+* Learned the GitHub markdown and GitHub emoji markup.
 * Installed a plugin for VS Code that let me preview GitHub markdown. Super useful. 
 
 *Evening (21.00 - 22.00):*
