@@ -1,5 +1,23 @@
 # R3 Log
 
+### D14 #100DaysOfCode - 14.5.18
+
+_Morning (05.30 - 06.00):_
+ 
+* Continued DOM manipulation.
+* Added entries to dictionary. 
+* Did a couple of challenges. 
+
+_Midday_ (20 min)
+* Got to use .appendChild(), .forEach() and .remove(), which I just leared on a project today. Just a smal thing, but cool non the less. 
+
+_Evening (-):_
+
+
+**Total:** 1.50 h
+
+**Thoughts:** 
+
 ### D13 #100DaysOfCode - 13.5.18
 
 _Morning (06.30 - 09.00):_
