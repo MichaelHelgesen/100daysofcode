@@ -11,12 +11,14 @@ _Morning (05.30 - 06.00):_
 _Midday_ (20 min)
 * Got to use .appendChild(), .forEach() and .remove(), which I just leared on a project today. Just a smal thing, but cool non the less. 
 
-_Evening (-):_
+_Evening (21.00 - 22.00):_
+* Continued course with advanced filtering and DOM manipulation. Some tougher challenges. 
 
+**Total:** 2.50 h
 
-**Total:** 1.50 h
+**Thoughts:** The challenges and lectures are really getting advanced. And I start to notice how fast and easy I forget, when things move faster. That's why it's so important to actually use it in projects. 
 
-**Thoughts:** 
+I got to write a smal code at work today. It included what I just learned, so that was fortunate. It was fun to be able to solve it. I would not have been able to just a couple of months ago. 
 
 ### D13 #100DaysOfCode - 13.5.18
 
