@@ -2,14 +2,16 @@
 
 ### D15 #100DaysOfCode - 15.5.18
 
-_Morning (05.30 - 06.15):_
+_Morning (04.30 - 06.15):_
  
-* Got stuck with a challenge 
+* Got stuck with a challenge
+* Fixed it after realizing I used the wrong method. 
  
-_Evening ():_
+_Evening (21.30 - 22.00):_
+* Continued course, working with forms.
  
 
-**Total:** - h
+**Total:** 2.15 h
 
 **Thoughts:** I was stuck today, and had to take a peak at the solution. Of course I should have figured it out. I used .forEach() instead of .filter(), which is a big difference. The first one returns a boolean, the second a new array. So no wonder nothing worked.
 
