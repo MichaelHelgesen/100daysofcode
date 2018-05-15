@@ -1,5 +1,18 @@
 # R3 Log
 
+### D15 #100DaysOfCode - 15.5.18
+
+_Morning (05.30 - 06.15):_
+ 
+* Got stuck with a challenge 
+ 
+_Evening ():_
+ 
+
+**Total:** - h
+
+**Thoughts:** I was stuck today, and had to take a peak at the solution. Of course I should have figured it out. I used .forEach() instead of .filter(), which is a big difference. The first one returns a boolean, the second a new array. So no wonder nothing worked.
+
 ### D14 #100DaysOfCode - 14.5.18
 
 _Morning (05.30 - 06.00):_
