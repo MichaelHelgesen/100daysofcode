@@ -1,5 +1,17 @@
 # R3 Log
 
+### D16 #100DaysOfCode - 16.5.18
+
+_Morning (05.30 - 06.15):_
+ 
+* My laptop would not boot, so I spent all my time trying to fix it, with no luck so far.
+ 
+_Evening (-):_
+
+**Total:** - h
+
+**Thoughts:** 
+
 ### D15 #100DaysOfCode - 15.5.18
 
 _Morning (04.30 - 06.15):_
@@ -8,6 +20,7 @@ _Morning (04.30 - 06.15):_
 * Fixed it after realizing I used the wrong method. 
  
 _Evening (21.30 - 22.00):_
+
 * Continued course, working with forms.
  
 
