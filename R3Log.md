@@ -6,12 +6,13 @@ _Morning (05.30 - 06.15):_
  
 * My laptop would not boot, so I spent all my time trying to fix it, with no luck so far.
  
-_Evening (-):_
+Midday (2 h):_
 
+* Spent lunch and some other free time to fix the laptop. Now it's working again. 
 
-**Total:** - h
+**Total:** - 2.45 h (making my laptop work)
 
-**Thoughts:** 
+**Thoughts:** Almost been no coding today and that bothers me. And at the same time I'm kinda glad it does. That means that it has become a habit and that I am really enjoying it. 
 
 ### D15 #100DaysOfCode - 15.5.18
 
