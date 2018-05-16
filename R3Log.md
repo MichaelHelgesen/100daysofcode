@@ -8,6 +8,7 @@ _Morning (05.30 - 06.15):_
  
 _Evening (-):_
 
+
 **Total:** - h
 
 **Thoughts:** 
