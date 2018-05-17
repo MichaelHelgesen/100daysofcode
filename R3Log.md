@@ -1,5 +1,16 @@
 # R3 Log
 
+### D17 #100DaysOfCode - 17.5.18
+
+_Morning (05.30 - 07.00):_
+
+* Did a form challenge
+* Added entries to my dictionary  
+
+**Total:**  1.5 h 
+
+**Thoughts:** 
+
 ### D16 #100DaysOfCode - 16.5.18
 
 _Morning (05.30 - 06.15):_
@@ -10,7 +21,7 @@ Midday (2 h):_
 
 * Spent lunch and some other free time to fix the laptop. Now it's working again. 
 
-**Total:** - 2.45 h (making my laptop work)
+**Total:** 2.45 h (making my laptop work)
 
 **Thoughts:** Almost been no coding today and that bothers me. And at the same time I'm kinda glad it does. That means that it has become a habit and that I am really enjoying it. 
 
