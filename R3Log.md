@@ -7,9 +7,13 @@ _Morning (05.30 - 07.00):_
 * Did a form challenge
 * Added entries to my dictionary  
 
-**Total:**  1.5 h 
+_Evening (22.00 - 22.30)_
+* Checkboxes 
+* A new challenge. Got to tired to finish.
 
-**Thoughts:** 
+**Total:**  2 h 
+
+**Thoughts:** Been out all day celebrating Norways national day. So not much coding today either. But it's more than nothing after all. Working with fomrs and trying to implement checkbox functionality in a challenge. Got to tired to solve the last part. 
 
 ### D16 #100DaysOfCode - 16.5.18
 
