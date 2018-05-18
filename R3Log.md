@@ -17,7 +17,7 @@ _Evening (21.30 - 23.00)_
 
 **Thoughts:** Today I finished forms and went on to JSON and local storage. Again I am so glad I chose to take this course before continuing the one for Node. Now I am going through a lot of the stuff that the Node course took for granted that you knew. Going through it and putting everything in my dictionary will make me much more robust for the Node course. 
 
-I also spent some time today examining the consept of commonplace books. That seems very exciting and it's just what I am looking for to be able to better learn from what I read. The question is do I make it digitaly or with handwriting. Need to think about that. I have come to realize that without processing what I read some way or another, it's just reading words, and learning less.   
+I also spent some time today examining the consept of commonplace books. That seems very exciting and it's just what I am looking for to be able to better learn from what I read. The question is do I make it digitaly or with handwriting. Need to think about that. I have come to realize that without processing what I read some way or another, it's just reading words, and learning less.  
 
 ### D17 #100DaysOfCode - 17.5.18
 
