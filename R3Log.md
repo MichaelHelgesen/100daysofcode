@@ -7,12 +7,15 @@ _Morning (06.30 - 09.00):_
 * Continued the form challenge and solved it. I of course had an inferior solution compared to the instructor, but it was not far off. It was at least the same logic. 
 * Spent a lot of time studying the instructors code and code from other attendees in the Q&A. 
 
-_Evening (22.00 - 22.30)_
+_Evening (21.30 - 23.00)_
 
+*  Finished the form section, and moved on to local storage.
+* Learned about CRUD: create, read, update and delete. The four operations that makes up the data storage mechanism.   
+* Did a JSON challenge.
 
-**Total:**  2.5 h 
+**Total:**  4 h 
 
-**Thoughts:** Been out all day celebrating Norways national day. So not much coding today either. But it's more than nothing after all. Working with fomrs and trying to implement checkbox functionality in a challenge. Got to tired to solve the last part. 
+**Thoughts:** Today I finished forms and went on to JSON and local storage. Again I am so glad I chose to take this course before continuing the one for Node. Now I am going through a lot of the stuff that the Node course took for granted that you knew. Going through it and putting everything in my dictionary will make me much more robust for the Node course. 
 
 ### D17 #100DaysOfCode - 17.5.18
 
