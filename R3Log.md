@@ -1,5 +1,19 @@
 # R3 Log
 
+### D18 #100DaysOfCode - 18.5.18
+
+_Morning (06.30 - 09.00):_
+
+* Continued the form challenge and solved it. I of course had an inferior solution compared to the instructor, but it was not far off. It was at least the same logic. 
+* Spent a lot of time studying the instructors code and code from other attendees in the Q&A. 
+
+_Evening (22.00 - 22.30)_
+
+
+**Total:**  2.5 h 
+
+**Thoughts:** Been out all day celebrating Norways national day. So not much coding today either. But it's more than nothing after all. Working with fomrs and trying to implement checkbox functionality in a challenge. Got to tired to solve the last part. 
+
 ### D17 #100DaysOfCode - 17.5.18
 
 _Morning (05.30 - 07.00):_
