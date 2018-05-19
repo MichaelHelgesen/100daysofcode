@@ -1,5 +1,20 @@
 # R3 Log
 
+### D19 #100DaysOfCode - 19.5.18
+
+_Morning (05.30 - 07.00):_
+
+* Did a bunch of refactoring and completed a refactoring challenge 
+
+_Evening (-)_
+
+
+
+**Total:**  1.5 h 
+
+**Thoughts:** 
+
+
 ### D18 #100DaysOfCode - 18.5.18
 
 _Morning (06.30 - 09.00):_
