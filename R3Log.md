@@ -2,13 +2,25 @@
 
 ### D20 #100DaysOfCode - 20.5.18
 
-_Morning (06.30 - 07.30):_
+_Morning (06.30 - 09.00):_
 
 * Learned about debugging. I hadn't used that before, so that was very useful.
+* Solved a DOM challenge.
+* Added third party library called uuid. It creates a random ID.
 
-**Total:**  1.5 h 
+_Evening (22.30 - 23.00):_
+* Went through how to use the third party ID to delete items. 
+* Started a new challenge.
 
-**Thoughts:** 
+**Total:**  3 h 
+
+**Thoughts:** I was a little surprised to include a third party library at this point, especially to create an ID for each todo in the todo app to be able to delete the todo. 
+
+I thought that could be done with ".this" or some sort of counting. That when you clicked the delete button, it was easy to make code that said "delete the note that I currently clicked". 
+
+The instructor said that it was perfectly fine to use third party libraries, and that it's something everyone does. Why invent the wheel and use a lot of time to create something that has already been made. It's better to focus on making your program good, no matter which way.
+
+That sounds reasonable. But for learning, I will try to keep third party libraries to a minimum, if it doesn't need something super complex. The Node course included a lot of it, so I will learn to implement libraries soon enough. First I want to have JavaScript in my fingers. 
 
 ### D19 #100DaysOfCode - 19.5.18
 
