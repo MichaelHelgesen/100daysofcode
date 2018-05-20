@@ -6,13 +6,9 @@ _Morning (05.30 - 07.00):_
 
 * Did a bunch of refactoring and completed a refactoring challenge 
 
-_Evening (-)_
-
-
-
 **Total:**  1.5 h 
 
-**Thoughts:** 
+**Thoughts:** I only got to code this morning. We had a wonderful day in Oslo together. I was t tired to to any more coding when I got home 
 
 
 ### D18 #100DaysOfCode - 18.5.18
