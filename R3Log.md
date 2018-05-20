@@ -1,5 +1,15 @@
 # R3 Log
 
+### D20 #100DaysOfCode - 20.5.18
+
+_Morning (06.30 - 07.30):_
+
+* Learned about debugging. I hadn't used that before, so that was very useful.
+
+**Total:**  1.5 h 
+
+**Thoughts:** 
+
 ### D19 #100DaysOfCode - 19.5.18
 
 _Morning (05.30 - 07.00):_
@@ -8,8 +18,7 @@ _Morning (05.30 - 07.00):_
 
 **Total:**  1.5 h 
 
-**Thoughts:** I only got to code this morning. We had a wonderful day in Oslo together. I was t tired to to any more coding when I got home 
-
+**Thoughts:** I only got to code this morning. We had a wonderful day in Oslo together. I was t tired to to any more coding when I got home. 
 
 ### D18 #100DaysOfCode - 18.5.18
 
