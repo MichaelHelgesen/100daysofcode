@@ -1,5 +1,21 @@
 # R3 Log
 
+### D21 #100DaysOfCode - 21.5.18
+
+_Morning (06.45 - 09.00):_
+
+* Got stuck in a challenge by stupid mistake. 
+* Solved a couple of additional challenges
+* Started exploring .location and dynamic linking between pages.
+
+**Total:**  2.15 h 
+
+**Thoughts:** I spent almost an hour debugging, only to find out that I was somehow missing a whole function. I must have deleted it by accident. I didn't realize, and used a different function, so I didn't get any errors, only the wrong result. _Facepalm_ when I realized it.
+
+My head was not with me today. I worked slow and had trouble concentrating. The code gets more complex, and the doubts begin to creep in again. Again: I have to use this in my own projects to really learn it. 
+
+But I started exploring .location and dynamic linking. That is exciting and useful.
+
 ### D20 #100DaysOfCode - 20.5.18
 
 _Morning (06.30 - 09.00):_
