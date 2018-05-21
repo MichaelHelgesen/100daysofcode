@@ -8,7 +8,12 @@ _Morning (06.45 - 09.00):_
 * Solved a couple of additional challenges
 * Started exploring .location and dynamic linking between pages.
 
-**Total:**  2.15 h 
+_Evening (21.30 - 22.15)_
+
+* Learned how to use location and some of its properties and methods. 
+* Did a .location challenge.
+
+**Total:**  3 h 
 
 **Thoughts:** I spent almost an hour debugging, only to find out that I was somehow missing a whole function. I must have deleted it by accident. I didn't realize, and used a different function, so I didn't get any errors, only the wrong result. _Facepalm_ when I realized it.
 
