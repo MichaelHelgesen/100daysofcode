@@ -2,16 +2,22 @@
 
 ### D23 #100DaysOfCode - 23.5.18
 
-_Evening (04.30 - 06.00)_
+_Morning (04.30 - 06.00)_
 
 * Did a challenge
 * Learned about live updating windows with .window and the "storage" event.
 
-**Total:**  1.5 h 
+Evening (21.45 - 22.30)_
+
+* Started exploring dates. Thats also new to me.
+
+**Total:**  2.15 h 
 
 **Thoughts:** It's amazing what you can do with programming. Switching out local storage with server will be fun. 
 
 The code for this note app is getting complicated, and the instructor is moving a bit fast. I have to take it slow and review all the new code, not just type it in.  
+
+Started to learn about "new Date()". There are som many methods!
 
 ### D22 #100DaysOfCode - 22.5.18
 
