@@ -1,5 +1,28 @@
 # R3 Log
 
+### D23 #100DaysOfCode - 23.5.18
+
+_Evening (04.30 - 06.00)_
+
+* Did a challenge
+* Learned about live updating windows with .window and the "storage" event.
+
+**Total:**  1.5 h 
+
+**Thoughts:** It's amazing what you can do with programming. Switching out local storage with server will be fun. 
+
+The code for this note app is getting complicated, and the instructor is moving a bit fast. I have to take it slow and review all the new code, not just type it in.  
+
+### D22 #100DaysOfCode - 22.5.18
+
+_Evening (21.30 - 22.00)_
+
+* Continued exploring updating local storage.
+
+**Total:**  30 min 
+
+**Thoughts:** I only got 30 minutes of coding done today. I got a bit late yesterday, so I had to get some sleep. I also had stuff to do this evening. I'll catch up tomorrow. 
+
 ### D21 #100DaysOfCode - 21.5.18
 
 _Morning (06.45 - 09.00):_
