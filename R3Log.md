@@ -1,5 +1,20 @@
 # R3 Log
 
+### D24 #100DaysOfCode - 24.5.18
+
+_Morning (04.30 - 06.30)_
+
+* Learned about time and dates in JavaScript.
+* Added Moments library and explored it's methods.
+* Did two challenges.
+
+Evening (-)_
+
+**Total:**  2 h 
+
+**Thoughts:** Another library added. This time to make it easier to work with time. Doing it in vanilla JS generates a lot of code and takes a long time. Moments was really easy. I start to see the benefits of third party libraries now.  
+
+
 ### D23 #100DaysOfCode - 23.5.18
 
 _Morning (04.30 - 06.00)_
@@ -17,7 +32,7 @@ Evening (21.45 - 22.30)_
 
 The code for this note app is getting complicated, and the instructor is moving a bit fast. I have to take it slow and review all the new code, not just type it in.  
 
-Started to learn about "new Date()". There are som many methods!
+Started to learn about "new Date()". There are so many methods!
 
 ### D22 #100DaysOfCode - 22.5.18
 
