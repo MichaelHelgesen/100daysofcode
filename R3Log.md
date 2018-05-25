@@ -1,5 +1,19 @@
 # R3 Log
 
+### D25 #100DaysOfCode - 25.5.18
+
+_Morning (04.45 - 06.15)_
+
+* Finished dates.
+* Did a sorting challenge.
+* Started arrow functions. 
+
+Evening (-)_
+
+**Total:**  2 h 
+
+**Thoughts:** I'm far into the course now, moving into more advances stuff, starting with arrow functions. I'm looking forward to be done with the course, so I can start building stuff again. Doing both will make the course take so long, since I have limited time during a day. But going through all this again, and building my own dictionary will be a great fundament for going forward. 
+
 ### D24 #100DaysOfCode - 24.5.18
 
 _Morning (04.30 - 06.30)_
@@ -7,8 +21,6 @@ _Morning (04.30 - 06.30)_
 * Learned about time and dates in JavaScript.
 * Added Moments library and explored it's methods.
 * Did two challenges.
-
-Evening (-)_
 
 **Total:**  2 h 
 
