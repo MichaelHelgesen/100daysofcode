@@ -4,7 +4,8 @@
 
 _Morning (06.00 - 08.00)_
 
-* Arrow functions and ternary operator 
+* Arrow functions and ternary operator
+* Truthy / falsy 
 
 _Evening (-)_
 
