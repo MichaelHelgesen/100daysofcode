@@ -1,5 +1,17 @@
 # R3 Log
 
+### D26 #100DaysOfCode - 26.5.18
+
+_Morning (06.00 - 08.00)_
+
+* Arrow functions and ternary operator 
+
+_Evening (-)_
+
+**Total:**  2 h 
+
+**Thoughts:** I got great explanations and good examples of both arrow functions and ternary operator. I haven't used those earlier. I will definitely use them from now on, now that I have a good understanding of what they replace and their pros and cons. 
+
 ### D25 #100DaysOfCode - 25.5.18
 
 _Morning (04.45 - 06.15)_
@@ -7,8 +19,6 @@ _Morning (04.45 - 06.15)_
 * Finished dates.
 * Did a sorting challenge.
 * Started arrow functions. 
-
-Evening (-)_
 
 **Total:**  2 h 
 
