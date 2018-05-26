@@ -10,7 +10,7 @@ _Evening (-)_
 
 **Total:**  2 h 
 
-**Thoughts:** I got great explanations and good examples of both arrow functions and ternary operator. I haven't used those earlier. I will definitely use them from now on, now that I have a good understanding of what they replace and their pros and cons. 
+**Thoughts:** I got great explanations and good examples of both arrow functions and ternary operator. I haven't used those earlier. I will definitely use them from now on, now that I have a good understanding of what they replace and their pros and cons.
 
 ### D25 #100DaysOfCode - 25.5.18
 
