@@ -1,13 +1,24 @@
 # R3 Log
 
+### D27 #100DaysOfCode - 27.5.18
+
+_Morning (06.00 - 09.00)_
+
+* Type coercion.
+* Catching and throwing errors.
+* Handling application errors.
+* Couple of challenges.
+
+**Total:**  3 h 
+
+**Thoughts:** I can't wait to implement all of these things in my next projects. It's going to clean up my code so much. I'm really excited about it. 
+
 ### D26 #100DaysOfCode - 26.5.18
 
 _Morning (06.00 - 08.00)_
 
 * Arrow functions and ternary operator
 * Truthy / falsy 
-
-_Evening (-)_
 
 **Total:**  2 h 
 
