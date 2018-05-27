@@ -8,6 +8,7 @@ _Morning (06.00 - 09.00)_
 * Catching and throwing errors.
 * Handling application errors.
 * Couple of challenges.
+* Ended section
 
 **Total:**  3 h 
 
