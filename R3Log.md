@@ -7,11 +7,17 @@ _Morning (04.45 - 06.15)_
 * Started new section.
 * Exploring function constructors and object oriented programming.
 
-**Total:**  1.5 h 
+_Evening (20.15 - 21.45)_
+
+* Got stuck in a challenge
+
+**Total:**  3 h 
 
 **Thoughts:** The object oriented programming is smart and fun. It makes for some really functional programming. I used it in the book list, but it's nice to recap. 
 
 I also think I came up with my next project. It will be a work out list. I can implement a lot of what I have been learning now; time, local storage, several pages and more. It will be a big and andvanced project, but fun I think. I need to sketch it out. 
+
+Tried to take on a challenge by the end of the day. My head worked a bit slow, and I could find out how to solve it. I will continue tomorrow.
 
 ### D27 #100DaysOfCode - 27.5.18
 
