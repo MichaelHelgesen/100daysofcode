@@ -1,5 +1,20 @@
 # R3 Log
 
+### D29 #100DaysOfCode - 29.5.18
+
+_Morning (04.45 - 06.15)_
+
+* Solved the challenge
+* Further exploring prototypal inheritance
+
+**Total:**  1.5 h 
+
+**Thoughts:** I solved the challenge. It was of course less complicated than my fist tries. It was more or less the same solution as the instructor, except he had a slightly more elegant way to do it, which I should have thought of.
+
+When reading the comments this time, I got a little down. People had posted all kinds of smart and more advanced solutions.
+
+But I'm sure they have more experience or have used way more time on it to find alternative solutions. Time that I don't have. So I have to be patient and continue on, knowing that knowledge comes with experience. That's just the way it is.  
+
 ### D28 #100DaysOfCode - 28.5.18
 
 _Morning (04.45 - 06.15)_
