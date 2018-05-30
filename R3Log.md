@@ -1,5 +1,17 @@
 # R3 Log
 
+### D30 #100DaysOfCode - 30.5.18
+
+_Evening (21.00 - 22.00)_
+
+* Primitives and objects / object prototypes.
+
+**Total:**  1.5 h 
+
+**Thoughts:** Really useful to be reminded how objects and object prototypes, and the prototype chaining works. 
+
+It's so hot that I'm actually coding on the porch. That is really lovely.   
+
 ### D29 #100DaysOfCode - 29.5.18
 
 _Morning (04.45 - 06.15)_
