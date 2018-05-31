@@ -1,5 +1,19 @@
 # R3 Log
 
+### D31 #100DaysOfCode - 31.5.18
+
+_Afternoon (15.00 - 16.00)_
+
+* Prototype chain for arrays, strings, numbers and objects.
+
+_Evening (21.30 - 22.30)_
+
+* Solved a prototype / method challenge.
+
+**Total:**  2 h 
+
+**Thoughts:** I was surprised I managed to solve todays challenge so fast. That was nice. I remembered that even though we pass more arguments than the functions parameters, they are still avaliable. So I looked that up in my dictionary. It's such a great feeling to find the answer in something I myself have written. I seem to remember it better. I haven't watched the solution yet. I guess it's still more elegant, but I managed to solve it, so I'm happy. 
+
 ### D30 #100DaysOfCode - 30.5.18
 
 _Evening (21.00 - 22.00)_
