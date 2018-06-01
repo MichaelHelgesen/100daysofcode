@@ -1,5 +1,21 @@
 # R3 Log
 
+### D032 #100DaysOfCode - 01.6.18
+
+_Morning (04.30 - 06.00)_
+
+* Did a challenge
+
+_Evening (22.00 - 23.00)_
+
+* Worked on an object challenge 
+
+**Total:**  2.5 h 
+
+**Thoughts:** What a day. The neighbouring house burned to the groud, it's the first day of summer and I finished a great book. Also did a challenge before work, but did not manage to solve the last one before bed. 
+
+Very happy for my friend who got a job. 
+
 ### D31 #100DaysOfCode - 31.5.18
 
 _Afternoon (15.00 - 16.00)_
