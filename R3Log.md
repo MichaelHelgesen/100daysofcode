@@ -1,5 +1,19 @@
 # R3 Log
 
+### D033 #100DaysOfCode - 02.6.18
+
+_Morning (07.00 - 09.00)_
+
+* Did a challenge 
+
+**Total:**  2 h 
+
+**Thoughts:** I solved the challenge from yesterday. Again, in another way than the instructor, lol. And again he's is of course more effective and short. But it's good learning non the less. 
+
+I thought about the challenge when I went to bed yesterday, when I woke up today at 05.00 (I went back to sleep), so I had kinda solved it even before I sat down this morning. 
+
+Very happy for my friend who got a job. 
+
 ### D032 #100DaysOfCode - 01.6.18
 
 _Morning (04.30 - 06.00)_
