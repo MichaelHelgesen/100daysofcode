@@ -1,5 +1,17 @@
 # R3 Log
 
+### D034 #100DaysOfCode - 03.6.18
+
+_Evening (21.30 - 23.00)_
+
+* Did a challenge 
+
+**Total:**  1.5 h 
+
+**Thoughts:** Did another challenge on the hangman challenge. Spent a lot of time failing due to a typo again...
+
+Then solved the rest of the challenge pretty easily. It was fun.
+
 ### D033 #100DaysOfCode - 02.6.18
 
 _Morning (07.00 - 09.00)_
