@@ -1,5 +1,22 @@
 # R3 Log
 
+### D035 #100DaysOfCode - 04.6.18
+
+_Afternoon (15.00 - 16.00)_
+
+* Did a challenge
+* Learned about classes and subclasses.
+
+_Evening (21.15 - 22.15)_
+
+* Learned about getters and setters.
+
+**Total:**  1.5 h 
+
+**Thoughts:** Today I learned about classes and getters and setters. Three new concepts I hadn't heard about. Very interesting stuff. 
+
+Other that that my back has started hurting pretty badly again. I wonder if it's the workouts. I'm only doing bodyweight training, so I didn't think the Scheuermann's disease would bother be. Maybe I've been working out too much. I'm nervous about it. Going to the doctor in the morning. 
+
 ### D034 #100DaysOfCode - 03.6.18
 
 _Evening (21.30 - 23.00)_
