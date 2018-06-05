@@ -1,5 +1,16 @@
 # R3 Log
 
+### D036 #100DaysOfCode - 05.6.18
+
+_Evening (20.30 - 22.00)_
+
+* Did a challenge based on setters and getters. 
+
+**Total:**  1.5 h 
+
+**Thoughts:** Spent a long time on a challenge that was super easy. I just thought it was supposed to be hard. I went straight into the trap lol. A proof that "think like a programmer" has some truth in it. If nothing else it just means trust yourself and as long as it works, it works. 
+
+
 ### D035 #100DaysOfCode - 04.6.18
 
 _Afternoon (15.00 - 16.00)_
@@ -11,7 +22,7 @@ _Evening (21.15 - 22.15)_
 
 * Learned about getters and setters.
 
-**Total:**  1.5 h 
+**Total:**  2 h 
 
 **Thoughts:** Today I learned about classes and getters and setters. Three new concepts I hadn't heard about. Very interesting stuff. 
 
