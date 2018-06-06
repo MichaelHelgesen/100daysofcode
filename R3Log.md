@@ -1,5 +1,15 @@
 # R3 Log
 
+### D037 #100DaysOfCode - 06.6.18
+
+_Evening (20.45 - 22.45)_
+
+* Started to explore HTTP Request.
+
+**Total:**  1 h 
+
+**Thoughts:** Only got to code for one hour today. The HTTP request is a bit technical, but fun. Only I did not get the code to work, even though I did exactly like the instructor did. I have to explore further tomorrow.
+
 ### D036 #100DaysOfCode - 05.6.18
 
 _Evening (20.30 - 22.00)_
