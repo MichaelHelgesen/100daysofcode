@@ -1,5 +1,16 @@
 # R3 Log
 
+### D038 #100DaysOfCode - 07.6.18
+
+_Evening (21.00 - 22.00)_
+
+* Solved the bug
+* Started a HTTP Request challenge
+
+**Total:**  1 h 
+
+**Thoughts:** I got the code working. As usual it was a typo. Started a new challenge that I think I will be spending some time on. I love this GET methods and API stuff, and I'm itching to use it in some projects.
+
 ### D037 #100DaysOfCode - 06.6.18
 
 _Evening (20.45 - 22.45)_
