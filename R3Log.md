@@ -1,5 +1,15 @@
 # R3 Log
 
+### D039 #100DaysOfCode - 08.6.18
+
+_Evening (23.00 - 00.00)_
+
+* Solved a HTTP request challenge
+
+**Total:**  1 h 
+
+**Thoughts:** It's not easy to get time to code when summer has come. A neighbour came over to talk over a couple of beers. It was nice though. I do need a bigger network and some more friends. But I didn't get to register to my GitHub before 00.00, so I got another gap :( 
+
 ### D038 #100DaysOfCode - 07.6.18
 
 _Evening (21.00 - 22.00)_
