@@ -1,5 +1,15 @@
 # R3 Log
 
+### D040 #100DaysOfCode - 09.6.18
+
+_Evening (20.30.00 - 22.00)_
+
+* Explored asynchronous and synchronous execution. 
+
+**Total:**  1.5 h 
+
+**Thoughts:** I think I have been through this at one time earlier. But it was useful to revisit it. It was explained in a very good way. This instructor is really good. 
+
 ### D039 #100DaysOfCode - 08.6.18
 
 _Evening (23.00 - 00.00)_
