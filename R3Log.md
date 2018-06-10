@@ -1,5 +1,19 @@
 # R3 Log
 
+### D041 #100DaysOfCode - 10.6.18
+
+_Morning (07.00 - 08.30)_
+
+* Further explored asynchronous and synchronous Javascript
+* Learned about closures and currying
+* Started a new challenge
+
+**Total:**  1.5 h 
+
+**Thoughts:** Closures was a bit tricky at first, but I managed to wrap my head around it after a while. It helps to write it down in your own words. So my dictionary is helpful in more than one way. 
+
+I also added my first entries i my commonplace book today. That was fun. I think I finally have found a good way to learn / remember better from books.
+
 ### D040 #100DaysOfCode - 09.6.18
 
 _Evening (20.30.00 - 22.00)_
