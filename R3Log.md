@@ -1,5 +1,16 @@
 # R3 Log
 
+### D042 #100DaysOfCode - 11.6.18
+
+_Evening (21.30 - 22.00)_
+
+* Did a closure challenge.
+* Started promises.
+
+**Total:**  0.5 h 
+
+**Thoughts:** I only got half an hour of coding today. The reason is that I want to go to bed early, and get more coding done in the morning again. I've gone to bed to late the last couple of days, soI have to get back on track. 
+
 ### D041 #100DaysOfCode - 10.6.18
 
 _Morning (07.00 - 08.30)_
