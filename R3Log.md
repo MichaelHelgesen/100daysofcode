@@ -1,5 +1,16 @@
 # R3 Log
 
+### D043 #100DaysOfCode - 12.6.18
+
+_Morning (04.30 - 06.00)_
+
+* Explored promises
+* Did promises challenges
+
+**Total:**  1.5 h 
+
+**Thoughts:** Finally got to code for one and a half hour today. I did some promises challenges and switched out some callback functions for promises. Pretty cool.  
+
 ### D042 #100DaysOfCode - 11.6.18
 
 _Evening (21.30 - 22.00)_
