@@ -1,5 +1,19 @@
 # R3 Log
 
+### D044 #100DaysOfCode - 13.6.18
+
+_Morning (04.30 - 06.00)_
+
+* More promises and challenges
+
+_Afternoon (15.00 - 16.00)_
+
+* More promises and another challenge
+
+**Total:**  1.5 h 
+
+**Thoughts:** I did a lot of challenges today. Not to hard, and I can see how to do it by looking at prevoius examples done with the instructor. But by repeating it so many times, it's easier to really get a grip on how it works. Guess I'm ready for fetching some API data as well now!
+
 ### D043 #100DaysOfCode - 12.6.18
 
 _Morning (04.30 - 06.00)_
