@@ -1,5 +1,22 @@
 # R3 Log
 
+### D045 #100DaysOfCode - 14.6.18
+
+* Did a bunch of challenges about asynchronous and async / wait.
+* Finished section
+
+**Total:**  1.5 h 
+
+**Thoughts:** I am getting close to ending this course. It's only a couple of sections left. The next one is about styling, so I'll blast through that.
+
+I've learned a lot by taking this course. But I also think I've figured out how I could learn even more. I think by making small programs on each topic / section you learn, you will remember it much better. 
+
+By just following along the course, even though you feel you get the grasp of it, I think that when moving on, you remember less and less. I've reduced this by writing my own dictionary. That helps me remember much better. But it would be even better to build a couple of programs as well.
+
+I felt that I really understood objects and arrays much better this time, but I am afraid the knowledge dissapears when I don't use it.
+
+I will remember this when taking new courses and try to implement it.
+
 ### D044 #100DaysOfCode - 13.6.18
 
 _Morning (04.30 - 06.00)_
