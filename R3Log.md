@@ -1,11 +1,20 @@
 # R3 Log
 
+### D046 #100DaysOfCode - 15.6.18
+
+* Added some styling
+* Started a string to array and then to string challenge
+
+**Total:**  1 h 
+
+**Thoughts:** Today was the first time I sped up the video to two times the speed. I know CSS good enough. But suddenly the instructor added some JS challenges in there, so I had to hit the breaks and try to solve it. I will continue tomorrow. To tired today. 
+
 ### D045 #100DaysOfCode - 14.6.18
 
 * Did a bunch of challenges about asynchronous and async / wait.
 * Finished section
 
-**Total:**  1.5 h 
+**Total:**  2.5 h 
 
 **Thoughts:** I am getting close to ending this course. It's only a couple of sections left. The next one is about styling, so I'll blast through that.
 
