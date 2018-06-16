@@ -1,5 +1,15 @@
 # R3 Log
 
+### D047 #100DaysOfCode - 16.6.18
+
+* Solved the challenge
+* CSS
+
+
+**Total:**  1.5 h 
+
+**Thoughts:** 
+
 ### D046 #100DaysOfCode - 15.6.18
 
 * Added some styling
