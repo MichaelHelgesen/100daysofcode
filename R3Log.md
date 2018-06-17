@@ -1,10 +1,20 @@
 # R3 Log
 
+### D048 #100DaysOfCode - 17.6.18
+
+* Did a couple of challenges
+* Finished the course (sort of)
+
+**Total:**  2.5 h 
+
+**Thoughts:** I finished the course, except the later added section about Babel and Webpack. I figured that I need to do a lot more basic coding before I spend time on advenced stuff.
+
+So my next step will be to start building a project, and continue my fCC curriculum.
+
 ### D047 #100DaysOfCode - 16.6.18
 
 * Solved the challenge
 * CSS
-
 
 **Total:**  1.5 h 
 
