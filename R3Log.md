@@ -4,12 +4,17 @@
 
 * Did a couple of challenges
 * Finished the course (sort of)
+* Started to plan my next project on pen and paper
 
-**Total:**  2.5 h 
+**Total:**  3.5 h 
 
 **Thoughts:** I finished the course, except the later added section about Babel and Webpack. I figured that I need to do a lot more basic coding before I spend time on advenced stuff.
 
 So my next step will be to start building a project, and continue my fCC curriculum.
+
+I was so excited to start programming again, so I spent some time this afternoon and evening to plan my project which will be a workout log. I plan to use local storage and hopefully convert it to Node later. 
+
+Right now I am just writing down all the features I would like. Whether I  will be able to make it remains to be seen.
 
 ### D047 #100DaysOfCode - 16.6.18
 
