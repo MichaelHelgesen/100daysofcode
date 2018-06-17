@@ -8,7 +8,7 @@
 
 **Total:**  1.5 h 
 
-**Thoughts:** 
+**Thoughts:** I solved the challenge two different ways. And yet, none were like the instructors. I guess "best practice" comes with experience and no matter what, will be somewhat subjective since there are so many ways to solve a problem.
 
 ### D046 #100DaysOfCode - 15.6.18
 
