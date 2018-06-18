@@ -1,5 +1,17 @@
 # R3 Log
 
+### D049 #100DaysOfCode - 18.6.18
+
+* I sketched my project on paper, wrote down the features and the flow of the program
+* Made mockups of project in Indesign
+* Think I figured out how it should work in code
+
+**Total:**  2 h 
+
+**Thoughts:** I sat down to really plan my next project. It's easy to get carried away, so in the end I put a lot of features on the nice to have list. I'm afraid I would make it to hard for myself, and that it would be easier to give up. But I also wanted it to be a real challenge. And it will be. It includes local storage, several subpages, external library, objects, copies of objects and more. 
+
+I have to admit that I am a bit afraid to start. But I wont give myself a time limit. I will work on it till I finish it. Hope to start actually coding tomorrow. But it's nice to let the idea float around in my head for a couple of days.
+
 ### D048 #100DaysOfCode - 17.6.18
 
 * Did a couple of challenges
