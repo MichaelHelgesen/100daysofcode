@@ -1,5 +1,19 @@
 # R3 Log
 
+### D050 #100DaysOfCode - 19.6.18
+
+* Further planned my project
+
+**Total:**  2 h 
+
+**Thoughts:** Today I printet my mockups, wrote notes on them and tried to get an overview of the code needed, and the structure. 
+
+[Image of mockups](https://ibb.co/f291vJ)
+
+I think I have a good plan of how this should work out. It's probably totally wrong. But we'll see.
+
+
+
 ### D049 #100DaysOfCode - 18.6.18
 
 * I sketched my project on paper, wrote down the features and the flow of the program
