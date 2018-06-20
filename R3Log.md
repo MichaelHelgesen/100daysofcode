@@ -1,5 +1,23 @@
 # R3 Log
 
+### D051 #100DaysOfCode - 20.6.18
+
+* Started coding project
+* Created all the different HTML pages, and added simple basic HTML code
+* Started coding the main object and tested out different functions
+
+**Total:**  2 h 
+
+**Thoughts:** Finally! I am back to coding. But to be honest, I was a bit terrified of starting. Fear of failure and self doubt washed over me like a tsunami. Even though I new this would happen, I wanted to procrastinate so badly.
+
+It's so much harder to code on your own, instead of following along a course. But I really need this now, so that I don't forget. But I do feel that I have a lot more controll this time around. I feel that I have a better knowledge of all the methods and code, and judging by my notes, I'm not totally lost. 
+
+This will be exciting!
+
+[Image of mockups](https://ibb.co/f291vJ)
+
+I think I have a good plan of how this should work out. It's probably totally wrong. But we'll see.
+
 ### D050 #100DaysOfCode - 19.6.18
 
 * Further planned my project
@@ -11,8 +29,6 @@
 [Image of mockups](https://ibb.co/f291vJ)
 
 I think I have a good plan of how this should work out. It's probably totally wrong. But we'll see.
-
-
 
 ### D049 #100DaysOfCode - 18.6.18
 
