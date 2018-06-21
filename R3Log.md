@@ -1,5 +1,63 @@
 # R3 Log
 
+### D052 #100DaysOfCode - 21.6.18
+
+* Created a main object
+* Created an event listener that made a copy of the main object with a new name
+* Added local storage
+* Fetch from and save to local storage
+
+**Total:**  3 h
+
+**Thoughts:** What I learned today:
+
+* I could not for the life of me get document.querySelector to work. That was because I had the script tag in the header. So it run before the DOM and could therefore not find the element. 
+* I could STILL not get document.querySelector to work:
+
+      document.querySelector('#add-program-button').addEventListener('click', (e) => {
+         e.preventDefault()
+
+The page still refreshed, and it would not log to console. The problem was that I shortened 'event' with 'e'. That is of course not possible.
+* I went on to save the objects to local storage. But it kept getting overwritten on refresh, and / or overwritten when adding a new program. The cause was the placement of the code. So after moving it around a bit, it worked like a charm. This is part of CRUD, so it has to happen in the right order. First I create an array from items in local storage, then I add to that array when pressing the button, then saving the new array to local storage.
+
+        // Create program array from localStorage
+        const createPrograms = () => {
+            const programJSON = localStorage.getItem('program')
+
+            try {
+                return programJSON ? JSON.parse(programJSON) : []
+            } catch (e) {
+                []
+            }
+        }
+
+        // The array to hold the different programs
+        let programs = createPrograms()
+
+        // Save programs to local storage
+        const saveProgram = (program) => {
+            localStorage.setItem('program', JSON.stringify(program))
+        }
+
+        // Listen for button press.
+        document.querySelector('#add-program-button').addEventListener('click', (event) => {
+            
+            event.preventDefault()
+
+            const input = document.querySelector('#add-program')
+            const inputData = ''
+
+            // Check to see if input has value
+            if (input.value) {
+                programs.push(new program(input.value))
+                input.value = ''
+                saveProgram(programs)
+            } else {
+                alert('You need to enter a workout name')
+            } 
+            
+        })
+
 ### D051 #100DaysOfCode - 20.6.18
 
 * Started coding project
