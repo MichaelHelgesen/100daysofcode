@@ -1,5 +1,26 @@
 # R3 Log
 
+### D053 #100DaysOfCode - 22.6.18
+
+* Set up the DOM structure for each program
+* Built a function to generate DOM elements
+* Built a delete button with a function inside of the generateToDOM function!
+* Built a function that rendered the programs based on the generateToDOM function
+
+**Total:**  2 h
+
+**Thoughts:** This is going much better that I first thought. But I'm not going to get to cocky. I know the problems will come soon enough. I have some advanced functions coming up. 
+
+But I ABSOLUTELY LOVE IT! I want to code all day. I think about it all day and can't wait to get out of bed to code, or to start coding in the evenings. 
+
+What I learned today:
+
+* I could not get the .generatoeToDOM function to actually generate any elements. The was an error in the render function, and the console gave me this error message: "Argument 1 of Node.appendChild is not an object".
+
+    That meant that I was missing an argument. So I had to look at the .generateToDOM function. And sure enough. I had forgot to return anything! :flushed:
+
+* All my programs in the array got multiplied when I added a new program. I had to clear the innerHTML of the DIV before render them again.
+
 ### D052 #100DaysOfCode - 21.6.18
 
 * Created a main object
@@ -17,7 +38,8 @@
       document.querySelector('#add-program-button').addEventListener('click', (e) => {
          e.preventDefault()
 
-The page still refreshed, and it would not log to console. The problem was that I shortened 'event' with 'e'. That is of course not possible.
+    The page still refreshed, and it would not log to console. The problem was that I shortened 'event' with 'e'. That is of course not possible.
+
 * I went on to save the objects to local storage. But it kept getting overwritten on refresh, and / or overwritten when adding a new program. The cause was the placement of the code. So after moving it around a bit, it worked like a charm. This is part of CRUD, so it has to happen in the right order. First I create an array from items in local storage, then I add to that array when pressing the button, then saving the new array to local storage.
 
         // Create program array from localStorage
