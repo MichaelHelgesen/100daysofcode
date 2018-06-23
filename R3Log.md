@@ -1,5 +1,17 @@
 # R3 Log
 
+### D054 #100DaysOfCode - 23.6.18
+
+* Set up third party library UUID, to get random ID-number for each program. Used as a unique identifier.
+* Set up the delete button
+* Set up a message if no programs are defined
+* Added an edit button that takes you to the edit page with the unique ID of the pressed program behind a hash in the URL.
+* Had so much use of the dictionary I made.
+
+**Total:**  2 h
+
+**Thoughts:** Made a lot of improvements today. Connected the programs to unique subpages that retrives info from that specific program. SO MUCH FUN!
+
 ### D053 #100DaysOfCode - 22.6.18
 
 * Set up the DOM structure for each program
