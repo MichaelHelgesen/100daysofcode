@@ -1,5 +1,16 @@
 # R3 Log
 
+### D055 #100DaysOfCode - 24.6.18
+
+* Tried different methods and variants of objects to see what could work best, and to make the code better.
+* Added new JS files to keep functions separated from other code.
+* Added HTML to subpage.
+* Managed to retrieve from and add to the program that the subpage pointed to. 
+
+**Total:**  2 h
+
+**Thoughts:** More progress. This is going much faster that anticipated. I did spent a great amount of time today to test out different things with objects. But that was to learn and test different approaches. 
+
 ### D054 #100DaysOfCode - 23.6.18
 
 * Set up third party library UUID, to get random ID-number for each program. Used as a unique identifier.
