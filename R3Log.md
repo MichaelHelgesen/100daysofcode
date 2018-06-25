@@ -1,5 +1,19 @@
 # R3 Log
 
+### D056 #100DaysOfCode - 25.6.18
+
+* Explored more object methods.
+* Edited the URL of the subpage to remove spaces and keep the letters lower case. 
+* Managed to add sessions to the program that the subpage is pointing to. 
+
+**Total:**  2 h
+
+**Thoughts:** Went slow today. A bit tired after much work and very hot weather. But I still made progress. I seem to have everything in place to build the rest of the functionality of the subpage. I just need to set ut the button and create new DOM elements. 
+
+What I learned today: 
+
+* You can not store functions / code in local storage
+
 ### D055 #100DaysOfCode - 24.6.18
 
 * Tried different methods and variants of objects to see what could work best, and to make the code better.
