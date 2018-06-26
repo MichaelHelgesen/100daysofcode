@@ -1,5 +1,17 @@
 # R3 Log
 
+### D057 #100DaysOfCode - 26.6.18
+
+* Tried to make better code by reusing the code that produces the DOM elements.
+
+**Total:**  1 h
+
+**Thoughts:** It's been a busy day, so I only got to code for one hour. 
+
+I'm trying to reuse some code, without luck. I don't want to use the same code on every subpage, so I figured that I could pass an argument to be able to generate DOM elements based on the value passed in. But there seems to be some conflict with the delete function. 
+
+I'll look more into it tomorrow. 
+
 ### D056 #100DaysOfCode - 25.6.18
 
 * Explored more object methods.
