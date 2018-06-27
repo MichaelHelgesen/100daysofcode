@@ -1,5 +1,14 @@
 # R3 Log
 
+### D058 #100DaysOfCode - 27.6.18
+
+* Worked on the same challenge as yesterday. 
+* Managed to use .findIndex() to get the program matching the name after the hash in the subpage URL.
+
+**Total:**  1 h
+
+**Thoughts:** I still didn't manage to solve the problem with reusable code. So I changed focus to get something other to think about. I managed to use findIndex() to find the program that the subpage referes to. I will continue building block by block tomorrow.
+
 ### D057 #100DaysOfCode - 26.6.18
 
 * Tried to make better code by reusing the code that produces the DOM elements.
