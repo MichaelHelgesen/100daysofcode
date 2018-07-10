@@ -1,5 +1,21 @@
 # R3 Log
 
+### D059 #100DaysOfCode - 10.7.18
+
+* Updated myself on the code.
+* Managed to to some tweeks to be able to reuse code.
+* Got the delete function on level 2 to work.
+
+**Total:**  5 h
+
+**Thoughts:** Finally back to coding after holiday and a couple of days sick with pneumonia. The couple of days before leaving work was also crazy busy. But now I have a couple of weeks of, and look forward to do a lot of coding. 
+
+I managed to solve level 2 today, and moved on to level 3 of my workout log. That's when it all stopped working.
+
+I have no idea how I am able to identify where I am in the big array of data. I manage to get to level 2 by using the URL. But when moving to level 3, I loose the identifiers. So I have to come up with something smart, so that I don't have to iterate trough the whole array. That would require unnecessary power.
+
+Right now I'm completely lost. I will have to sleep on it.
+
 ### D058 #100DaysOfCode - 27.6.18
 
 * Worked on the same challenge as yesterday. 
