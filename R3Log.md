@@ -1,5 +1,15 @@
 # R3 Log
 
+### D060 #100DaysOfCode - 11.7.18
+
+* Solved the identify problem (I think).
+
+**Total:**  1.5 h
+
+**Thoughts:** I managed to be able to put level 1 and 2 in the URL when reaching level 3. I then split the URL behond the hash, and used that new array to identify where in the current object the item at level 3 lives. 
+
+Finding the index is not pretty code though, so I have to work on that. But at least it seems to be working. Hooray!!!
+
 ### D059 #100DaysOfCode - 10.7.18
 
 * Updated myself on the code.
