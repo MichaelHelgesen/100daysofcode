@@ -1,5 +1,13 @@
 # R3 Log
 
+### D061 #100DaysOfCode - 12.7.18
+
+* Cleaned up code
+
+**Total:**  1.5 h
+
+**Thoughts:** I refactored code today, to make it more readable and easier to manage. I experienced some trouble with naming variables. The code broke when I used a special name and I could not figure out why. I need to dive deeper into this tomorrow.
+
 ### D060 #100DaysOfCode - 11.7.18
 
 * Solved the identify problem (I think).
