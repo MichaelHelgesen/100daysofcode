@@ -1,8 +1,19 @@
 # R3 Log
 
+### D062 #100DaysOfCode - 13.7.18
+
+* Solved the naming problem.
+* Added names on the workout programs as titles.
+
+**Total:**  1.5 h
+
+**Thoughts:** Today I managed to print the names of the current session and program as a title. Besides beeing a title, it also works as a breadcrumb, as it shows what program and session the user are currently adding exercises to.
+
+I can almost not believe that I am able to build this. I'm actually a little proud. But now comes the most difficult part: the logging function. I am supposed to add an entry, based on chosen workout, then add reps, notes and date. That is going to be a great challenge!
+
 ### D061 #100DaysOfCode - 12.7.18
 
-* Cleaned up code
+* Cleaned up code.
 
 **Total:**  1.5 h
 
