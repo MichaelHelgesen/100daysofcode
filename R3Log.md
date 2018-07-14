@@ -1,5 +1,14 @@
 # R3 Log
 
+### D063 #100DaysOfCode - 14.7.18
+
+* Started the logging function.
+* Added new HTML and JS files.
+
+**Total:**  2 h
+
+**Thoughts:** I started writing the logging functions in the new files I added. It's a challenge, and I had to sit down and write and draw a little. Added the selectors and buttons and started the function that will fill the selectors from the program array.
+
 ### D062 #100DaysOfCode - 13.7.18
 
 * Solved the naming problem.
