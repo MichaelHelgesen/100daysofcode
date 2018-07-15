@@ -1,5 +1,14 @@
 # R3 Log
 
+### D064 #100DaysOfCode - 15.7.18
+
+* Managed to fill the program HTML selector with the registered workout programs.
+* Managed to fill the session HTML selector based on the program HTML selector.
+
+**Total:**  2 h
+
+**Thoughts:** My brain worked a bit slow today, but I managed to get the HTML selectors working. It's very cool. I am very happy with what I've learned so far. It seems I've gotten a much better understanding of, at least, the basic JS concepts.
+
 ### D063 #100DaysOfCode - 14.7.18
 
 * Started the logging function.
