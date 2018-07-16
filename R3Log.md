@@ -1,5 +1,13 @@
 # R3 Log
 
+### D065 #100DaysOfCode - 16.7.18
+
+* Added buttons on the index page for editing programs and sessions.
+
+**Total:**  2 h
+
+**Thoughts:** Slow progress today as well. The sun is frying my brain :D I added buttons for editing programs and sessions on the index page. I got the links to work, but could not get them to change dynamicly. But I know that it's actually pretty easy. 
+
 ### D064 #100DaysOfCode - 15.7.18
 
 * Managed to fill the program HTML selector with the registered workout programs.
