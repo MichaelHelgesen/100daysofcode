@@ -1,5 +1,21 @@
 # R3 Log
 
+### D066 #100DaysOfCode - 17.7.18
+
+* Got the links to change dynamicly based on chosen option in selector.
+* Set up the "register workout" button.
+* Added a new object to local storage to store the log.
+* Added to the log array based on chosen options in the selectors.
+
+
+**Total:**  2 h
+
+**Thoughts:** I had much better progress today as I managed to finish several tasks. 
+
+I was able to create a new workout object to the log array, and give it name based on chosen options in selectors. But I think it would be better to find the original, and copy it. That way I will get all the exercises as well. I think that will be a nicer and cleaner option. 
+
+I also think I need to add a unique ID, since several of the logged items will have the same name. That way it will be easier to access each item I think.
+
 ### D065 #100DaysOfCode - 16.7.18
 
 * Added buttons on the index page for editing programs and sessions.
