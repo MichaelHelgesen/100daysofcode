@@ -1,4 +1,1727 @@
 # R3 Log
+## 24.03.19
+* Finished "Arguments Optional". My solution:
+
+        function addTogether(...args) {
+
+        var sum = 0;
+
+        for (var i = 0; i < args.length; i++) {
+            if (typeof args[i] == "number") {
+            sum += args[i];
+            } else return undefined;
+        }
+
+        if (args.length < 2) {
+            return displayArgs;
+        }
+
+        // The function to return
+        function displayArgs(num) {
+            if (typeof num != "number") {
+            return undefined
+            }
+            return (Number(num) + Number(args));
+        }
+        
+        return sum;
+
+        }
+
+        addTogether(2,3);
+
+    I realized I had code repeating here, so I wanted to create a function to check if an argument was a number:
+
+        function addTogether(...args) {
+
+        var sum = 0;
+
+        var checkNum = function(num) {
+            if (typeof num !== 'number') {
+            return undefined;
+            } else
+            return num;
+            };
+
+        for (var i = 0; i < args.length; i++) {
+            console.log(checkNum(args[i]);
+            sum += args[i];
+        }
+
+        if (args.length < 2) {
+            return displayArgs;
+        }
+
+        // The function to return
+        function displayArgs(num) {
+            if (typeof num != "number") {
+            return undefined
+            }
+            return (Number(num) + Number(args));
+        }
+        
+        return sum;
+
+        }
+
+        addTogether(2,[3]);
+
+    This did not work. Because if the second argument was not a number, the if else statement would run one time before returning undefined, so it would haver something in the variable "sum" to return. So I had to find a way to work around that. This is the result, after also cleaning it up a bit:
+
+        function addTogether(...args) {
+
+        var checkNum = function(num) {
+            if (typeof num != "number") {
+            return undefined;
+            } else
+            return num;
+            };
+
+        if (args.length < 2 && checkNum(args[0])) {
+            return function (num) {
+            if (checkNum(num)) {
+            return num + args[0];
+            } else {
+            return undefined
+            }
+            }
+        } else {
+            var sum = 0;
+            for (var i = 0; i < args.length; i++) {
+            if(checkNum(args[i])) {
+            sum += args[i];
+            } else {
+            return undefined
+            };
+        }
+        return sum;
+        }
+        }
+
+        addTogether(2, 3);
+
+* Finished "Make a Person". My solution:
+
+        var Person = function(firstAndLast) {
+
+        var newArray = firstAndLast.split(" ");
+        var firstName = newArray[0];
+        var lastName = newArray[1];
+
+        this.getFirstName = function() {
+            return firstName;
+        },
+        this.getLastName = function() {
+            return lastName;
+        },
+        this.getFullName = function() {
+            return firstName + " " + lastName;
+        },
+        this.setFirstName = function(first) {
+            firstName = first;
+            return firstName;
+        },
+        this.setLastName = function(last) {
+            lastName = last;
+            return lastName;
+        },
+        this.setFullName = function(firstAndLast) {
+            newArray = firstAndLast.split(" ");
+            firstName = newArray[0];
+            lastName = newArray[1];
+        }
+        };
+
+        var bob = new Person('Bob Ross');
+    
+    fCC solution:
+
+        var Person = function(firstAndLast) {
+        var fullName = firstAndLast;
+
+        this.getFirstName = function() {
+            return fullName.split(" ")[0];
+        };
+
+        this.getLastName = function() {
+            return fullName.split(" ")[1];
+        };
+
+        this.getFullName = function() {
+            return fullName;
+        };
+
+        this.setFirstName = function(name) {
+            fullName = name + " " + fullName.split(" ")[1];
+        };
+
+        this.setLastName = function(name) {
+            fullName = fullName.split(" ")[0] + " " + name;
+        };
+
+        this.setFullName = function(name) {
+            fullName = name;
+        };
+        };
+
+        var bob = new Person('Bob Ross');
+        bob.getFullName();
+
+* Finished "Map the Debris". My solution:
+
+        function orbitalPeriod(arr) {
+        var GM = 398600.4418;
+        var earthRadius = 6367.4447
+        
+        var a = 2 * Math.PI;
+        var b = 0;
+        var c = 0;
+
+        for (var i = 0; i < arr.length; i++) {
+            b = Math.pow(earthRadius + arr[i].avgAlt, 3);
+            c = Math.sqrt(b / GM);
+            delete arr[i].avgAlt;
+            arr[i].orbitalPeriod = Math.round(a * c);
+        }
+
+        return arr;  
+        }
+
+        console.log(orbitalPeriod([{name: "iss", avgAlt: 413.6}, {name: "hubble", avgAlt: 556.7}, {name: "moon", avgAlt: 378632.553}]));
+
+    fCC solution: 
+
+        function orbitalPeriod(arr) {
+        var GM = 398600.4418;
+        var earthRadius = 6367.4447;
+        var a = 2 * Math.PI;
+        var newArr = [];
+        var getOrbPeriod = function(obj) {
+            var c = Math.pow(earthRadius + obj.avgAlt, 3);
+            var b = Math.sqrt(c / GM);
+            var orbPeriod = Math.round(a * b);
+            delete obj.avgAlt;
+            obj.orbitalPeriod = orbPeriod;
+            return obj;
+        };
+
+        for (var elem in arr) {
+            newArr.push(getOrbPeriod(arr[elem]));
+        }
+
+        return newArr;
+        }
+
+    I guess this one is better because it doesn't alter the arguments and returns a new array. But the intermediate solution is the same way as mine: 
+
+        function orbitalPeriod(arr) {
+        var GM = 398600.4418;
+        var earthRadius = 6367.4447;
+
+        //Looping through each key in arr object
+        for(var prop in arr) {
+            //Rounding off the orbital period value
+            var orbitalPer = Math.round(2 * Math.PI * Math.sqrt(Math.pow(arr[prop].avgAlt + earthRadius, 3) / GM));
+            //deleting the avgAlt property
+            delete arr[prop].avgAlt;
+            //adding orbitalPeriod property
+            arr[prop].orbitalPeriod = orbitalPer;
+        }
+
+        return arr;
+        }
+
+* Finished Palindrome Checker. My solution:
+
+        function palindrome(str) {
+        var word = str.replace(/[^A-Za-z0-9]/g,'').toLowerCase().split("");
+        var length = word.length;
+
+        for (var i = 0; i < word.length; i++) {
+            length--
+            if (word[i] != word[length]) {
+            return false;
+            } 
+        }
+
+        return true;
+        }
+
+        console.log(palindrome("_eye"));
+
+    The basic solution was much more simple: 
+
+            function palindrome(str) {
+            return str.replace(/[\W_]/g, '').toLowerCase() ===
+                    str.replace(/[\W_]/g, '').toLowerCase().split('').reverse().join('');
+            }
+    
+            But the advanced solution had important notes. It's a much more effective solution:
+
+            //this solution performs at minimum 7x better, at maximum infinitely better.
+            //read the explanation for the reason why. I just failed this in an interview.
+            function palindrome(str) {
+            //assign a front and a back pointer
+            let front = 0
+            let back = str.length - 1
+
+            //back and front pointers won't always meet in the middle, so use (back > front)
+            while (back > front) {
+                //increments front pointer if current character doesn't meet criteria
+                if ( str[front].match(/[\W_]/) ) {
+                front++
+                continue
+                }
+                //decrements back pointer if current character doesn't meet criteria
+                if ( str[back].match(/[\W_]/) ) {
+                back--
+                continue
+                }
+                //finally does the comparison on the current character
+                if ( str[front].toLowerCase() !== str[back].toLowerCase() ) return false
+                front++
+                back--
+            }
+
+            //if the whole string has been compared without returning false, it's a palindrome!
+            return true
+
+            }
+
+## D32 #100DaysOfCode - 21.12.18
+* Finished "everything be true". My solution: 
+
+        function truthCheck(collection, pre) {
+        
+        let truth = true;
+
+        for (let i = 0; i < collection.length; i++) {
+            if (!collection[i].hasOwnProperty(pre) || !collection[i][pre]) {
+            truth = false;
+            }
+        }
+        return truth;
+        
+        }
+
+        console.log(truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex"));
+    
+    fCC intermediate solution (i forgot about "every"):
+
+        function truthCheck(collection, pre) {
+        return collection.every(function (element) {
+            return element.hasOwnProperty(pre) && Boolean(element[pre]);
+        });
+        }
+
+
+## D31 #100DaysOfCode - 20.12.18
+* Finished "Binary Agents". I have a feeling my code is really simple, but right now I cant wrap my head around a more elegant solution.
+
+        function binaryAgent(str) {
+        //return str;
+
+
+        let newArr = str.split(' ');
+
+        for (let i = 0; i < newArr.length; i++) {
+        newArr[i] = newArr[i].split('');
+        let num = 0;
+        let add = 128;
+            for (let j = 1; j < newArr[i].length; j++) {
+            add /=  2;
+            if (newArr[i][j] == 1) {
+                num += add;
+            }  
+            }
+            newArr[i] = String.fromCharCode(num);
+        }
+
+        return newArr.join('');
+
+        }
+
+        console.log(binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111"));
+
+Apparently we can use the parseInt to convert the binary to decimal. fCC solution basic: 
+
+        function binaryAgent(str) {
+        biString = str.split(' ');
+        uniString = [];
+
+        /*using the radix (or base) parameter in parseInt, we can convert the binary
+        number to a decimal number while simultaneously converting to a char*/
+
+        for(i=0;i < biString.length;i++){
+            uniString.push(String.fromCharCode(parseInt(biString[i], 2)));
+        }
+
+        // we then simply join the string
+        return uniString.join('');
+        }
+
+fCC intermediate. A bit more like mine: 
+
+        function binaryAgent(str) {
+            // Separate the binary code by space.
+            str = str.split(' ');
+            var power;
+            var decValue = 0;
+            var sentence = '';
+
+            // Check each binary number from the array.
+            for (var s = 0; s < str.length; s++) {
+                // Check each bit from binary number
+                for (var t = 0; t < str[s].length; t++) {
+                // This only takes into consideration the active ones.
+                if (str[s][t] == 1) {
+                    // This is quivalent to 2 ** position
+                    power = Math.pow(2, +str[s].length - t - 1);
+                    decValue += power;
+
+                    // Record the decimal value by adding the number to the previous one.
+                }
+                }
+
+                // After the binary number is converted to decimal, convert it to string and store
+                sentence += (String.fromCharCode(decValue));
+
+                // Reset decimal value for next binary number.
+                decValue = 0;
+            }
+
+            return sentence;
+            }
+
+And finaly the elegant advanced method:
+
+        function binaryAgent(str) {
+        return String.fromCharCode(...str.split(" ").map(function(char){ return parseInt(char, 2); }));
+        }
+
+## D30 #100DaysOfCode - 19.12.18
+
+### D29 #100DaysOfCode - 12.12.18
+
+### D28 #100DaysOfCode - 11.12.18
+* Finished "Steamroller", but could not solve it. I had to look at the solution. 
+
+        function steamrollArray(arr) {
+        var flattenedArray = [];
+
+        // Create function that adds an element if it is not an array.
+        // If it is an array, then loops through it and uses recursion on that array.
+        var flatten = function(arg) {
+            if (!Array.isArray(arg)) {
+            flattenedArray.push(arg);
+            } else {
+            for (var a in arg) {
+                flatten(arg[a]);
+            }
+            }
+        };
+
+        // Call the function for each element in the array
+        arr.forEach(flatten);
+        return flattenedArray;
+        }
+
+        // test here
+        steamrollArray([1, [2], [3, [[4]]]]);
+
+Intermediate: 
+
+        function steamrollArray(arr) {
+        let flat = [].concat(...arr);
+        return flat.some(Array.isArray) ? steamrollArray(flat) : flat;
+        }
+
+        flattenArray([1, [2], [3, [[4]]]]);
+
+### D27 #100DaysOfCode - 10.12.18
+* Worked on "Steamroller" challenge. 
+
+### D26 #100DaysOfCode - 09.12.18
+* Read about last challenge and asked in the forums about it. 
+
+### D025 #100DaysOfCode - 08.12.18
+Finished "Drop it", but I am not sure as to some of them are working. Solution 1: 
+
+        let count = 0;
+
+        for (let i = 0; i < arr.length; i++) {
+        console.log(i);
+        if (func(arr[i])) {
+            count = i;
+            break
+        } else {
+            count = arr.length;
+        }
+        }
+        return (arr.slice(count))
+
+Solution 2. I am not sure how this is working. I am not putting any number as argument to the function: 
+
+        if (arr.findIndex(func) < 0) {
+            return [];
+        } else {return arr.slice(arr.findIndex(func))};
+
+Solution 3. Same here. I am curious as to how this works: 
+
+        while (arr.findIndex(func) ) {
+        arr.shift();
+        } 
+        return arr
+
+fCC solution basic:
+
+        function dropElements(arr, func) {
+        // drop them elements.
+        var times = arr.length;
+        for (var i = 0; i < times; i++) {
+            if (func(arr[0])) {
+            break;
+            } else {
+            arr.shift();
+            }
+        }
+        return arr;
+        }
+
+        // test here
+        dropElements([1, 2, 3, 4], function(n) {return n >= 3;})
+
+Intermediate:
+
+        function dropElements(arr, func) {
+        return arr.slice(arr.findIndex(func) >= 0 ? arr.findIndex(func): arr.length, arr.length);
+        }
+
+        // test here
+        dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
+
+Advanced: 
+
+        function dropElements(arr, func) {
+        while(arr.length > 0 && !func(arr[0])) {
+            arr.shift();
+        }
+        return arr;
+        }
+
+        // test here
+        dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
+
+### D024 #100DaysOfCode - 07.12.18
+Finished 
+
+### D023 #100DaysOfCode - 06.12.18
+When the alarm woke me today, I suddenly came up with an idea how to solve it! That was a wonderful feeling. I love when that happens. 
+
+My solution: 
+
+        function sumFibs(num) {
+        
+        let count = 0;
+        let stored = 1;
+        let oddFibonacci = 1;
+        
+        for (let i = 0; i < num; i++) {
+        let sum = count + stored;
+        if ((sum % 2) > 0 && sum <= num) {
+            oddFibonacci += sum;
+        }
+        count = stored;
+        stored = sum;
+        }
+        
+        return oddFibonacci;
+        }
+        sumFibs(75025);
+
+fCC solution: 
+
+        function sumFibs(num) {
+            var prevNumber = 0;
+            var currNumber = 1;
+            var result = 0;
+            while (currNumber <= num) {
+                if (currNumber % 2 !== 0) {
+                    result += currNumber;
+                }
+
+                currNumber += prevNumber;
+                prevNumber = currNumber - prevNumber;
+            }
+
+            return result;
+        }
+
+* I finished "Sum All Primes". I have difficulty explaining the code, and I am sure that it is a much better and easier way to do it. But math is not my strong side, and I need more practice doing these kinds of problems. My solution: 
+
+        function sumPrimes(num) {
+        
+        let sumAllPrimes = 0;
+
+        for (let i = 2; i <= num; i++) {
+            
+            let prime = true;
+
+            for (let j = i-1; j > 1; j--) {
+            if (Number.isInteger( i / j)) {
+                prime = false;
+            }
+            }
+
+        if (prime) {
+            sumAllPrimes += i;
+        };
+        };
+        
+        console.log(sumAllPrimes);
+
+        return sumAllPrimes;
+        }
+
+        sumPrimes(977);
+
+    fCC solution basic:
+
+        function sumPrimes(num) {
+        var res = 0;
+
+        // Function to get the primes up to max in an array
+        function getPrimes(max) {
+            var sieve = [];
+            var i;
+            var j;
+            var primes = [];
+            for (i = 2; i <= max; ++i) {
+            if (!sieve[i]) {
+                // i has not been marked -- it is prime
+                primes.push(i);
+                for (j = i << 1; j <= max; j += i) {
+                sieve[j] = true;
+                }
+            }
+            }
+
+            return primes;
+        }
+
+        // Add the primes
+        var primes = getPrimes(num);
+        for (var p = 0; p < primes.length; p++) {
+            res += primes[p];
+        }
+
+        return res;
+        }
+
+        // test here
+        sumPrimes(10);
+
+    fCC solution intermediate:
+
+        function sumPrimes(num) {
+        // function to check if the number presented is prime
+        function isPrime(number){
+            for (i = 2; i <= number; i++){
+                if(number % i === 0 && number!= i){
+                // return true if it is divisible by any number that is not itself.
+                    return false;
+                }
+            }
+            // if it passes the for loops conditions it is a prime
+            return true;
+        }
+        // 1 is not a prime, so return nothing, also stops the recursive calls.
+        if (num === 1){
+            return 0;
+        }
+        // Check if your number is not prime
+        if(isPrime(num) === false){
+        // for non primes check the next number down from your maximum number, do not add anything to your answer
+            return sumPrimes(num - 1);
+        }
+
+        // Check if your number is prime
+        if(isPrime(num) === true){
+        // for primes add that number to the next number in the sequence through a recursive call to our sumPrimes function.
+            return num + sumPrimes(num - 1);
+        }
+        }
+        // test here
+        sumPrimes(10); 
+
+### D022 #100DaysOfCode - 05.12.18
+* Worked on "Sum All Odd Fibonacci Numbers". I struggled with the logic. Just couldn't get my head around it.
+
+### D021 #100DaysOfCode - 04.12.18
+* Finished Convert HTML Entities. Pretty proud of beeing able to solve it so fast. I have no idea if it's a good solution though: 
+
+        function convertHTML(str) {
+        
+        const charactersToConvert = {
+            34: '&quot;',
+            38: '&amp;',
+            39: '&apos;',
+            60: '&lt;',
+            62: '&gt;'
+        }
+
+        const regex = /\&|\<|\>|\"|\'/g
+        
+        return str.replace(regex, function(match, offset, string) {
+            return charactersToConvert[match.charCodeAt(match)]
+        });
+        }
+
+        console.log(convertHTML("<>"));
+    
+    fCC solution: basic, using a switch:
+
+            var temp = str.split('');
+
+            // Since we are only checking for a few HTML elements I used a switch
+
+            for (var i = 0; i < temp.length; i++) {
+                switch (temp[i]) {
+                case '<':
+                    temp[i] = '&lt;';
+                    break;
+                case '&':
+                    temp[i] = '&amp;';
+                    break;
+                case '>':
+                    temp[i] = '&gt;';
+                    break;
+                case '"':
+                    temp[i] = '&quot;';
+                    break;
+                case "'":
+                    temp[i] = "&apos;";
+                    break;
+                }
+            }
+
+            temp = temp.join('');
+            return temp;
+    
+    fCC Advanced:
+
+        htmlEntities={
+            '&':'&amp;',
+            '<':'&lt;',
+            '>':'&gt;',
+            '"':'&quot;',
+            '\'':"&apos;"
+        };
+        //Use map function to return a filtered str with all entities changed automatically.
+        return str.split('').map(entity => htmlEntities[entity] || entity).join('');
+        }
+
+    Seeing the above code, I changed mine a bit, since I had unnecessary code:
+
+        function convertHTML(str) {
+
+        const charactersToConvert = {
+            '&':'&amp;',
+            '<':'&lt;',
+            '>':'&gt;',
+            '"':'&quot;',
+            '\'':"&apos;"
+        }
+
+        const regex = /\&|\<|\>|\"|\'/g;
+        
+        return str.replace(regex, function(match) {
+            return charactersToConvert[match]
+        });
+        }
+
+        console.log(convertHTML("<>"));
+    
+
+
+### D020 #100DaysOfCode - 03.12.18
+* I shortened the code a bit. It was the same as the intermediate solution on fCC: 
+
+        function fearNotLetter(str) {
+        for (let i = 0; i < str.length; i++) {
+            if ((str.charCodeAt(i+1) - str.charCodeAt(i)) > 1) {
+            return String.fromCharCode(str.charCodeAt(i) +1);
+            } 
+        }
+        }
+        fearNotLetter("abcdefghjklmno");
+
+    fCC solution: 
+
+        // Adding this solution for the sake of avoiding using 'for' and 'while' loops.
+        // See the explanation for reference as to why. It's worth the effort.
+
+        function fearNotLetter(str) {
+        var compare = str.charCodeAt(0), missing;
+
+        str.split('').map(function(letter,index) {
+            if (str.charCodeAt(index) == compare) {
+            ++compare;
+            } else {
+            missing = String.fromCharCode(compare);
+            }
+        });
+
+        return missing;
+        }
+
+        // test here
+        fearNotLetter("abce");
+
+* Finished "Sorted Union". I wanted to use reduce and I made it! It made me very happy. My solution: 
+
+        function uniteUnique(...arr) {
+
+        return arr.reduce(function(prev, next, index, array) {
+            return prev.concat(
+            next.filter(function(item) {
+                return !prev.includes(item);
+            })
+            );
+        });
+        };
+        uniteUnique([1, 2, 3], [5, 2, 1, 4], [2, 1], [6, 7, 8]);
+    
+    Basic fCC solution (not so basic to me :D)
+
+        function uniteUnique(arr1, arr2, arr3) {
+        // Creates an empty array to store our final result.
+        var finalArray = [];
+
+        // Loop through the arguments object to truly made the program work with two or more arrays
+        // instead of 3.
+        for (var i = 0; i < arguments.length; i++) {
+            var arrayArguments = arguments[i];
+
+            // Loops through the array at hand
+            for (var j = 0; j < arrayArguments.length; j++) {
+            var indexValue = arrayArguments[j];
+
+            // Checks if the value is already on the final array.
+            if (finalArray.indexOf(indexValue) < 0) {
+                finalArray.push(indexValue);
+            }
+            }
+        }
+
+        return finalArray;
+        }
+
+        // test here
+        uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
+
+### D019 #100DaysOfCode - 02.12.18
+* Finished "Missing Letters. My solution: 
+
+        function fearNotLetter(str) {
+        
+        let newArr = str.split('');
+        let missingLetter = '?'
+
+        for (let i = 0; i < newArr.length; i++) {
+            if ((str.charCodeAt(i+1) - str.charCodeAt(i)) > 1) {
+            return missingLetter = String.fromCharCode(str.charCodeAt(i) +1);
+            } else missingLetter = undefined;
+        }
+        return missingLetter;
+        }
+        fearNotLetter("abcdefghjklmno");
+
+    But I think I can do this another way. So I want to experiment a bit before I check the solution. 
+
+### D018 #100DaysOfCode - 01.12.18
+* Finished "DNA Pairing". My solution:
+
+        function pairElement(str) {
+        
+        let newArr = str.split('');
+        let DNAarr = [];
+
+        let DNAobject = {
+            pair1: 'TA',
+            pair2: 'CG'
+        }
+        
+        for (let i= 0; i < newArr.length; i++) {
+
+            let pairArray = [];
+            
+            pairArray.push(str[i]);
+
+            for (let value of Object.values(DNAobject)) {
+            if (value.includes(str.charAt(i))) {
+                pairArray.push(value.charAt(!value.indexOf(str.charAt(i))));
+            };
+        };
+        DNAarr.push(pairArray);
+        };
+        
+        return DNAarr;
+        }
+        pairElement("ATCGA");
+
+    fCC used switch and map for the task. The map one was simplest: 
+
+            function pairElement(str) {
+            //create object for pair lookup
+            var pairs = {
+            "A": "T",
+            "T": "A",
+            "C": "G",
+            "G": "C"
+            }
+            //split string into array of characters
+            var arr = str.split("");
+            //map character to array of character and matching pair
+            return arr.map(x => [x,pairs[x]]);
+        }
+
+        //test here
+        pairElement("GCG");
+
+### D017 #100DaysOfCode - 30.11.18
+* Finished "Pig Latin". Spent way to many hours trying to figure out a way to do it with one line. But I didn't make it, so I switched to a if/else. Again, I approach these challenges more complicated than I need to. I think it's better if I solve them the best way I can, and than spend time trying to make it better or studying the fCC solutions. 
+
+    My solution: 
+
+        function translatePigLatin(str) {
+        
+        let newArr = [];
+        let regex = /[aeiou]+/gi
+        
+        if (str[0].match(regex)) {
+            newArr = str + 'way'
+        } else {
+            let consonant = /^[^aeiou]+/;
+            newArr = str.replace(consonant, '').concat(str.match(consonant)) + 'ay';
+        } 
+        return newArr;
+        }
+        console.log(translatePigLatin("california"));
+
+
+    fCC solution 1: 
+
+        function translatePigLatin(str) {
+        // Create variables to be used
+        var pigLatin = '';
+        var regex = /[aeiou]/gi;
+
+        // Check if the first character is a vowel
+        if (str[0].match(regex)) {
+            pigLatin = str + 'way';
+
+        } else if(str.match(regex) === null) {
+            // Check if the string contains only consonants
+            pigLatin = str + 'ay';
+        } else {
+
+            // Find how many consonants before the first vowel.
+            var vowelIndice = str.indexOf(str.match(regex)[0]);
+
+            // Take the string from the first vowel to the last char
+            // then add the consonants that were previously omitted and add the ending.
+            pigLatin = str.substr(vowelIndice) + str.substr(0, vowelIndice) + 'ay';
+        }
+
+        return pigLatin;
+        }
+
+        // test here
+        translatePigLatin("consonant");
+
+* Finished Intermediate Algorithm Scripting "Search and Replace". My solution: 
+
+        function myReplace(str, before, after) {
+        
+        let regex = (/[A-Z]/)
+
+        if (before[0].match(regex)) {
+            after = after.replace(/^[a-z]/, after[0].toUpperCase());
+        }   
+        return str.replace(before, after);
+        }
+        console.log(myReplace("Let us get back to more Coding", "back", "Algorithms"));
+    
+    fCC solution:
+
+        function myReplace(str, before, after) {
+        // Find index where before is on string
+        var index = str.indexOf(before);
+        // Check to see if the first letter is uppercase or not
+        if (str[index] === str[index].toUpperCase()) {
+            // Change the after word to be capitalized before we use it.
+            after = after.charAt(0).toUpperCase() + after.slice(1);
+        }
+        // Now replace the original str with the edited one.
+        str = str.replace(before, after);
+
+        return str;
+        }
+
+        // test here
+        myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+
+### D016 #100DaysOfCode - 29.11.18
+* Did Intermediate Algorithm Scripting: "Wherefore art thou". I did not solve this. I tried a lot of different ways. I did however learn a lot about object keys and properties.  I had to find a solution and copy it and modify it to make it work. I did not understand the return values. I have to remember this. A return in a wrong place or not at all breaks the code easily. When mixing filter, for loops it's easy to misplace it. 
+
+This is the solution: 
+
+        function whatIsInAName(collection, source) {
+        // What's in a name?
+        var arr = [];
+        // Only change code below this line
+
+        // Get the keys we want to match
+        let sourceKeys = Object.keys(source);
+
+        // Create a value
+        let result;
+
+        // Filter the "collection". This creates a new array.
+        arr = collection.filter(function(item) {
+            // For every object in the "collection" array, we need to loop through it to match it up to the "source" object.
+            // We have already collected the keys from "source" so we know how many key value pairs it contains.
+            for(var i = 0; i < sourceKeys.length; i++) {
+            // For every object in the "collection" array, we check to see if it has the same property and the same property value. 
+            if(item.hasOwnProperty(sourceKeys[i]) && item[sourceKeys[i]] == source[sourceKeys[i]]) {
+                // If it has, we set "result" to true.
+                result = true;
+            } else {
+                // If it's not the same, we need to break out of the loop. 
+                return false;
+            }
+            }
+            // Then we return the object to the filter, which again returns it to the array. 
+            return result;
+        });
+        console.log(arr)
+
+        // Only change code above this line
+        return arr;
+        }
+
+        whatIsInAName([{ "apple": 1, "bat": 2 }, { "apple": 1 }, { "apple": 1, "bat": 2, "cookie": 2 }, { "bat":2 }], { "apple": 1, "bat": 2 });
+
+* Finished Intermediate Algorithm Scripting: Spinal Tap Case. My solutions:
+
+        return str.split(/(?=[A-Z])/).join(' ').replace(/\s+/g, '-').replace(/\_/g, '').toLowerCase();
+    
+    Solution 2: 
+
+        return str.split(/((?=[A-Z])|\-|\_|\s)/).filter(function(item) {
+        return (item && !item.includes('_') && !item.includes(' ') && !item.includes('-'));
+        }).join('-').toLowerCase()
+
+    fCC basic solution: 
+
+        // Create a variable for the white space and underscores.
+        var regex = /\s+|_+/g;
+
+        // Replace low-upper case to low-space-uppercase
+        str = str.replace(/([a-z])([A-Z])/g, '$1 $2');
+
+        // Replace space and underscore with -
+        return str.replace(regex, '-').toLowerCase();
+        }
+
+    fCC advanced solution: 
+
+        return str.split(/\s|_|(?=[A-Z])/).join('-').toLowerCase()
+
+### D015 #100DaysOfCode - 28.11.18
+* Struggled with the next challenge.
+
+### D014 #100DaysOfCode - 27.11.18
+* Tried to solve "Apply Functional Programming to Convert Strings to URL Slugs". In my mind I solved it, but fCC told me that the global variable changes. My solution:
+
+        function urlSlug(title) {
+        return title.split(/\W/).filter(function(item) {
+            return item;
+        }).map(function(item) {
+            return item.toLowerCase()
+        }).join('-')
+        }
+    
+    As far as I know, the .split returns a new array, and the global variable is unchanged when I console.log it. It was a bug. It worked after refreshing the page.
+    But there was no need of .map() in this case of course.
+
+    fCC solution: 
+
+        function urlSlug(title) {
+        return title.split(/\W/).filter((obj)=>{
+            return obj !=='';
+        }).join('-').toLowerCase();
+        
+        }
+
+* Finished Intermediate Algorithm Scripting: "Sum All Numbers in a Range". My solution: 
+
+        function sumAll(arr) {
+        let newArr = arr.sort((a, b) => a - b);
+        for (let i = newArr[0]+1; i < newArr[1]; i++) {
+            newArr.push(i);
+        };
+        return newArr.reduce((acc, curr) => acc + curr);
+        }
+        console.log(sumAll([10, 5]));
+
+    As usual, my code is way to advanced. I thought that I needed to return an array and then sum. But we just need the summed total. At least I got to practice .reduce. This is the basic fCC solution: 
+
+        function sumAll(arr) {
+            var max = Math.max(arr[0], arr[1]);
+            var min = Math.min(arr[0], arr[1]);
+            var temp = 0;
+            for (var i=min; i <= max; i++){
+                temp += i;
+            }
+        return(temp);
+        }
+
+        sumAll([1, 4]);
+
+* Finished Intermediate Algorithm Scripting: "Diff Two Arrays". My solution:
+
+        function diffArray(arr1, arr2) {
+        
+        return arr2.filter(function(item) {
+            return item != arr1.find(function(element) {
+            return element === item;
+            })
+        }).concat(arr1.filter(function(item) {
+            return item != arr2.find(function(element) {
+            return element === item;
+            })
+        }));
+        }
+
+        console.log(diffArray(["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]));
+
+    I am curious... If I speak out loud, I keep saying to myself: we have to reduce the array to the elements that differ. So can I use reduce?
+
+    Reduce didn't work, but after reading the hints, this is what I came up with: 
+
+        function diffArray(arr1, arr2) {
+        
+        return arr1.concat(arr2).filter(function(item) {
+            return (!arr1.includes(item) || !arr2.includes(item))
+        });
+        }
+
+        console.log(diffArray(["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]));
+
+
+### D013 #100DaysOfCode - 26.11.18
+* Did six functional programming challenges.
+* My solution for "Use the reduce Method to Analyze Data: 
+
+        let count = 0;
+        var averageRating = watchList.filter(function(item) {
+        if (item.Director == 'Christopher Nolan') {
+            count += 1;
+            return item;
+        };
+        }).map(function(item) {
+        return Number(item.imdbRating)
+        }).reduce(function(accumulator, currentValue) {
+        return accumulator + currentValue
+        }) / count;
+
+    fCC solution was the same except that they used a shorter code and used watchList.filter().length to get numer of elements instead of having a counter:
+
+        var averageRating = watchList.filter(item => item.Director === 'Christopher Nolan').map(item => Number(item.imdbRating)).reduce((accumulator, currentValue) => accumulator + currentValue) / watchList.filter(item => item.Director === 'Christopher Nolan').length;
+
+
+### D012 #100DaysOfCode - 25.11.18
+* Finished "Use the map Method to Extract Data from an Array".
+* Finished "Implement map on a prototype".
+
+### D011 #100DaysOfCode - 24.11.18
+* Did 4 Functional Programming challenges.
+
+### D010 #100DaysOfCode - 23.11.18
+* Did 14 Object Oriented Programming challenges.
+
+### D009 #100DaysOfCode - 22.11.18
+* Did 16 Object Oriented Programming challenges.
+
+
+### D008 #100DaysOfCode - 21.11.18
+* Finished "Mutations". I spent way to long on this one. And I am a bit nervous looking at the answer...
+
+        function mutation(arr) {
+        let count = true;
+        for (let i = 0; i < arr[1].length; i++) {
+        if (!arr[0].toLowerCase().match(arr[1][i].toLowerCase())) {
+            count = false;
+        }
+        }
+        return count;
+        }
+        mutation(["hello", "hey"]);
+    
+    fCC solution (hey! I was not so far of after all):
+
+        function mutation(arr) {
+        var test = arr[1].toLowerCase();
+        var target = arr[0].toLowerCase();
+        for (var i=0;i<test.length;i++) {
+            if (target.indexOf(test[i]) < 0)
+            return false;
+        }
+        return true;
+        }
+    
+    fCC intermediate: 
+
+        function mutation(arr) {
+        return arr[1].toLowerCase()
+            .split('')
+            .every(function(letter) {
+            return arr[0].toLowerCase()
+                .indexOf(letter) != -1;
+            });
+        }
+
+* Finished "Chunky Monkey". Spent some time on this one. I found a solution, but I wanted to get the exact number at the end of the chunking:
+
+        function chunkArrayInGroups(arr, size) {
+        
+        let newArr = [];
+        let newSize = size;
+        
+        for (let i = arr.length; i > 0; i = i - size) {
+            newArr.push(arr.splice(0,newSize ));
+            newSize = i - arr.length;
+        }
+        return newArr;
+        }
+    
+    fCC solution has a bunch of solutions: https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-algorithm-scripting/chunky-monkey/
+
+### D007 #100DaysOfCode - 20.11.18
+* Worked on "Mutations". Was not able to solve it. Will continue tomorrow. 
+
+### D006 #100DaysOfCode - 18.11.18
+* Finished "Slice and Splice" after failing it the other day. I had to make sure that it didnt end up like a nested array. My solution: 
+
+        function frankenSplice(arr1, arr2, n) {
+        let newArr = arr2.slice(0);
+        for (let i = 0; i < arr1.length; i++) {
+            newArr.splice(n++,0,arr1[i])
+        }
+        return newArr;
+        }
+        frankenSplice(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2);
+
+    fCC solution: 
+
+        function frankenSplice(arr1, arr2, n) {
+        let localArray = arr2.slice();
+        for (let i = 0; i < arr1.length; i++) {
+            localArray.splice(n, 0, arr1[i]);
+            n++;
+        }
+        return localArray;
+        }
+
+* Finished "Falsy Bouncer". My solution:
+
+        function bouncer(arr) {
+        let newArr = []
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i]) {
+            newArr.push(arr[i]);
+            } 
+        }
+        return newArr;
+        }
+        bouncer([7, "ate", "", false, 9]);
+    
+    fCC solution: 
+
+        function bouncer(arr) {
+        return arr.filter(Boolean);
+        }
+
+* Finished "Where do I Belong". I spent a lot of time on this one, only to scrap it all and do this instead: 
+
+        function getIndexToIns(arr, num) {
+
+        arr.push(num);
+        return arr.sort(function(a, b){return a - b}).findIndex(function (item, index) {
+            return item >= num;
+        });
+        }
+
+        getIndexToIns([], 1);
+    
+    fCC solution basic: 
+
+        function getIndexToIns(arr, num) {
+        arr.sort(function(a, b) {
+            return a - b;
+        });
+
+        for (var a = 0; a < arr.length; a++) {
+            if (arr[a] >= num)
+            return a;
+        }
+
+        return arr.length;
+        }
+
+    fCC solution advanced: 
+
+        function getIndexToIns(arr, num) {
+
+        return arr.concat(num).sort((a,b) => a-b).indexOf(num);
+        }
+        getIndexToIns([1,3,4],2);
+
+
+### D005 #100DaysOfCode - 16.11.18
+* Finished "Boo who". To check if a value is boolean I used typeof: 
+
+        function booWho(bool) {
+        if (typeof bool === 'boolean') {
+        return true;
+        }
+        return false;
+        }
+        booWho(null);
+
+    fCC solution (Again more short because I forget how JavaScript works):
+
+        function booWho(bool) {
+        return typeof bool === 'boolean';
+        }
+        booWho(null); 
+
+* Finished "Title Case a Sentence". I used a long time on this one. But I did not cheat. I searched and tried different approaches. First I tried to find a solution with regex, but couldnt get it to work. Then I tried a for loop, but the loop kept breaking when I tried to change values in the array. I think I targeted the values the wrong way. I need to really think about what I am doing, not just try different things blindly. That way I wont learn anything. I see the same thing when trying other approaches. If I dont know how the different methods work, its all a guessing game.
+
+    My solution using for loop: 
+
+        function titleCase(str) {
+
+        let toTitleCase = str.toLowerCase().split(' ');
+
+        for (let i = 0; i < toTitleCase.length; i++) {
+        toTitleCase[i] = toTitleCase[i][0].toUpperCase() + toTitleCase[i].slice(1);
+        }
+        return toTitleCase.join(' ');
+        }
+        titleCase("I'm a little tea pot");
+    
+    My second solution using for loop: 
+
+        function titleCase(str) {
+
+        let toTitleCase = str.toLowerCase().split(' ');
+
+        toTitleCase.forEach(function(element, index, array) {    
+            array[index] = element[0].toUpperCase() + element.slice(1);
+        });
+
+        return toTitleCase.join(' ');
+        }
+        titleCase("I'm a little tea pot");
+
+    fCC solution (I forgot the "charAt): 
+
+        function titleCase(str) {
+        var convertToArray = str.toLowerCase().split(" ");
+        var result = convertToArray.map(function(val){
+            return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
+        });
+        return result.join(" ");
+        }
+        titleCase("I'm a little tea pot");
+    
+    And fCCs solution using regex, as I thought would be possible, but didnt figure out:
+
+        function titleCase(str) {
+        return str.toLowerCase().replace(/(^|\s)\S/g, (L) => L.toUpperCase());
+        }
+
+* Tried to finish "Slice and Splice", but could not get it to work. My code: 
+
+        function frankenSplice(arr1, arr2, n) {
+        // It's alive. It's alive!
+        
+        let emptyArr = [];
+
+        let test = emptyArr.splice( n, 0, arr2.slice( 0, n ),arr1.slice( 0, arr1.length ),arr2.slice( arr2.length-n ));
+
+        return test;
+        }
+        frankenSplice(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2);
+    
+    The problem was that it returns a nested array. I didnt see that in the fCC console, but saw it in chrome console. So I need to find another way.
+
+
+### D004 #100DaysOfCode - 15.11.18
+* Finished "Finders Keepers". I only finished one challenge today, because I spent some time searching for ways to solve it. I found one way, but then I found a better one right after. I had forgotten that "return" breaks a loop. That was a valuable lesson to relearn. I don't know why, but I really enjoyed it today. Maybe because of my reflections yesterday. 
+Here is my first solution: 
+
+        function findElement(arr, func) {
+        let num = 0;
+
+        for (let i = 0; i < arr.length; i++) {
+            // check that the number is even
+            num = arr[i]
+            if (func(arr[i]))
+            {
+                num = arr[i];
+                break;
+            }
+            // if we got here, then i is odd.
+            num = undefined;
+        }
+        return num;
+        }
+        findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; });
+    
+    But we dont need break. We can just use return:
+
+        function findElement(arr, func) {
+        let num = 0;
+
+        for (let i = 0; i < arr.length; i++) {
+            // check that the number is even
+            num = arr[i]
+            if (func(arr[i]))
+            {
+                return num = arr[i]; 
+            }
+            // if we got here, then i is odd.
+            num = undefined;
+        }
+        return num;
+        }
+
+        findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; });
+
+    Here it is using .find():
+
+        let num = arr.find(function(element) {
+        return func(element);
+        }); 
+        return num;
+        }
+        findElement([1, 3, 5, 7, 8, 9, 11], function(num) { return num % 2 === 0; });
+
+    fCC Solution: 
+
+        function findElement(arr, func) {
+        let num = 0;
+        
+        for(var i = 0; i < arr.length; i++) {
+            num = arr[i];
+            if (func(num)) {
+            return num;
+            }
+        }
+        
+        return undefined;
+        }
+
+### D003 #100DaysOfCode - 14.11.18
+* Finished "Repeat a String Repeat a String"- My solution: 
+
+        function repeatStringNumTimes(str, num) {
+        const word = str;
+        if (num > 0) {
+            for (let i = num; i > 1; i--) {
+            str += word;
+            }
+        } else {str = "";};
+        console.log(str);
+        return str;
+        }
+        repeatStringNumTimes("abc", 2);
+
+    fCC solution: 
+
+        function repeatStringNumTimes(str, num) {
+        var accumulatedStr = '';
+
+        while (num > 0) {
+            accumulatedStr += str;
+            num--;
+        }
+
+        return accumulatedStr;
+        }
+
+    I get to stuck to the text in the code window, and struggle to think outside of the box. It seems I automaticly go for a for loop no matter what, and forget to think about all the different methods avaliable. As long as I make it work it's OK I guess, but I think I need to try to approach it differently. It's like I am a bit affraid of the challenges. Affraid that I am not smart enough to solve them and to create neat and effective solutions. I need to trust myself and look at the challenges as a fun way to test myself and to learn. I always learn, and that way I grow smarter. 
+
+* Finished "Truncate a string". My solution: 
+
+        function truncateString(str, num) {
+        if (str.length > num) {
+            str =  (str.split('').splice(0,num).join('')) + '...';
+        } return str;
+        }
+        truncateString("A-tisket a-tasket A green and yellow basket", 8);
+
+    fCC solution basic (I forgott to check if num is more than three):
+
+        function truncateString(str, num) {
+        // Clear out that junk in your trunk
+        if (str.length > num && num > 3) {
+            return str.slice(0, (num - 3)) + '...';
+        } else if (str.length > num && num <= 3) {
+            return str.slice(0, num) + '...';
+        } else {
+            return str;
+        }
+
+        } 
+
+    fCC solution advanced: 
+
+        function repeatStringNumTimes(str, num) {
+        if(num < 0)
+            return "";
+        if(num === 1)
+            return str;
+        else
+            return str + repeatStringNumTimes(str, num - 1);
+        }
+
+### D002 #100DaysOfCode - 13.11.18
+* Finished "Return Largest Number in Arrays". My solution 1 using reduce:
+
+        function largestOfFour(arr) {  
+        for (let i = 0; i < arr.length; i++) {
+            arr[i] = arr[i].reduce((a, b) => Math.max(a, b));
+        }
+        return arr;
+        }
+        largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+
+    My solution 2 using for loop and spread:
+
+        function largestOfFour(arr) {
+        let newArr = [];
+        for (let i = 0; i < arr.length; i++) {
+        newArr.push(Math.max(...arr[i]));
+        }
+        return newArr;
+        }
+        largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]); 
+
+    My solution using plain old for loops (same as fCC): 
+
+        function largestOfFour(arr) {
+        let newArr = [];
+        for (let i = 0; i < arr.length; i++) {
+            let max = arr[i][0];
+            for (let j = 0; j < arr[i].length; j++) {
+            if (arr[i][j] > max) {
+                max = arr[i][j];
+            }
+            }
+            newArr.push(max);
+        }
+        return newArr;
+        }
+        largestOfFour([[17, 23, 25, 12], [25, 7, 34, 48], [4, -10, 18, 21], [-72, -3, -17, -10]]); 
+
+    fCC solution intermediate:
+
+        function largestOfFour(arr) {
+        return arr.map(function(group){
+            return group.reduce(function(prev, current) {
+            return (current > prev) ? current : prev;
+            });
+        });
+        }
+    
+- Finished "Confirm the ending". My solution: 
+
+        function confirmEnding(str, target) {
+
+        // Change string to array.
+        let newArr = str.split(' ')
+
+        // Target last word
+        let lastWordInArray = newArr[newArr.length - 1]
+
+        // Counter for use in for loop
+        let count = 0;
+
+        for (let i = (lastWordInArray.length - target.length); i < (lastWordInArray.length); i++) {
+            if (lastWordInArray[i] === target[count]) {
+            count++
+            str = true;
+            } else {
+            str = false;
+            };
+        };
+        return str;
+        }
+        confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification");
+
+    The much more simple fCC solution: 
+
+        function confirmEnding(str, target) {
+        return str.slice(str.length - target.length) === target;
+        }
+        confirmEnding("He has to give me a new name", "name");
+
+
+### D001 #100DaysOfCode - 12.11.18
+* Arrays and objects. Did 7 - 10 challenges. 
+* I learned that array.findIndex(elem) == -1 iterates  through all the elements in an array. If it is false, the code wont continue.
+* We use bracket notation ([]) on objects if we want to pass variables (more dynamic) or dot (.) if we know the name.
+* Learned to delete key from objects using "delete".
+* Learned .hasOwnProperty(key, key, key) and "in" keyword. Can search for several keys separated by commma.
+* Iterate through keys in an object with a for...in statement.
+* Generate an array og all object keys with objects.keys()
+* Finished Basic Data Structure Challenges
+* Started Basic Algorithm Scripting
+* Finished "Convert Celsius to Fahrenheit"
+* Finished "Reverse a string". My solution:
+
+        function reverseString(str) { 
+        let newString = '';
+        for (let i = str.length-1; i >= 0; i--) {
+            newString = newString + str[i];
+        }
+        return newString;
+        }
+        reverseString("hello");
+
+    The shorter and more elegant solution (I totally forgot these methods...): 
+
+        function reverseString(str) { 
+        return str.split('').reverse().join('');
+        }
+        reverseString("hello");
+
+* Finished "Factorialize a Number". My solution: 
+
+        function factorialize(num) {
+        let count = 1;
+        if (num === 0) {
+            count = 1;
+        } for (let i = 1; i <= num; i++) {
+            count = count * i;
+            } 
+        return count;
+        }
+        factorialize(5);
+
+    fCC solution: 
+
+        function factorialize(num) {
+        if (num === 0) { return 1; }
+        return num * factorialize(num-1);
+        }
+        factorialize(5);
+
+    It's based on recursion, which refers to a function repeating (calling) itself.
+
+* Finished "find the Longest Word in a String". My solution:
+
+        function findLongestWordLength(str) {
+        return str.split(' ').sort(function(a, b){
+            return a.length - b.length;
+            }
+            ).pop().length;
+        }
+        findLongestWordLength("What if we try a super-long word such as otorhinolaryngology");
+
+    fCC solution basic: 
+
+        function findLongestWordLength(str) {
+        var words = str.split(' '); 
+        // From sting to array
+
+        var maxLength = 0; // Define maxLength
+        
+        for (var i = 0; i < words.length; i++) { 
+            // If i is less than number of elements in array, increase i.
+            
+            if (words[i].length > maxLength) { 
+                // If the words length is bigger than maxLength
+
+            maxLength = words[i].length; 
+            // Then set maxLength to match that words length.
+            
+            }
+        }
+        return maxLength;
+        }
+
+    fcc solution intermediate (I need a refresher on reduce. Watched a YouTube video from The Coding Train): 
+
+        function findLongestWordLength(s) {
+        return s.split(' ')
+            .reduce(function(x, y) {
+            return Math.max(x, y.length)
+            }, 0);
+        }
+
+
+### D010 #100DaysOfCode - 15.9.18
+* Set up the workout page and got the table to work. I find the current exercises and make inputs to log the number of exercises. 
+
+**Total:**  2.5 h
+
+**Thoughts:** 
+
+### D010 #100DaysOfCode - 13.9.18
+* I got the IDs of the sessions to work. But I have to clean up my code. I did a lot of testing. 
+
+**Total:**  1 h
+
+**Thoughts:** 
+
+### D009 #100DaysOfCode - 12.9.18
+* I found out that the workout log was copying all the sessions, and not the selected one. Started to try and fix it. It was a bigger fix than I first thought. I need to assign IDs to the sessions as well, so that I am not just comparing names. 
+
+**Total:**  1 h
+
+**Thoughts:** 
+
+### D009 #100DaysOfCode - 11.9.18
+
+**Total:**  1 h
+
+**Thoughts:** 
+
+### D008 #100DaysOfCode - 10.9.18
+* Made the edit workout page
+* Made the table to contain the workout data
+* Managed to connect the edit button of the workout array to the edit workout page with corresponding ID of the selected workout.
+
+**Total:**  1 h
+
+**Thoughts:** 
+
+### D001 - D007 #100DaysOfCode - 1.9.18 - 9.9.18
+* Changed how entries are identified: From name to unique ID.
+* These IDs are used to fetch the right entries in the arrays.
+* Changed the URLs from name to ID (not pretty, but it works)
+* "Add workout" now copies the chosen program and session, so that it brings with it the excercises as well. 
+* Plus more.
+
+**Total:**  Around 10 h
+
+**Thoughts:** It's a blast getting back to coding again. I don't know why I was so scared and worried. I did nearly give it up. But I pushed myself and I am glad. I really love doing this, and I remember and know more than I think.
 
 ### D066 #100DaysOfCode - 17.7.18
 
