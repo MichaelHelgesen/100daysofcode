@@ -1,4 +1,293 @@
 # R3 Log
+## 26.03.19
+* Solved "Roman Numeral Converter. I thought about exploring closures on this one, but I could not get my head around it. I searched for a formula to convert number to numerals, and found solutions here: http://blog.functionalfun.net/2009/01/project-euler-89-converting-to-and-from.html. My solution:
+
+        function convertToRoman(num) {
+        
+        var newNumeral = "";
+        var newNum = num;
+        var romanNumerals = {
+            M : 1000,
+            CM: 900,
+            D: 500,
+            CD: 400,
+            C: 100,
+            XC: 90,
+            L: 50,
+            XL: 40,
+            X: 10,
+            IX : 9,
+            V : 5,
+            IV : 4,
+            I : 1
+        }
+
+            Object.keys(romanNumerals).forEach(function(key,index) {
+                if((newNum - romanNumerals[key]) >= 0) {
+                    for (var i = newNum + 1; i > romanNumerals[key]; i = i - romanNumerals[key]) {
+                        newNum = newNum - romanNumerals[key];
+                        newNumeral += key
+                    }        
+                } 
+            });
+
+        return newNumeral;
+        
+        }
+
+        console.log(convertToRoman(3999));
+    
+    The easy solution is of course simpler. I completely forgot about the while loop...:
+
+        var convertToRoman = function(num) {
+
+        var decimalValue = [ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];
+        var romanNumeral = [ 'M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I' ];
+
+        var romanized = '';
+
+        for (var index = 0; index < decimalValue.length; index++) {
+            while (decimalValue[index] <= num) {
+            romanized += romanNumeral[index];
+            num -= decimalValue[index];
+            }
+        }
+
+        return romanized;
+        }
+
+        // test here
+        convertToRoman(36);
+
+    The two intermediate ones where difficult for me to understand.
+
+    Intermediate 1:
+
+        function convertToRoman(num) {
+        var romans = ["I", "V", "X", "L", "C", "D", "M"],
+            ints = [],
+            romanNumber = [],
+            numeral = "";
+        while (num) {
+            ints.push(num % 10);
+            num = Math.floor(num/10);
+        }
+        for (i=0; i<ints.length; i++){
+            units(ints[i]);
+        }
+        function units(){
+            numeral = romans[i*2];
+            switch(ints[i]) {
+            case 1:
+                romanNumber.push(numeral);
+                break;
+            case 2:
+                romanNumber.push(numeral.concat(numeral));
+                break;
+            case 3:
+                romanNumber.push(numeral.concat(numeral).concat(numeral));
+                break;
+            case 4:
+                romanNumber.push(numeral.concat(romans[(i*2)+1]));
+                break;
+            case 5:
+                romanNumber.push(romans[(i*2)+1]);
+                break;
+            case 6:
+                romanNumber.push(romans[(i*2)+1].concat(numeral));
+                break;
+            case 7:
+                romanNumber.push(romans[(i*2)+1].concat(numeral).concat(numeral));
+                break;
+            case 8:
+                romanNumber.push(romans[(i*2)+1].concat(numeral).concat(numeral).concat(numeral));
+                break;
+            case 9:
+                romanNumber.push(romans[i*2].concat(romans[(i*2)+2]));
+            }
+            }
+        return romanNumber.reverse().join("").toString();
+        }
+
+        // test here
+        convertToRoman(97);
+
+    Intermediate 2:
+
+        function convertToRoman(num) {
+        var romans = 
+        // 10^i 10^i*5
+            ["I", "V"], // 10^0
+            ["X", "L"], // 10^1
+            ["C", "D"], // 10^2
+            ["M"]       // 10^3
+        ],
+            digits = num.toString()
+                .split('')
+                .reverse()
+                .map(function(item, index) {
+                return parseInt(item);
+                }),
+            numeral = "";
+
+        // Loop through each digit, starting with the ones place
+        for (var i=0; i<digits.length; i++) {
+            // Make a Roman numeral that ignores 5-multiples and shortening rules
+            numeral = romans[i][0].repeat(digits[i]) + numeral;
+            // Check for a Roman numeral 5-multiple version
+            if (romans[i][1]) {
+            numeral = numeral
+                // Change occurrences of 5 * 10^i to the corresponding 5-multiple Roman numeral
+                .replace(romans[i][0].repeat(5), romans[i][1])
+                // Shorten occurrences of 9 * 10^i
+                .replace(romans[i][1] + romans[i][0].repeat(4), romans[i][0] + romans[i+1][0])
+                // Shorten occurrences of 4 * 10^i
+                .replace(romans[i][0].repeat(4), romans[i][0] + romans[i][1]);
+            }
+        }
+
+        return numeral;
+        }
+
+        // test here
+        convertToRoman(36);
+    
+    But after seeing the while loop, I changed my code:
+
+        function convertToRoman(num) {
+        
+        var newNumeral = "";
+        var newNum = num;
+        var romanNumerals = {
+            M : 1000,
+            CM: 900,
+            D: 500,
+            CD: 400,
+            C: 100,
+            XC: 90,
+            L: 50,
+            XL: 40,
+            X: 10,
+            IX : 9,
+            V : 5,
+            IV : 4,
+            I : 1
+        }
+
+            Object.keys(romanNumerals).forEach(function(key,index) {
+                while (newNum - romanNumerals[key] >= 0) {
+                    newNum -= romanNumerals[key];
+                    newNumeral += key
+                }
+            });
+
+        return newNumeral;
+
+        }
+
+        console.log(convertToRoman(3999));
+
+* Finished Caesars Cipher. My solution:  
+
+        function rot13(str) { // LBH QVQ VG!
+        
+        var newWord = "";
+
+        for (var i = 0; i < str.length; i++) {
+            
+            if (str.charCodeAt(i) >= 65 && str.charCodeAt(i) <= 77) {
+                newWord += String.fromCharCode(str.charCodeAt(i) + 13);
+            } else if (str.charCodeAt(i) >= 78 && str.charCodeAt(i) <= 90) {
+                newWord += String.fromCharCode(str.charCodeAt(i) - 13);
+            } else {
+                newWord += String.fromCharCode(str.charCodeAt(i));  
+            }
+        }    
+
+        return newWord;
+        }
+
+        // Change the inputs below to test
+        console.log(rot13("LBH QVQ VG!"));
+
+    This is the fCC solution. Of course chaining and using map. I need to start to do more advanced solutions:
+
+            function rot13(str) {
+            // Split str into a character array
+            return str.split('')
+            // Iterate over each character in the array
+                .map.call(str, function(char) {
+                // Convert char to a character code
+                x = char.charCodeAt(0);
+                // Checks if character lies between A-Z
+                if (x < 65 || x > 90) {
+                    return String.fromCharCode(x);  // Return un-converted character
+                }
+                //N = ASCII 78, if the character code is less than 78, shift forward 13 places
+                else if (x < 78) {
+                    return String.fromCharCode(x + 13);
+                }
+                // Otherwise shift the character 13 places backward
+                return String.fromCharCode(x - 13);
+                }).join('');  // Rejoin the array into a string
+            }
+
+    Here is also a clever one:
+
+            // Solution with Regular expression and Array of ASCII character codes
+            function rot13(str) {
+            var rotCharArray = [];
+            var regEx = /[A-Z]/ ;
+            str = str.split("");
+            for (var x in str) {
+                if (regEx.test(str[x])) {
+                // A more general approach
+                // possible because of modular arithmetic
+                // and cyclic nature of rot13 transform
+                rotCharArray.push((str[x].charCodeAt() - 65 + 13) % 26 + 65);
+                } else {
+                rotCharArray.push(str[x].charCodeAt());
+                }
+            }
+            str = String.fromCharCode.apply(String, rotCharArray);
+            return str;
+            }
+
+            // Change the inputs below to test
+            rot13("LBH QVQ VG!");
+
+        ALPHA	KEY	BASE 	 	 	 ROTATED	ROT13
+        -------------------------------------------------------------
+        [A]     65  <=>   0 + 13  =>  13 % 26  <=>  13 + 65 = 78 [N]
+        [B]     66  <=>   1 + 13  =>  14 % 26  <=>  14 + 65 = 79 [O]
+        [C]     67  <=>   2 + 13  =>  15 % 26  <=>  15 + 65 = 80 [P]
+        [D]     68  <=>   3 + 13  =>  16 % 26  <=>  16 + 65 = 81 [Q]
+        [E]     69  <=>   4 + 13  =>  17 % 26  <=>  17 + 65 = 82 [R]
+        [F]     70  <=>   5 + 13  =>  18 % 26  <=>  18 + 65 = 83 [S]
+        [G]     71  <=>   6 + 13  =>  19 % 26  <=>  19 + 65 = 84 [T]
+        [H]     72  <=>   7 + 13  =>  20 % 26  <=>  20 + 65 = 85 [U]
+        [I]     73  <=>   8 + 13  =>  21 % 26  <=>  21 + 65 = 86 [V]
+        [J]     74  <=>   9 + 13  =>  22 % 26  <=>  22 + 65 = 87 [W]
+        [K]     75  <=>  10 + 13  =>  23 % 26  <=>  23 + 65 = 88 [X]
+        [L]     76  <=>  11 + 13  =>  24 % 26  <=>  24 + 65 = 89 [Y]
+        [M]     77  <=>  12 + 13  =>  25 % 26  <=>  25 + 65 = 90 [Z]
+        [N]     78  <=>  13 + 13  =>  26 % 26  <=>   0 + 65 = 65 [A]
+        [O]     79  <=>  14 + 13  =>  27 % 26  <=>   1 + 65 = 66 [B]
+        [P]     80  <=>  15 + 13  =>  28 % 26  <=>   2 + 65 = 67 [C]
+        [Q]     81  <=>  16 + 13  =>  29 % 26  <=>   3 + 65 = 68 [D]
+        [R]     82  <=>  17 + 13  =>  30 % 26  <=>   4 + 65 = 69 [E]
+        [S]     83  <=>  18 + 13  =>  31 % 26  <=>   5 + 65 = 70 [F]
+        [T]     84  <=>  19 + 13  =>  32 % 26  <=>   6 + 65 = 71 [G]
+        [U]     85  <=>  20 + 13  =>  33 % 26  <=>   7 + 65 = 72 [H]
+        [V]     86  <=>  21 + 13  =>  34 % 26  <=>   8 + 65 = 73 [I]
+        [W]     87  <=>  22 + 13  =>  35 % 26  <=>   9 + 65 = 74 [J]
+        [X]     88  <=>  23 + 13  =>  36 % 26  <=>  10 + 65 = 75 [K]
+        [Y]     89  <=>  24 + 13  =>  37 % 26  <=>  11 + 65 = 76 [L]
+        [Z]     90  <=>  25 + 13  =>  38 % 26  <=>  12 + 65 = 77 [M]
+
+## 25.03.19
+* Tried to solve Roman Numeral Converter. Almost had it.
+
 ## 24.03.19
 * Finished "Arguments Optional". My solution:
 
