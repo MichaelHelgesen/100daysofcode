@@ -1,4 +1,58 @@
 # R3 Log
+## 28.03.19
+* Solved "Telephone Number Validator". I was trying and failing a lot with this. I tried out a lot of different things. 
+
+        function telephoneCheck(str) {
+        // Good luck!
+
+        let truth = false;
+
+        const regEx = [
+            /^[1-9]\d{9}$/g,
+            /^(1)[(]\d{3}[)]\d{3}[-]\d{4}$/g,
+            /^(1)\s[(]\d{3}[)]\s\d{3}[-]\d{4}$/g,
+            /^(1)\s[1-9]{3}[-][1-9]{3}[-][1-9]{4}$/g,
+            /^(1)\s[1-9]{3}\s[1-9]{3}\s[1-9]{4}$/g,
+            /^[(]\d{3}[)]\d{3}\s\d{4}$/g,
+            /^[(]\d{3}[)]\d{3}[-]\d{4}$/g,
+            /^[(]\d{3}[)]\s\d{3}[-]\d{4}$/g,
+            /^\d{3}[-]\d{3}[-]\d{4}$/g,
+            /^\d{3}\s\d{3}\s\d{4}$/g
+        ]
+
+        regEx.forEach(function(element, index) {
+            if (str.match(element)) {
+            truth = true;
+            }
+        });
+
+        return truth;
+
+        }
+
+        console.log(telephoneCheck("5555555"));
+
+    And of course... the basic solution had it all together...:
+
+        function telephoneCheck(str) {
+        var regex = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
+        return regex.test(str);
+        }
+        telephoneCheck("555-555-5555");
+    
+    Code explanation:
+    
+    * ^ denotes the beginning of the string.
+    * (1\s?)? allows for “1” or “1 ” if there is one.
+    * \d{n} checks for exactly n number of digits so \d{3} checks for three digits.
+    * x|y checks for either x OR y so (\(\d{3}\)|\d{3}) checks for either three digits surrounded by parentheses, or three digits by themselves with no parentheses.
+    * [\s\-]? checks for spaces or dashes between the groups of digits.
+    * $ denotes the end of the string. In this case the beginning ^ and end of the string $ are used in the regex to prevent it from matching any longer string that might contain a valid phone number (eg. “s 555 555 5555 3”).
+    * Lastly we use regex.test(str) to test if the string adheres to the regular expression, it returns true or false.
+
+## 27.03.19
+* Spent the whole evening trying to solve "Telephone Number Validator". Got lost in regex.
+
 ## 26.03.19
 * Solved "Roman Numeral Converter. I thought about exploring closures on this one, but I could not get my head around it. I searched for a formula to convert number to numerals, and found solutions here: http://blog.functionalfun.net/2009/01/project-euler-89-converting-to-and-from.html. My solution:
 
