@@ -1,4 +1,7 @@
 # R3 Log
+## 08.04.19
+* Solved "Cash Register". I spent days on this one. I made it work, but it is a mess. I need to try to make the code shorter and simpler before moving on. There is way to much repeating code. 
+
 ## 28.03.19
 * Solved "Telephone Number Validator". I was trying and failing a lot with this. I tried out a lot of different things. 
 
