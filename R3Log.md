@@ -1,5 +1,6 @@
 # R3 Log
 ## 09.04.19
+* Finished fCCs BootStrap course.
 * I managed to enhance the code for the "Cash Register" challenge. As always, the solution was much more advanced and elegant. But I did solve it though. And I managed to make the code better. My solution:
 
         function checkCashRegister(price, cash, cid) {
