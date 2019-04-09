@@ -1,4 +1,158 @@
 # R3 Log
+## 09.04.19
+* I managed to enhance the code for the "Cash Register" challenge. As always, the solution was much more advanced and elegant. But I did solve it though. And I managed to make the code better. My solution:
+
+        function checkCashRegister(price, cash, cid) {
+        
+        // Find change to return
+        var change = cash - price;
+
+        // Copy of the cash in register
+        var register = cid;
+
+        // Total used to sum amount of money in register
+        var total = 0;
+
+        // Array of what is left in register after returning the change
+        var leftInRegister = [];
+
+        // Get total in register
+        for (var i = 0; i < register.length; i++) {
+            total += Number(register[i][1]);
+        }
+
+        // Function for returning change and pushing to new array 
+        var changeFunction = function (amount, array) {
+            var newChange = change;
+            var currency = 0;
+            if (change > amount) {
+                for (var j = 0; (change >= amount && j < array[1]); j += amount) {
+                currency += amount;
+                change = (change - amount).toFixed(2);
+                }
+            leftInRegister.push([array[0], currency]);
+            }
+        }
+        // For loop going through the register
+        for (var i = (register.length - 1); i >= 0; i--) {
+            if (register[i][0] === "ONE HUNDRED") {
+            changeFunction(100, register[i]);
+            } else if (register[i][0] === "TWENTY") {
+                changeFunction(20, register[i]);
+            } else if (register[i][0] === "TEN") {
+                changeFunction(10, register[i]);
+            } else if (register[i][0] === "FIVE") {
+                changeFunction(5, register[i]);
+            } else if (register[i][0] === "ONE") {
+                changeFunction(1, register[i]);
+            } else if (register[i][0] === "QUARTER") {
+                changeFunction(0.25, register[i]);
+            } else if (register[i][0] === "DIME") {
+                changeFunction(0.1, register[i]);
+            } else if (register[i][0] === "NICKEL") {
+                changeFunction(0.05, register[i]);
+            } else if (register[i][0] === "PENNY") {
+                changeFunction(0.01, register[i]);
+            }
+        }
+
+        if ((cash - price) === total) {
+            return {
+                status: 'CLOSED',
+                change: register
+            }
+            } else if (change != 0) {
+            return {
+                status: 'INSUFFICIENT_FUNDS',
+                change: []
+            }
+            } else {
+            return {
+                status: 'OPEN',
+                change: leftInRegister 
+            }
+            }   
+        }
+
+        console.log(checkCashRegister(3.26, 100, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]));
+
+    fCC solution:
+
+        // Create an array of objects which hold the denominations and their values
+        var denom = [
+        { name: 'ONE HUNDRED', val: 100.00},
+        { name: 'TWENTY', val: 20.00},
+        { name: 'TEN', val: 10.00},
+        { name: 'FIVE', val: 5.00},
+        { name: 'ONE', val: 1.00},
+        { name: 'QUARTER', val: 0.25},
+        { name: 'DIME', val: 0.10},
+        { name: 'NICKEL', val: 0.05},
+        { name: 'PENNY', val: 0.01}
+        ];
+
+        function checkCashRegister(price, cash, cid) {
+        var output = { status: null, change: [] };
+        var change = cash - price;
+
+        // Transform CID array into drawer object
+        var register = cid.reduce(function(acc, curr) {
+            acc.total += curr[1];
+            acc[curr[0]] = curr[1];
+            return acc;
+        }, { total: 0 });
+
+        // Handle exact change
+        if (register.total === change) {
+            output.status = 'CLOSED';
+            output.change = cid;
+            return output;
+        }
+
+        // Handle obvious insufficient funds
+        if (register.total < change) {
+            output.status = 'INSUFFICIENT_FUNDS';
+            return output;
+        }
+
+        // Loop through the denomination array
+        var change_arr = denom.reduce(function(acc, curr) {
+            var value = 0;
+            // While there is still money of this type in the drawer
+            // And while the denomination is larger than the change remaining
+            while (register[curr.name] > 0 && change >= curr.val) {
+            change -= curr.val;
+            register[curr.name] -= curr.val;
+            value += curr.val;
+
+            // Round change to the nearest hundreth deals with precision errors
+            change = Math.round(change * 100) / 100;
+            }
+            // Add this denomination to the output only if any was used.
+            if (value > 0) {
+                acc.push([ curr.name, value ]);
+            }
+            return acc; // Return the current change_arr
+        }, []); // Initial value of empty array for reduce
+
+        // If there are no elements in change_arr or we have leftover change, return
+        // the string "Insufficient Funds"
+        if (change_arr.length < 1 || change > 0) {
+            output.status = 'INSUFFICIENT_FUNDS';
+            return output;
+        }
+
+        // Here is your change, ma'am.
+        output.status = 'OPEN';
+        output.change = change_arr;
+        return output;
+        }
+
+        // test here
+        checkCashRegister(19.50, 20.00, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.10], ["QUARTER", 4.25], ["ONE", 90.00], ["FIVE", 55.00], ["TEN", 20.00], ["TWENTY", 60.00], ["ONE HUNDRED", 100.00]]);
+    
+    Explanation: First, create an array of objects with the value of each denomination of bill or coin, along with an output object with the status and change keys. Next, transform the CID array into a drawer object. Then, handle the conditions of exact change and insufficient funds. Loop through the denom array and update the change and values while there is still money of each type in the drawer and while the denomination is larger than the change remaining. Add this denomination to the accumulator of change_arr if any of this type was used. After the loop, change_arr is a 2D array of the change due, sorted from highest to lowest denomination. If there are no elements in change_arr or you still owe change, return the output object with a status of INSUFFICIENT_FUNDS. Finally you can give the correct change. Return the output object with a status of OPEN and change_arr as the value of change.
+
 ## 08.04.19
 * Solved "Cash Register". I spent days on this one. I made it work, but it is a mess. I need to try to make the code shorter and simpler before moving on. There is way to much repeating code. 
 
