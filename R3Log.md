@@ -1,4 +1,7 @@
 # R3 Log
+## 10.04.19
+* Finished fCC SASS course and started the React course. It's a bit complicated I think. 
+
 ## 09.04.19
 * Finished fCCs BootStrap course.
 * I managed to enhance the code for the "Cash Register" challenge. As always, the solution was much more advanced and elegant. But I did solve it though. And I managed to make the code better. My solution:
