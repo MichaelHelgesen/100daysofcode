@@ -1,6 +1,7 @@
 # R3 Log
 ## 10.04.19
 * Finished fCC SASS course and started the React course. It's a bit complicated I think. 
+* I claimed the JavaScript Algorithms and Data Structures certification! Yay!
 
 ## 09.04.19
 * Finished fCCs BootStrap course.
