@@ -1,4 +1,10 @@
 # R3 Log
+## 29.04.19
+* Learned about the "for" tag in labels.
+* Learned about the fieldset tag
+* Learned about date tag and it's attributes
+* Started my bingo project.
+
 ## 10.04.19
 * Finished fCC SASS course and started the React course. It's a bit complicated I think. 
 * I claimed the JavaScript Algorithms and Data Structures certification! Yay!
