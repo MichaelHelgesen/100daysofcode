@@ -1,4 +1,10 @@
 # R3 Log
+## 01.05.19
+* Learned about contrast and color
+* Learned about descriptove links
+* Wrote two blogposts
+* Worked on my bingo project
+
 ## 29.04.19
 * Learned about the "for" tag in labels.
 * Learned about the fieldset tag
