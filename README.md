@@ -7,7 +7,7 @@ This round I am going to continue blogging and even expand on it. I am going to 
 
 In round 3 I started blogging and building my own projects as well as finishing freeCodeCamps JavaScript Algorithms and Data Structures section. In round 2 my goal was to build a working program from my own idea every month (I also learned Sass and Git), as opposed to round 1, where it was all about learning from scratch and copying the tutorials.
 
- I still need a lot of practice when it comes to javascript. I need to repeat and practice the fundamentals. To get as much exposure as possible, I switched blog platform from HUGO to Gatsby. I need to get much better in Javascript before learning other languages like HUGOs GO. 
+ I still need a lot of practice when it comes to javascript. I need to repeat and practice the fundamentals. To get as much exposure as possible, I switched blog platform from HUGO to Gatsby. I need to get much better in Javascript before learning other languages like HUGOs GO. By having a blog driven by javascript I will get extra practice using both Javascript, React and more.
 
  ### So my plan for the next 100 days is as follows:
 
