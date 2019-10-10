@@ -1,11 +1,18 @@
 # R4 Log
+## Day 4: 10.10.19 
+* Did all three challenges from chapter one in Eloquent Javascript.
+* Did a "Build it" challenge in the Udemy React course.
+* Discovered and started to listen to the podcast "baseCS".
+* Added cards to Anki.
+* Finished a couple of videos in the Udemy React course (10%).
+
 ## Day 3: 09.10.19 
-* Events and attributes, arrays, forms and data binding in the React course from Udemy (9%)
+* Events and attributes, arrays, forms and data binding in the React course from Udemy (9%).
 * Added a lot of cards in my Anki decks.
 * Did some simple React challenges.
 * Copied over more blog posts.
-* Listened to episodes of Syntax
-* Read in Eloquent JavaScript book
+* Listened to episodes of Syntax.
+* Read in Eloquent JavaScript book.
 
 ## Day 2: 08.10.19 
 * Recap of ES6 functions (Udemy React Course): const, let and arrow functions.
