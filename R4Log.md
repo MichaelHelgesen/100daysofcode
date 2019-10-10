@@ -5,6 +5,7 @@
 * Discovered and started to listen to the podcast "baseCS".
 * Added cards to Anki.
 * Finished a couple of videos in the Udemy React course (10%).
+* Copied over more blog posts to new blog.
 
 ## Day 3: 09.10.19 
 * Events and attributes, arrays, forms and data binding in the React course from Udemy (9%).
