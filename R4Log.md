@@ -1,4 +1,9 @@
 # R4 Log
+## Day 5: 11.10.19 
+* Learned about classes and template strings again. Useful when continuing React.
+* Did more Udemy React videos (12%).
+* Learned about binary (bit, byte) and hexadecimals.
+
 ## Day 4: 10.10.19 
 * Did all three challenges from chapter one in Eloquent Javascript.
 * Did a "Build it" challenge in the Udemy React course.
