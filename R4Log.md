@@ -1,4 +1,12 @@
 # R4 Log
+## Day 6: 12.10.19 
+* Learned about React components, nesting components and component props. Very fun and interesting way to build an app. Starting to get advanced though. I repeated sections of several videos to understand the different consepts.
+* Watched 3 videos in the Udemy course (14%).
+* Did 9 freeCodeCamp React challenges.
+* Started a new chapter in Eloquent Javascript.
+* Added cards to Anki.
+* Learned about lists in Computer Science.
+
 ## Day 5: 11.10.19 
 * Learned about classes and template strings in JS again. Useful when continuing React.
 * Did some JS class challenges.
