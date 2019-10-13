@@ -1,4 +1,14 @@
 # R4 Log
+## Day 7: 13.10.19 
+* Learned about events and methods and method binding in React. Binding is a bit tough to grasp, so I need to work more with that. It has to do width breaking the "this" binding in methods in the React components. To fix it we have to bind the methods using "bind()" in the constructor function. We must also call super inside the constructor.
+* Learned about "state" in React. This is the way it works:
+    1. Setup default state object.
+    2. Component rendered with default state values.
+    3. Change state based on event.
+    4. Component re-rendered using new state values.
+    5. Start again at 3.
+* Watched 4 videos in the Udemy React course (16%).
+
 ## Day 6: 12.10.19 
 * Learned about React components, nesting components and component props. Very fun and interesting way to build an app. Starting to get advanced though. I repeated sections of several videos to understand the different consepts.
 * Watched 3 videos in the Udemy course (14%).
