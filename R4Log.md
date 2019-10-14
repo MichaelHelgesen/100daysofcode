@@ -1,4 +1,11 @@
 # R4 Log
+## Day 8: 14.10.19 
+* Learned more about states, and learned to use it. I also finished a challenge, converting an earlier app to an app using React module and state manipulation.
+* 3 more videos in the Udemy React course (17%).
+* Read more about functions in Eloquent Javascript.
+* Added cards to Anki.
+* Finished copying all my blogposts from Hugo to Gatsby.
+
 ## Day 7: 13.10.19 
 * Learned about events and methods and method binding in React. Binding is a bit tough to grasp, so I need to work more with that. It has to do width breaking the "this" binding in methods in the React components. To fix it we have to bind the methods using "bind()" in the constructor function. We must also call super inside the constructor.
 * Learned about "state" in React. This is the way it works:
