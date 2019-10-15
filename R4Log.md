@@ -1,4 +1,10 @@
 # R4 Log
+## Day 9: 15.10.19 
+* Learned more about states and about the differences between state and props.
+* Finished several challenges.
+* Watched 3 Udemy React videos (19%).
+* Did 3 fCC React challenges.
+
 ## Day 8: 14.10.19 
 * Learned more about states, and learned to use it. I also finished a challenge, converting an earlier app to an app using React module and state manipulation.
 * 3 more videos in the Udemy React course (17%).
