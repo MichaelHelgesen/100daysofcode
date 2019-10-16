@@ -1,4 +1,11 @@
 # R4 Log
+## Day 10: 16.10.19 
+* First 10 days! Yay!
+* 20% on Udemy React course.
+* Studied recursion. I read about it in Eloquent Javascript, and looked up several videos to get a better understanding of it. It's a bit difficult to grasp. In short: a function that calls itself inside of the function body. Can be used as an alternative to loops.
+* Added cards to Anki.
+* fCC updated their pages and curriculum!
+
 ## Day 9: 15.10.19 
 * Learned more about states and about the differences between state and props.
 * Finished several challenges.
