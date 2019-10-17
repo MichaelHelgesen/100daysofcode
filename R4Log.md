@@ -1,4 +1,10 @@
 # R4 Log
+## Day 11: 17.10.19 
+* Finished the Udemy React course "stateless functional component" section (23%).
+* Re-watched the videos about state, props and super in classes.
+* Added a lot of cards to Anki.
+* I saw that there is new challenges in the new fCC. Several about recursion, which I hadden to try to figure out. That was perfect timing!
+
 ## Day 10: 16.10.19 
 * First 10 days! Yay!
 * 20% on Udemy React course.
