@@ -1,4 +1,11 @@
 # R4 Log
+## Day 12: 18.10.19 
+* Finished the second chapter of Eloquent Javascript.
+* Did all three chapter challenges in Eloquent Javascript.
+* Leaned about Webpack. Pretty complicated...
+* 25% progress in the Udemy React course.
+* Bought a GraphQL course on Udemy.
+
 ## Day 11: 17.10.19 
 * Finished the Udemy React course "stateless functional component" section (23%).
 * Re-watched the videos about state, props and super in classes.
