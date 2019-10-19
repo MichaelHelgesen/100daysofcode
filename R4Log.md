@@ -1,4 +1,11 @@
 # R4 Log
+## Day 13: 19.10.19 
+* Finished learning about Webpack. I find it breaks up the React learning a bit, but I'll continue on (26%).
+* Learned that Webpack is about exporting and importing files and values. It seems a bit complicated.
+* Learned to import third party libraries (npm modules (React and ReactDOM)).
+* Read more in Eloquent Javascript.
+* Added cards to Anki.
+
 ## Day 12: 18.10.19 
 * Finished the second chapter of Eloquent Javascript.
 * Did all three chapter challenges in Eloquent Javascript.
