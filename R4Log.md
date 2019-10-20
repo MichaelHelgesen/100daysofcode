@@ -1,4 +1,8 @@
 # R4 Log
+## Day 14: 20.10.19 
+* More webpack. I installed Babel, Source Maps and Dev server. It is just so much, and so complicated. But I see the value of it. But I will never be able to reproduce all this without following a guide, so I just work through it to get back to the React part.
+* Finished the Webpack section in the Udemy React course (28%).
+
 ## Day 13: 19.10.19 
 * Finished learning about Webpack. I find it breaks up the React learning a bit, but I'll continue on (26%).
 * Learned that Webpack is about exporting and importing files and values. It seems a bit complicated.
