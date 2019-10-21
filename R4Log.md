@@ -4,7 +4,8 @@
 * Did fCC's React challenges again. It was obviously a lot easier the second time around and after the React course on Udemy. It was nice to get some repetition. 
 * Finished all the new fCC challenges in the courses I had finished before the fCC update.
 * Finished another chapter in Eloquent Javascript book.
-* Finished the section "using a third-party component" in the Udemy course (31%).  
+* Finished the section "using a third-party component" in the Udemy course (31%).
+* Added cards to Anki, and studied for 30 minutes. I am not sure of the effect of Anki yet. I am not sure if the cards I make are good enough. I think I need to ask more open questions. It seems that I am just learning what answer belongs to what card, instead of learning and remembering what it actually says. Maybe that don't make much sense, but it's something about the context. But I guess my mind picks up something. At least I hope so.
 
 ## Day 14: 20.10.19 
 * More webpack. I installed Babel, Source Maps and Dev server. It is just so much, and so complicated. But I see the value of it. But I will never be able to reproduce all this without following a guide, so I just work through it to get back to the React part.
