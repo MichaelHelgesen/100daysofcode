@@ -1,4 +1,11 @@
 # R4 Log
+## Day 15: 21.10.19 
+* I got to code during most of my workday, so I've spent many hours with programming today.
+* Did fCC's React challenges again. It was obviously a lot easier the second time around and after the React course on Udemy. It was nice to get some repetition. 
+* Finished all the new fCC challenges in the courses I had finished before the fCC update.
+* Finished another chapter in Eloquent Javascript book.
+* Finished the section "using a third-party component" in the Udemy course (31%).  
+
 ## Day 14: 20.10.19 
 * More webpack. I installed Babel, Source Maps and Dev server. It is just so much, and so complicated. But I see the value of it. But I will never be able to reproduce all this without following a guide, so I just work through it to get back to the React part.
 * Finished the Webpack section in the Udemy React course (28%).
