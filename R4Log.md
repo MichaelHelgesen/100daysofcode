@@ -1,4 +1,11 @@
 # R4 Log
+## Day 16: 22.10.19 
+* I spent most of the day trying to find a solution to what turned out to be a very easy exercise. I feel so stupid and I feel that I will NEVER EVER be able to do this for a living. I feel frustrated.
+* Solved the first part of the first exercise in chapter 3 in Eloquent Javascript. I think I am trying to hard to find clever and smart solutions. I have to change my mindset. I have to focus on understanding what I need to do, then I need to get it done, no matter what, even if the solution is not the best or smartest or most effective. That way I will never do this...
+* One positive thing that came out of this was that I learned a lot about recursion and had a couple of a-ha moments. I used recursion without looking it up.
+* Answered a code question on the fCC forums and asked a question.
+* Started the styling section of the Udemy React course (33%)
+
 ## Day 15: 21.10.19 
 * I got to code during most of my workday, so I've spent many hours with programming today.
 * Did fCC's React challenges again. It was obviously a lot easier the second time around and after the React course on Udemy. It was nice to get some repetition. 
