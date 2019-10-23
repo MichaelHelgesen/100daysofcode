@@ -1,4 +1,8 @@
 # R4 Log
+## Day 17: 23.10.19 
+* Continued the styling section of the Udemy React course (33%)
+* Spent most of the day trying to do the chapter challenges in Eloquent Javascript. It went a bit better today. I managed to solve some recursion challenges and I learned a lot about objects, functions and different expressions in loops.
+
 ## Day 16: 22.10.19 
 * I spent most of the day trying to find a solution to what turned out to be a very easy exercise. I feel so stupid and I feel that I will NEVER EVER be able to do this for a living. I feel frustrated.
 * Solved the first part of the first exercise in chapter 3 in Eloquent Javascript. I think I am trying to hard to find clever and smart solutions. I have to change my mindset. I have to focus on understanding what I need to do, then I need to get it done, no matter what, even if the solution is not the best or smartest or most effective. That way I will never do this...
