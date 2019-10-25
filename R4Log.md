@@ -1,4 +1,8 @@
 # R4 Log
+## Day 19: 25.10.19 
+* Started a new section in the Udemy React Course (37%). It's about routing. It seems like an advanced section, but it'll be exciting to go through it. I think I will be able to learn a lot.
+* Studied my Anki cards. 
+
 ## Day 18: 24.10.19 
 * Continued the styling section of the Udemy React course (35%)
 * Finished the last challenge in the Eloquent Javascript book in chapter 4. I couldn't solve it, but I was not far away from one of the solutions. The solution in the book was way over my head. It was a disappointment but I didn't let it get to me the way I did a couple of days ago.
