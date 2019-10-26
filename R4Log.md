@@ -1,4 +1,11 @@
 # R4 Log
+## Day 20: 26.10.19 
+* Day 20! YAY!
+* Read a message from my friend Klara. That was sweet and encouraging.
+* Finished the routing section in the Udemy React course (40%). It was about client side routing and setting up links. It was very cool. This way makes sites blazingly fast.
+* It will be fun to try and build a web page with this technology.
+* Started the next chapter in Eloquent Javascript. I have to say... that book is almost to advanced for me to read. Such complicated examples and way of explaining, but I have learned a bit from the exercises so I'll at least try a couple of more chapters.
+
 ## Day 19: 25.10.19 
 * Started a new section in the Udemy React Course (37%). It's about routing. It seems like an advanced section, but it'll be exciting to go through it. I think I will be able to learn a lot.
 * Studied my Anki cards. 
