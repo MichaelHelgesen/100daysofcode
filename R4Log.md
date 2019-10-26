@@ -2,7 +2,7 @@
 ## Day 20: 26.10.19 
 * Day 20! YAY!
 * Read a message from my friend Klara. That was sweet and encouraging.
-* Finished the routing section in the Udemy React course (40%). It was about client side routing and setting up links. It was very cool. This way makes sites blazingly fast.
+* Finished the routing section in the Udemy React course (41%). It was about client side routing and setting up links. It was very cool. This way makes sites blazingly fast.
 * It will be fun to try and build a web page with this technology.
 * Started the next chapter in Eloquent Javascript. I have to say... that book is almost to advanced for me to read. Such complicated examples and way of explaining, but I have learned a bit from the exercises so I'll at least try a couple of more chapters.
 
