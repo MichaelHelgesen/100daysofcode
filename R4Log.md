@@ -1,4 +1,10 @@
 # R4 Log
+## Day 21: 27.10.19 
+* Started the next section in the Udemy React course (43%). It is about Redux, which is a way to handle state for more complex apps. 
+* Did a couple of fCC Redux challenges as I was going through the Udemy course. I find that having several sources when learning something new actually helps me grasp it faster. 
+* Studied Anki cards.
+
+
 ## Day 20: 26.10.19 
 * Day 20! YAY!
 * Read a message from my friend Klara. That was sweet and encouraging.
