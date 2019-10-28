@@ -1,4 +1,8 @@
 # R4 Log
+## Day 22: 28.10.19 
+* Continued my React course (44%). Learned more about Redux plus destructuring.
+* Did some javascript and a lot of HTML and CSS at work. That was fun. Flexbox is really beginning to stick. I work a lot faster now.
+
 ## Day 21: 27.10.19 
 * Started the next section in the Udemy React course (43%). It is about Redux, which is a way to handle state for more complex apps. 
 * Did a couple of fCC Redux challenges as I was going through the Udemy course. I find that having several sources when learning something new actually helps me grasp it faster. 
