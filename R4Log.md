@@ -1,4 +1,11 @@
 # R4 Log
+## Day 23: 29.10.19 
+* Finished chapter 5 in Eloquent Javascript. Can't say I understood much. Very complicated examples. But I'll give the exercises a try nonetheless.
+* Continued learning about destructuring and then back to Redux (45%) (which is also very difficult).
+* Did a lot of Flexbox at work today.
+* I was handed a layout that will require some (for me) heavy javascript programming. It's about filtering and sorting. It will be good practice. I only hope that I am able to make it work!
+
+
 ## Day 22: 28.10.19 
 * Continued my React course (44%). Learned more about Redux plus destructuring.
 * Did some javascript and a lot of HTML and CSS at work. That was fun. Flexbox is really beginning to stick. I work a lot faster now.
