@@ -1,4 +1,10 @@
 # R4 Log
+## Day 24: 30.10.19 
+* Learned a lot more about Redux reducers and actions and combining reducers in the Udemy React course (46%).
+* Struggled a lot with javascript filtering in a project at work. I did something even more advanced a month ago, but it all seems to be lost from my mind already. It's really not a big thing, and I should be able to solve it without much trouble. Experiencing this makes me just want to quit it all. i ended up thinking I'll never be any good at this. Let's hope it comes back to me tomorrow.
+* Studied my Anki cards.
+* Did some Redux challenges in fCC.
+
 ## Day 23: 29.10.19 
 * Finished chapter 5 in Eloquent Javascript. Can't say I understood much. Very complicated examples. But I'll give the exercises a try nonetheless.
 * Continued learning about destructuring and then back to Redux (45%) (which is also very difficult).
