@@ -1,4 +1,9 @@
 # R4 Log
+## Day 25: 31.10.19 
+* Happy Halloween! Finished the section on Redux in isolation in the Udemy React course (48%). Next up, the React and Redux will be put together. I think I got a good understanding of Redux, I just need to use it in projects to learn it better.
+* Studied my Anki cards.
+* Started gathering programming resources in Notion. I think I will make the switch from OneNote.
+
 ## Day 24: 30.10.19 
 * Learned a lot more about Redux reducers and actions and combining reducers in the Udemy React course (46%).
 * Struggled a lot with javascript filtering in a project at work. I did something even more advanced a month ago, but it all seems to be lost from my mind already. It's really not a big thing, and I should be able to solve it without much trouble. Experiencing this makes me just want to quit it all. i ended up thinking I'll never be any good at this. Let's hope it comes back to me tomorrow.
