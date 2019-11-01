@@ -1,4 +1,9 @@
 # R4 Log
+## Day 26: 01.11.19 
+* Started a new section in the Udemy React course. Grinding on! Will now connect React and Redux.
+* Studied Anki cards.
+* Set up a Programming Wiki in Notion.
+
 ## Day 25: 31.10.19 
 * Happy Halloween! Finished the section on Redux in isolation in the Udemy React course (48%). Next up, the React and Redux will be put together. I think I got a good understanding of Redux, I just need to use it in projects to learn it better.
 * Studied my Anki cards.
