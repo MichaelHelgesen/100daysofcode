@@ -1,5 +1,10 @@
 # R4 Log
 ## Day 26: 01.11.19 
+* Connecting React and Redux. This is starting to get super complicated! I am now 50% into the course. If I continue this pace, I will be done when I am half way in round 4 of #100DaysOfCode. I will spend those 50 days on building my own stuff with what I've learned.
+* Did a couple of fCC challenges.
+* Studied my Anki cards.
+
+## Day 26: 01.11.19 
 * Started a new section in the Udemy React course. Grinding on! Will now connect React and Redux.
 * Studied Anki cards.
 * Set up a Programming Wiki in Notion.
