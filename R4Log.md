@@ -1,4 +1,8 @@
 # R4 Log
+## Day 28: 03.11.19 
+* Continued connecting React and Redux (52%). I will never remember any of this. And that is maybe not the point. I guess I should use this course as a reference when needed. I notice that doing React stuff is so many lessons ago that I am starting to forget. Maybe I should do the courses in parts, and build stuff between the sections. But then I am afraid that I forget what I was doing when jumping back in. I will do this whole course now, and reflect on it then.
+* Finished Redux challenges in fCC.
+
 ## Day 27: 02.11.19 
 * Connecting React and Redux. This is starting to get super complicated! I am now 50% into the course. If I continue this pace, I will be done when I am half way in round 4 of #100DaysOfCode. I will spend those 50 days on building my own stuff with what I've learned.
 * Did a couple of fCC challenges.
