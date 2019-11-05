@@ -1,9 +1,13 @@
 # R4 Log
+## Day 30: 05.11.19 
+* 30 days! I'm happy about that. At the same time I am really scared about how much I suck, again, after all this time. But I guess it just has to do with exposure. I guess I am learning even though I feel like the worst programmer in the world.
+* Continued the course, setting up Redux (53%). Got stuck again with an error. Trying to locate it.
+* Did some filtering at work. Filtered DOM-elements and re-rendered them.
+
 ## Day 29: 04.11.19 
 * Continued the React course working with moment.js and Airbnbs React date picker (53%). It went well for a while, but suddenly I got a huge error, and everything stopped working. It was a typo of course. So I fixed it and went on. 
 * Started the Redux and React challenge on fCC. Got stuck.
 * Studied Anki cards.
-*
 
 ## Day 28: 03.11.19 
 * Continued connecting React and Redux (52%). I will never remember any of this. And that is maybe not the point. I guess I should use this course as a reference when needed. I notice that doing React stuff is so many lessons ago that I am starting to forget. Maybe I should do the courses in parts, and build stuff between the sections. But then I am afraid that I forget what I was doing when jumping back in. I will do this whole course now, and reflect on it then.
