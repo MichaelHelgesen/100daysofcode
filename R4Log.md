@@ -1,4 +1,8 @@
 # R4 Log
+## Day 31: 06.11.19 
+* Learned about Redux developer tool and did some more filtering in the React course (55%).
+* Finished the filtering at work as well. I got all the features working. Now all that is left is to add word search on top of that.
+
 ## Day 30: 05.11.19 
 * 30 days! I'm happy about that. At the same time I am really scared about how much I suck, again, after all this time. But I guess it just has to do with exposure. I guess I am learning even though I feel like the worst programmer in the world.
 * Continued the course, setting up Redux (53%). Got stuck again with an error. Trying to locate it.
