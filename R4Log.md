@@ -1,4 +1,8 @@
 # R4 Log
+## Day 32: 07.11.19 
+* Learned about Jest in the React course (56%). That was exciting. Now I understand a little more about testing. Will be interesting to continue.
+* Finished the filtering, the word search, click to open functionality and layout on a webpage project at work.
+
 ## Day 31: 06.11.19 
 * Learned about Redux developer tool and did some more filtering in the React course (55%).
 * Finished the filtering at work as well. I got all the features working. Now all that is left is to add word search on top of that.
