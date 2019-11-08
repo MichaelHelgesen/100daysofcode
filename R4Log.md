@@ -1,4 +1,8 @@
 # R4 Log
+## Day 33: 08.11.19 
+* More Jest in the React course (56%). Pretty complex, but quite fun. I didn't expect that. Long videos and a lot of challenges that takes time. 
+* Did a lot of flexbox at work today. It's really fast and fun when you get the hang of it. It so much more flexible and smooth compared to floats and positioning.
+
 ## Day 32: 07.11.19 
 * Learned about Jest in the React course (56%). That was exciting. Now I understand a little more about testing. Will be interesting to continue.
 * Finished the filtering, the word search, click to open functionality and layout on a webpage project at work.
