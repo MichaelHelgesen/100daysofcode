@@ -1,4 +1,8 @@
 # R4 Log
+## Day 34: 09.11.19 
+* I spent most of my coding session trying to solve challenges and then trying to solve a bug. I just can't understand why my Jest breaks. I'll try again tomorrow. 
+* Studied my Anki cards.
+
 ## Day 33: 08.11.19 
 * More Jest in the React course (56%). Pretty complex, but quite fun. I didn't expect that. Long videos and a lot of challenges that takes time. 
 * Did a lot of flexbox at work today. It's really fast and fun when you get the hang of it. It so much more flexible and smooth compared to floats and positioning.
