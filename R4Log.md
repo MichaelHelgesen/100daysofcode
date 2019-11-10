@@ -1,4 +1,8 @@
 # R4 Log
+## Day 35: 10.11.19 
+* Spent most of today trying to fix a bug. I couldn't figure it out, so I had to copy the source material. 
+* Did one more lesson (57%).
+
 ## Day 34: 09.11.19 
 * I spent most of my coding session trying to solve challenges and then trying to solve a bug. I just can't understand why my Jest breaks. I'll try again tomorrow. 
 * Studied my Anki cards.
