@@ -1,4 +1,8 @@
 # R4 Log
+## Day 36: 11.11.19 
+* More nasty bugs all over the place! My test cases keep failing. After reading about it in this sections comment field I found the answer. I could finally continue to the next video (57%).
+* Did a lot of CSS and Flexbox at work.
+
 ## Day 35: 10.11.19 
 * Spent most of today trying to fix a bug. I couldn't figure it out, so I had to copy the source material. 
 * Did one more lesson (57%).
