@@ -1,6 +1,7 @@
 # R4 Log
 ## Day 37: 12.11.19 
-* These test videos sure are long and complicated. I also got a lot of bugs to fix today. At least I am searching through code and interacting with it. I managed to fix it all in the end.
+* These test videos sure are long and complicated (59%). I also got a lot of bugs to fix today. At least I am searching through code and interacting with it. I managed to fix it all in the end.
+* Started to test components.
 * And even more CSS and HTML at work. Also some javascript. Mostly about relocating elements that the CMS generated into other elements that I created to be able to get the layout I wanted. 
 
 ## Day 36: 11.11.19 
