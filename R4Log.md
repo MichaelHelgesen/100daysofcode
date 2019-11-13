@@ -1,4 +1,8 @@
 # R4 Log
+## Day 38: 13.11.19 
+* Continued the course (60%). I can't believe all the additional libraries that we should use with React. This projects gets so big and complex. I really don't know if I will ever be able to use any of it. But at least it gives me a better overview of how it all connects.
+* More CSS, HTML and Flexbox at work.
+
 ## Day 37: 12.11.19 
 * These test videos sure are long and complicated (59%). I also got a lot of bugs to fix today. At least I am searching through code and interacting with it. I managed to fix it all in the end.
 * Started to test components.
