@@ -1,4 +1,9 @@
 # R4 Log
+## Day 39: 14.11.19 
+* A lot more testing (61%). I'm struggeling to keep up. But I will go on. I will finish this. Learned about a lot of other methods and tools.
+* Bought a React course on Scrimba to check out the service. Looks exciting. But at the same time I realise that I may be in tutorial hell. I new to build stuff... Damn, I sound like a broken record.
+* Delivered the webpage to the client for approval today. Still more work to be done though.
+
 ## Day 38: 13.11.19 
 * Continued the course (60%). I can't believe all the additional libraries that we should use with React. This projects gets so big and complex. I really don't know if I will ever be able to use any of it. But at least it gives me a better overview of how it all connects.
 * More CSS, HTML and Flexbox at work.
