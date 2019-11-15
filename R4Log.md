@@ -1,4 +1,9 @@
 # R4 Log
+## Day 40: 15.11.19 
+* Day 40! Yay!
+* Finished the React and Redux section on fCC! Now there is five challenges waiting. That's going to take some time. I need to build it with React and Redux if I manage.
+* Studied my Anki cards.
+
 ## Day 39: 14.11.19 
 * A lot more testing (61%). I'm struggeling to keep up. But I will go on. I will finish this. Learned about a lot of other methods and tools.
 * Bought a React course on Scrimba to check out the service. Looks exciting. But at the same time I realise that I may be in tutorial hell. I new to build stuff... Damn, I sound like a broken record.
