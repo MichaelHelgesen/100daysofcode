@@ -1,4 +1,8 @@
 # R4 Log
+## Day 41: 16.11.19 
+* Doing advanced testing of components (62%). This is getting very challenging. I do not thing I will be able to do the last test challenge.
+* 
+
 ## Day 40: 15.11.19 
 * Day 40! Yay!
 * Finished the React and Redux section on fCC! Now there is five challenges waiting. That's going to take some time. I need to build it with React and Redux if I manage.
