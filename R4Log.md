@@ -1,7 +1,6 @@
 # R4 Log
 ## Day 41: 16.11.19 
 * Doing advanced testing of components (62%). This is getting very challenging. I do not thing I will be able to do the last test challenge.
-* 
 
 ## Day 40: 15.11.19 
 * Day 40! Yay!
