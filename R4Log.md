@@ -1,4 +1,8 @@
 # R4 Log
+## Day 43: 18.11.19 
+* Learned about Git and production and developement using Webpack (66%). This is also very complicated. I guess most things are, when you don't know them. So got to keep on...
+* Managed to turn the unhappy customer happy again.
+
 ## Day 42: 17.11.19 
 * Finished the testing section and moved on to the deploying section (65%). At this point it feels like I've forgotten everything about React. I will probably need to start this course all over again. That tells me I'm going about this the wrong way, again. But for now I will stick to the plan. Im soon done, and then I'll start building stuff.
 
