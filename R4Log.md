@@ -1,4 +1,7 @@
 # R4 Log
+## Day 44: 19.11.19 
+* Continnued the course (67%). Learned to create separate CSS files and setting up a production web server with Express. The last part failed, and I did not manage to fix it. I will continue tomorrow.
+
 ## Day 43: 18.11.19 
 * Learned about Git and production and developement using Webpack (66%). This is also very complicated. I guess most things are, when you don't know them. So got to keep on...
 * Managed to turn the unhappy customer happy again.
