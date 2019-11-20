@@ -1,4 +1,9 @@
 # R4 Log
+## Day 45: 20.11.19 
+* I am still on the same video. Spent all evening trying to solve a build bug with Heroku. I didn't manage to solve it.
+* Did a lot of Flex box and webdesign at work.
+* Got positive feedback from customer. That's always nice.
+
 ## Day 44: 19.11.19 
 * Continnued the course (67%). Learned to create separate CSS files and setting up a production web server with Express. The last part failed, and I did not manage to fix it. I will continue tomorrow.
 
