@@ -1,4 +1,8 @@
 # R4 Log
+## Day 46: 21.11.19 
+* Fixed the bug and managed to continue the course.
+* A lot of webdesign at work. Mostly making a webpage responsive.
+
 ## Day 45: 20.11.19 
 * I am still on the same video. Spent all evening trying to solve a build bug with Heroku. I didn't manage to solve it.
 * Did a lot of Flex box and webdesign at work.
