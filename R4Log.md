@@ -1,6 +1,6 @@
 # R4 Log
 ## Day 47: 22.11.19 
-* Was stopped by some Git error again... but solved it. It takes so much time from the coding. But I guess it's good learning anyway.
+* Was stopped by some Git error again... but solved it (69%). It takes so much time from the coding. But I guess it's good learning anyway.
 * Finished responsive web page at work.
 
 ## Day 46: 21.11.19 
