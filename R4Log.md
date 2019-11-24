@@ -1,4 +1,7 @@
 # R4 Log
+## Day 49: 24.11.19 
+* Finished the Deploying section and started the Firebase section (70%). Adding a server from Google. That's cool! I've wanted to learn to use databases for a long time.
+
 ## Day 48: 23.11.19 
 * Did a challenge in the morning. Didn't have so much time today. But did another video.
 
