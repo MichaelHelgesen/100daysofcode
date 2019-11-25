@@ -1,4 +1,7 @@
 # R4 Log
+## Day 50: 25.11.19 
+* Day 50! Yay. Firebase is pretty cool (71%). I spent a lot of time again fixing bugs and getting Git to work. This has become a bug galore. But I've managed to fix them. Thats good.
+
 ## Day 49: 24.11.19 
 * Finished the Deploying section and started the Firebase section (70%). Adding a server from Google. That's cool! I've wanted to learn to use databases for a long time.
 
