@@ -1,4 +1,7 @@
 # R4 Log
+## Day 51: 26.11.19 
+* Continued learning about Firebase (74%). It's super fun. I've been looking forward to learning about connecting to a database. It's simple enough at this point. Seems like a perfect match for React and Redux.
+
 ## Day 50: 25.11.19 
 * Day 50! Yay. Firebase is pretty cool (71%). I spent a lot of time again fixing bugs and getting Git to work. This has become a bug galore. But I've managed to fix them. Thats good.
 
