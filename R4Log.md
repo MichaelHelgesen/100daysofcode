@@ -1,4 +1,8 @@
 # R4 Log
+## Day 53: 28.11.19 
+* Continued learning about Firebase (76%).
+* Started a new section; integrating Redux with Firebase. Pretty complex. 
+
 ## Day 52: 27.11.19 
 * Continued learning about Firebase (74%). Learned that Firebase does'nt support arrays, so we have to work with objects instead.
 
