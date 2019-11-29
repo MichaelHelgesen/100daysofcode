@@ -1,4 +1,7 @@
 # R4 Log
+## Day 54: 28.11.19 
+* The testing brings sooo much bugs! Arg! Driving me crazy. But I'll continue tomorrow.
+
 ## Day 53: 28.11.19 
 * Continued learning about Firebase (76%).
 * Started a new section; integrating Redux with Firebase. Pretty complex. 
