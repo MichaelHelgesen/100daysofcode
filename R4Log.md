@@ -1,5 +1,8 @@
 # R4 Log
-## Day 54: 28.11.19 
+## Day 55: 30.11.19 
+* More bugs, error fixing and installing even more libraries: react-mock store to create a mock store to test against.
+
+## Day 54: 29.11.19 
 * The testing brings sooo much bugs! Arg! Driving me crazy. But I'll continue tomorrow.
 
 ## Day 53: 28.11.19 
