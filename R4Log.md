@@ -1,4 +1,7 @@
 # R4 Log
+## Day 56: 01.12.19 
+* When trying to push to Git today, I was suddenly told that there was no place to push to... so I spent a lot of time trying to solve it, without luck. Need to continue tomorrow. Arg! So many bugs and errors slowing me down. But it's not a sprint. It's a marathon... 
+
 ## Day 55: 30.11.19 
 * More bugs, error fixing and installing even more libraries: react-mock store to create a mock store to test against.
 
