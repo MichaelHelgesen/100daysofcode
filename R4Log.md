@@ -1,4 +1,7 @@
 # R4 Log
+## Day 57: 02.12.19 
+* I just had to take a break from the Udemy course and all the test cases. As mentioned yersterday I can't push to Git, and there is a bug in my test case. So today I spent about three hours doing the React Course on Scrimba. Nice repetition. I actually do remember quite a bit!
+
 ## Day 56: 01.12.19 
 * When trying to push to Git today, I was suddenly told that there was no place to push to... so I spent a lot of time trying to solve it, without luck. Need to continue tomorrow. Arg! So many bugs and errors slowing me down. But it's not a sprint. It's a marathon... 
 
