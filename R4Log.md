@@ -1,4 +1,8 @@
 # R4 Log
+## Day 58: 03.12.19 
+* I fixed all the problems and managed to continue the course (77%).
+* Got a little time off at work today, so I did some coding in the Scrimba course.
+
 ## Day 57: 02.12.19 
 * I just had to take a break from the Udemy course and all the test cases. As mentioned yersterday I can't push to Git, and there is a bug in my test case. So today I spent about three hours doing the React Course on Scrimba. Nice repetition. I actually do remember quite a bit!
 
