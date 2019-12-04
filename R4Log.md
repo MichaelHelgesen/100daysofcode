@@ -1,6 +1,6 @@
 # R4 Log
 ## Day 59: 04.12.19 
-* Setup of new Firebase Database test server. Jest, Webpack, testing... it's not the most fun stuff I've been doing. But I see why it's important. I'm just unsure about the add-ons. With so many plugins, there has to be so much to keep up to date? Security issues? Need to learn more about this.
+* Setup of new Firebase Database test server (78%). Jest, Webpack, testing... it's not the most fun stuff I've been doing. But I see why it's important. I'm just unsure about the add-ons. With so many plugins, there has to be so much to keep up to date? Security issues? Need to learn more about this.
 * Made a new web page at work. Used a lot of flex box.
 
 ## Day 58: 03.12.19 
