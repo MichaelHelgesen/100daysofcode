@@ -1,7 +1,12 @@
 # R4 Log
+## Day 60: 05.12.19 
+* Day 60! Yay. I should be done with the course though. But it's so dofficult.
+* Stuck with a bug again... Didn't manage to solve it. Must ber a typo somewhere.
+* Worked with responsive design at work. Used a lot of CSS techniques.
+
 ## Day 59: 04.12.19 
 * Setup of new Firebase Database test server (78%). Jest, Webpack, testing... it's not the most fun stuff I've been doing. But I see why it's important. I'm just unsure about the add-ons. With so many plugins, there has to be so much to keep up to date? Security issues? Need to learn more about this.
-* Made a new web page at work. Used a lot of flex box.
+* Made a new web page at work. Used a lot of flexbox.
 
 ## Day 58: 03.12.19 
 * I fixed all the problems and managed to continue the course (77%).
