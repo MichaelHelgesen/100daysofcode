@@ -1,4 +1,7 @@
 # R4 Log
+## Day 61: 06.12.19 
+* Not been coding a lot today, but I've been working with responsive design, user interface and design. We sent the design to a customer. Had a lot of discussions. I felt that I contributed pretty well.
+
 ## Day 60: 05.12.19 
 * Day 60! Yay. I should be done with the course though. But it's so dofficult.
 * Stuck with a bug again... Didn't manage to solve it. Must ber a typo somewhere.
