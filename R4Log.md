@@ -1,4 +1,7 @@
 # R4 Log
+## Day 62: 07.12.19 
+* Not working... again. And I can't continue the course... I even downloaded the source files without luck. Did some Scrimba instead.
+
 ## Day 61: 06.12.19 
 * Not been coding a lot today, but I've been working with responsive design, user interface and design. We sent the design to a customer. Had a lot of discussions. I felt that I contributed pretty well.
 
