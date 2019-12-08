@@ -1,4 +1,7 @@
 # R4 Log
+## Day 63: 08.12.19 
+* Continued the course (79%). Just one video away from finishing all the test cases!
+
 ## Day 62: 07.12.19 
 * Not working... again. And I can't continue the course... I even downloaded the source files without luck. Did some Scrimba instead.
 
