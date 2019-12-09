@@ -1,4 +1,7 @@
 # R4 Log
+## Day 64: 09.12.19 
+* Home with sick child today, so I managed to do a lot of coding while she was sleeping and relaxing in front of the TV. I can't wait to finish this course and start building stuff... (82%)
+
 ## Day 63: 08.12.19 
 * Continued the course (79%). Just one video away from finishing all the test cases!
 
