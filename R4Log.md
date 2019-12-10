@@ -1,4 +1,7 @@
 # R4 Log
+## Day 65: 10.12.19 
+* Trying to finish the course. Implementing authentication and login/logout (83%).
+
 ## Day 64: 09.12.19 
 * Home with sick child today, so I managed to do a lot of coding while she was sleeping and relaxing in front of the TV. I can't wait to finish this course and start building stuff... (82%)
 
