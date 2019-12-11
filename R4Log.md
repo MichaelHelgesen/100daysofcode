@@ -1,4 +1,7 @@
 # R4 Log
+## Day 66: 11.12.19 
+* YES! Finished the authentication and testing section of the course (85%. Now on to styling. It's nice to do something else than bug fixing for a while. 
+
 ## Day 65: 10.12.19 
 * Trying to finish the course. Implementing authentication and login/logout (83%).
 
