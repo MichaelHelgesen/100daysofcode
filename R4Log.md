@@ -1,4 +1,7 @@
 # R4 Log
+## Day 67: 11.12.19 
+* Started to style the app, but there is a lot that is not working... I think I need to use the source files to be able to continue. I have no idea where the errors are.
+
 ## Day 66: 11.12.19 
 * YES! Finished the authentication and testing section of the course (85%. Now on to styling. It's nice to do something else than bug fixing for a while. 
 
