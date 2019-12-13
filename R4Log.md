@@ -1,4 +1,7 @@
 # R4 Log
+## Day 68: 11.12.19 
+* Tried to copy the source files to fix the application, but I didn't get it to work. Did some more styling for what did work. 
+
 ## Day 67: 11.12.19 
 * Started to style the app, but there is a lot that is not working... I think I need to use the source files to be able to continue. I have no idea where the errors are.
 
