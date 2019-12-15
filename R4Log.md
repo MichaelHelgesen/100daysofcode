@@ -1,4 +1,7 @@
 # R4 Log
+## Day 70: 15.12.19 
+* Day 70! Yay! Continued the styling (86%). No problems today. Pretty easy really.
+
 ## Day 69: 14.12.19 
 * Got the app working again. I just couldn't let it go. I located what caused the error and commented it out. Now I am able to continue the styling.
 
