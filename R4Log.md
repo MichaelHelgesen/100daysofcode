@@ -1,4 +1,7 @@
 # R4 Log
+## Day 71: 16.12.19 
+* More styling and more challenges (88%). Also did challenges on Scrimba. I am planning my next React project in my head.
+
 ## Day 70: 15.12.19 
 * Day 70! Yay! Continued the styling (86%). No problems today. Pretty easy really.
 
