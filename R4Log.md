@@ -1,4 +1,7 @@
 # R4 Log
+## Day 73: 18.12.19 
+* Finished another section (94%). Only one to go! Also did some Scrimba React challenges.
+
 ## Day 72: 17.12.19 
 * Finished the styling section of the course! (91%). Only one short section left!
 
