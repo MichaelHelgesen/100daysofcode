@@ -1,4 +1,7 @@
 # R4 Log
+## Day 74: 19.12.19 
+* Learned about React Hooks (95%). It makes things a lot easier and will probably be the preferred way to handle state in React in the future. Also did challenges on Scrimba.
+
 ## Day 73: 18.12.19 
 * Finished another section (94%). Only one to go! Also did some Scrimba React challenges.
 
