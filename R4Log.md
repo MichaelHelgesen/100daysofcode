@@ -1,4 +1,7 @@
 # R4 Log
+## Day 75: 20.12.19 
+* Not been much coding today. I did some Scrimba at work, and learned more about React Hooks. I also gave a lot of thought about how I am going to build the next freeCodeCamp projects width React.
+
 ## Day 74: 19.12.19 
 * Learned about React Hooks (95%). It makes things a lot easier and will probably be the preferred way to handle state in React in the future. Also did challenges on Scrimba.
 
