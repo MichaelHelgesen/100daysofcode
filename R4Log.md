@@ -1,4 +1,7 @@
 # R4 Log
+## Day 76: 21.12.19 
+* Learned about React useEffect (96%).
+
 ## Day 75: 20.12.19 
 * Not been much coding today. I did some Scrimba at work, and learned more about React Hooks. I also gave a lot of thought about how I am going to build the next freeCodeCamp projects width React.
 
