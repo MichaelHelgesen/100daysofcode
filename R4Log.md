@@ -1,4 +1,7 @@
 # R4 Log
+## Day 77: 22.12.19 
+* There is a lot of visits today to exchange gifts and dinner party tonight. So I will go through all my Anki cards today, to practice JavaScript, Redux, React and Webpack.
+
 ## Day 76: 21.12.19 
 * Learned about React useEffect (96%).
 
