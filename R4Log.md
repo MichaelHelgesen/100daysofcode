@@ -2,6 +2,7 @@
 ## Day 78: 23.12.19 
 * Last day at work before christmas. Worked at our new website. We wanted it to have a design that matches our new offices. It involved a lot of design and flex box. It was fun.
 
+
 ## Day 77: 22.12.19 
 * There is a lot of visits today to exchange gifts and dinner party tonight. So I will go through all my Anki cards today, to practice JavaScript, Redux, React and Webpack.
 
