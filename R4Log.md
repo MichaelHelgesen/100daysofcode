@@ -1,4 +1,7 @@
 # R4 Log
+## Day 81: 26.12.19 
+* Anki practise and some reading today.
+
 ## Day 80: 25.12.19 
 * Day 80. Yay! Continued the course (97%). Learned more about useEffect and did a challenge.
 
