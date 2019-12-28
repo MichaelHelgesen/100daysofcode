@@ -1,4 +1,7 @@
 # R4 Log
+## Day 83: 28.12.19 
+* Continued course (98%).
+
 ## Day 82: 27.12.19 
 * Did more on the Scrimba course. I really like this platform. It's much more easy to edit code and to do challenges. It's nice to repeat the basic stuff now that the Udemy course is so advanced.
 
