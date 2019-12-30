@@ -1,6 +1,6 @@
 # R4 Log
 ## Day 84: 29.12.19 
-* Continued course (98%).
+* Continued course (98%). The last videos are really long.
 
 ## Day 83: 28.12.19 
 * Continued course (98%).
