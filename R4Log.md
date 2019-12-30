@@ -1,4 +1,7 @@
 # R4 Log
+## Day 84: 29.12.19 
+* Continued course (98%).
+
 ## Day 83: 28.12.19 
 * Continued course (98%).
 
