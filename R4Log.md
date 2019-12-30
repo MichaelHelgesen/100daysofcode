@@ -1,4 +1,7 @@
 # R4 Log
+## Day 85: 30.12.19 
+* Continued the course (99%). I only have one video left. It's really long, so I'll continue tomorrow.
+
 ## Day 84: 29.12.19 
 * Continued course (98%). The last videos are really long.
 
