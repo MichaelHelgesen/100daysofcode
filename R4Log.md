@@ -1,8 +1,8 @@
 # R4 Log
 ## Day 86: 31.12.19 
 * YES! Finished the Udemy course. It took much longer than expected. I didn't realize that I would have to do so much bug fixing in the challenges. But I guess it's good practice. 
-* Is this the best way to learn? No! Absolutely not, but now I have know. In the second half of the course I was just copying the instructor, and not really implementing what I learned. But it's not all bad. I learned about Webpack, Heroku, Firebase and testing, which I want to explore more in my custom projects.
-* I should have stopped the course after learning the fundementals about React, and that use that to build stuff. After building maybe two or three projects, I could continue on. Do one or more sections, then stop to implement it in my existing projects or build new ones. In the last part of the course it was more about finishing it that to really learn it. It had grown to big and to difficult at my current level and understanding.
+* Is this the best way to learn? No! Absolutely not, but now I know. In the second half of the course I was just copying the instructor, and not really implementing what I learned. But it's not all bad. I learned about Webpack, Heroku, Firebase and testing, which I want to explore more in my custom projects.
+* I should have stopped the course after learning the fundementals about React, and that use that to build stuff. After building maybe two or three projects, I could continue on. Do one or more sections, then stop to implement it in my existing projects or build new ones. In the last part of the course it was more about finishing it than to really learn. It had grown to big and to difficult at my current level and understanding.
 * I intend to change the way I use courses from now on. I think FrontEnd Masters and Scrimba will be perfect. I just need to be strict and not be in tutorial hell, believing that I learn stuff just by watching.
 
 ## Day 85: 30.12.19 
