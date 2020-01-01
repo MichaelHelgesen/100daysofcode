@@ -1,4 +1,9 @@
 # R4 Log
+## Day 87: 01.01.2020
+* Happy New Year! First day in the new year, and the course is done. I'm happy and I am excited. I also need to be strict, and make good plans. I proved that I can do it, by finishing the React course. 
+* My plan now is to get the Gatsby blog running, so that I can start writing blog post as I go along learning and building projects.
+* The last version of my blog went down as I tried to update it, so I had to install it again. It's a nice refresher anyway so it's OK.
+
 ## Day 86: 31.12.19 
 * YES! Finished the Udemy course. It took much longer than expected. I didn't realize that I would have to do so much bug fixing in the challenges. But I guess it's good practice. 
 * Is this the best way to learn? No! Absolutely not, but now I know. In the second half of the course I was just copying the instructor, and not really implementing what I learned. But it's not all bad. I learned about Webpack, Heroku, Firebase and testing, which I want to explore more in my custom projects.
