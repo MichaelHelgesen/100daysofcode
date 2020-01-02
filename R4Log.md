@@ -1,4 +1,7 @@
 # R4 Log
+## Day 88: 02.01.2020
+* Continued setting up the blog today. I did a couple of challenges and one Scrimba lesson. Should have the blog up and running tomorrow.
+
 ## Day 87: 01.01.2020
 * Happy New Year! First day in the new year, and the course is done. I'm happy and I am excited. I also need to be strict, and make good plans. I proved that I can do it, by finishing the React course. 
 * My plan now is to get the Gatsby blog running, so that I can start writing blog post as I go along learning and building projects.
