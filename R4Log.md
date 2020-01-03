@@ -1,4 +1,7 @@
 # R4 Log
+## Day 89: 03.01.2020
+* Continued setting up the blog. Did all the basic styling and plugins and stuff. All that remains is connecting to Contentful and publish it. Very soon now, and I am all set to move on.
+
 ## Day 88: 02.01.2020
 * Continued setting up the blog today. I did a couple of challenges and one Scrimba lesson. Should have the blog up and running tomorrow.
 
