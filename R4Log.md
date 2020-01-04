@@ -1,4 +1,7 @@
 # R4 Log
+## Day 90: 04.01.2020
+* Day 90! Yay! I connected the Gatsby site to Contentful, where I copied over all my previous blog posts. All that remains is to get it live via Netlify.
+
 ## Day 89: 03.01.2020
 * Continued setting up the blog. Did all the basic styling and plugins and stuff. All that remains is connecting to Contentful and publish it. Very soon now, and I am all set to move on.
 
