@@ -1,4 +1,7 @@
 # R4 Log
+## Day 91: 05.01.2020
+* I had to change the API to display the blog posts from Contentful. I also had to do some changes to be able to view inline images. Now I want to add a new menu item, and filter out coding log from the more standard blog posts. 
+
 ## Day 90: 04.01.2020
 * Day 90! Yay! I connected the Gatsby site to Contentful, where I copied over all my previous blog posts. All that remains is to get it live via Netlify.
 
