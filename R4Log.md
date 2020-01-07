@@ -1,4 +1,10 @@
 # R4 Log
+## Day 93: 07.01.2020
+* Today I spent most of my time making a footer and making hover effects on a portfolio grid. The images scaled slowly on hover, and a text appeared on a darkened background above the image. Pretty happy with the result.
+
+## Day 92: 06.01.2020
+* Today I got really stuck on a browser issue with flex box. The problem was that images inside flex elements didn't scale correctly in Internet Explorer 11. They overlapped or got a weird ratio when I tried to fix it. After a lot of searching and a lot of testing I managed to find a solution, only to discover that now it didn't work in Safari. I ended up using CSS hacks for both IE and Safari to be able to make it work.
+
 ## Day 91: 05.01.2020
 * I had to change the API to display the blog posts from Contentful. I also had to do some changes to be able to view inline images. Now I want to add a new menu item, and filter out coding log from the more standard blog posts. 
 
