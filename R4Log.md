@@ -1,4 +1,7 @@
 # R4 Log
+## Day 94: 08.01.2020
+* Added features to my blog. I added a header component and made a 404 page. I'll try to deploy it with Netlify tomorrow.
+
 ## Day 93: 07.01.2020
 * Today I spent most of my time making a footer and making hover effects on a portfolio grid. The images scaled slowly on hover, and a text appeared on a darkened background above the image. Pretty happy with the result.
 
