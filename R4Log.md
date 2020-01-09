@@ -1,4 +1,7 @@
 # R4 Log
+## Day 95: 09.01.2020
+* Got the blog up and running via Netlify. Great. Now I need to clean up some of the posts, and then start writing again. And plan my next 100 days!
+
 ## Day 94: 08.01.2020
 * Added features to my blog. I added a header component and made a 404 page. I'll try to deploy it with Netlify tomorrow.
 
