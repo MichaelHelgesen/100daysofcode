@@ -1,4 +1,7 @@
 # R4 Log
+## Day 96: 10.01.2020
+* Spent a couple of hours trying to set up syntax highlighting in my Gatsby blog without luck. I read several blog posts and watched several videos. It seems like I do it the right way, but there is no change in my syntax. Maybe it has something to do with Contentful.
+
 ## Day 95: 09.01.2020
 * Got the blog up and running via Netlify. Great. Now I need to clean up some of the posts, and then start writing again. And plan my next 100 days!
 
