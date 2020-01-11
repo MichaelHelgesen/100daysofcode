@@ -1,4 +1,7 @@
 # R4 Log
+## Day 97: 11.01.2020
+* Continued my Scrimba course and tried to solve the problem with syntax highlighting in Contentful. I'm closer to solving it, but I can't get it to show up. I think I need to change something in my graphql code. 
+
 ## Day 96: 10.01.2020
 * Spent a couple of hours trying to set up syntax highlighting in my Gatsby blog without luck. I read several blog posts and watched several videos. It seems like I do it the right way, but there is no change in my syntax. Maybe it has something to do with Contentful.
 
