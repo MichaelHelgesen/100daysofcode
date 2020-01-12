@@ -1,4 +1,7 @@
 # R4 Log
+## Day 98: 12.01.2020
+* Yes! I did it. I managed to get the syntax highlighting to work! After reading docs on both Graphql, Gatsby and Prism. The solution was to add another content model in Contentful, update the graphql query in Gatsby to fetch the new block in the blog template, and then use "dangerouslySetInnerHTML to display it. And there it was. Woho!
+
 ## Day 97: 11.01.2020
 * Continued my Scrimba course and tried to solve the problem with syntax highlighting in Contentful. I'm closer to solving it, but I can't get it to show up. I think I need to change something in my graphql code. 
 
