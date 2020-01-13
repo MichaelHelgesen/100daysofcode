@@ -1,4 +1,7 @@
 # R4 Log
+## Day 99: 13.01.2020
+* One day left! Today I changed the Prism syntax highlight theme, and I continued to practice React on Scrimba. I did a challenge involving state, setState and onChange handlers. I failed it, but was not far from the correct solution.
+
 ## Day 98: 12.01.2020
 * Yes! I did it. I managed to get the syntax highlighting to work! After reading docs on both Graphql, Gatsby and Prism. The solution was to add another content model in Contentful, update the graphql query in Gatsby to fetch the new block in the blog template, and then use "dangerouslySetInnerHTML to display it. And there it was. Woho!
 
