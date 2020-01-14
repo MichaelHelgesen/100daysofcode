@@ -1,4 +1,7 @@
 # R4 Log
+## Day 100: 14.01.2020
+* Woho! Day 100! It's the first time since I started this journey that I've managed to do 100 days in a row. Today I did the challenge from yesterday again, for training. And I continued with lifecycle methods. I'll write a little summary of these 100 days, and then I'll make plans for the next 100. 
+
 ## Day 99: 13.01.2020
 * One day left! Today I changed the Prism syntax highlight theme, and I continued to practice React on Scrimba. I did a challenge involving state, setState and onChange handlers. I failed it, but was not far from the correct solution.
 
