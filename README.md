@@ -11,13 +11,13 @@ In round 3 I started blogging and building my own projects as well as finishing 
 
  ### So my plan for the next 100 days is as follows:
 
-- [ ] Finish Udemys React and Redux course (30 minutes per day)
-- [ ] Finish freeCodeCamps React and Redux section
+- [x] Finish Udemys React and Redux course (30 minutes per day)
+- [x] Finish freeCodeCamps React and Redux section
 - [ ] Finish one of freeCodeCamps Front End Projects using React
-- [ ] Keep building decks in Anki as I go along learning new things 
+- [x] Keep building decks in Anki as I go along learning new things 
 
 ### Courses
-- [ ] The Complete React Developer Course 
+- [x] The Complete React Developer Course 
 
 ## Rules 
 
