@@ -1,23 +1,16 @@
-# 100daysofcode Round 4
-*Start date: 7. october 2019*
+# 100daysofcode Round 5
+*Start date: *
 
 ## My goals
 
-This round I am going to continue blogging and even expand on it. I am going to switch over from HUGO to GatsbyJS and separate the blogging from the coding log. I also plan to learn React and Redux as well as continuing the freeCodeCamp curriculum and builing my own projects.
-
-In round 3 I started blogging and building my own projects as well as finishing freeCodeCamps JavaScript Algorithms and Data Structures section. In round 2 my goal was to build a working program from my own idea every month (I also learned Sass and Git), as opposed to round 1, where it was all about learning from scratch and copying the tutorials.
-
- I still need a lot of practice when it comes to javascript. I need to repeat and practice the fundamentals. To get as much exposure as possible, I switched blog platform from HUGO to Gatsby. I need to get much better in Javascript before learning other languages like HUGOs GO. By having a blog driven by javascript I will get extra practice using both Javascript, React and more.
+-
 
  ### So my plan for the next 100 days is as follows:
 
-- [x] Finish Udemys React and Redux course (30 minutes per day)
-- [x] Finish freeCodeCamps React and Redux section
-- [ ] Finish one of freeCodeCamps Front End Projects using React
-- [x] Keep building decks in Anki as I go along learning new things 
+- [] -
 
 ### Courses
-- [x] The Complete React Developer Course 
+- [] - 
 
 ## Rules 
 
@@ -41,5 +34,3 @@ I will not post links to it, monetize on it, work with SEO or adwords and the li
 * Keep up with the workout, reading, guitar lessons, bullet journaling and family time. 
 * Less time on YouTube.
 * Continue to stay away from distractions like social media, TV, gaming and other.
-
-
